@@ -13,6 +13,7 @@ Data descriptions are called termed **metadata**, and their  relationship betwee
 
 :::::::::::::::::::::: challenge
 Look at the metadata in blue above.  What could be done better?
+
 ::::::: solution
 In terms of the column headings, these look pretty complete although patients will have many genotypes, so describing the genotype using its unique ID would be advised **(e.g. rs1333049)**.  Additionally, spaces in column names could be replaced with underscores to aid scripting using the data.  FOr example, **“PATIENT ID” → “PATIENT_ID”**
 
@@ -26,6 +27,7 @@ There are many John Does in the World. Typically now, people will use ORCID IDs 
 
 ::::::::::: challenge
 What examples can you think of where software is shared in a way that is FAIR?
+
 ::::: solution
 Software shared openly on github is FAIR: it can be discovered, downloaded and annotated in a way where it can be used successfully.  It is also assigned to the original author for provenance.
 :::::::::::
@@ -42,6 +44,7 @@ FAIR itself was then formalised and published in 2016 in FAIR Guiding Principles
 
 ::::::::::::::::::::::::::::::::::::: challenge
 Read page 11 of the European Commission report.  What benefit did the FORCE11 Working Group see to coining the word FAIR? 
+
 ::::::::: solution
 The report states: “a FORCE11 Working Group coined the FAIR data definition, latching onto an arresting and rhetorically useful acronym. The word play with fairness, in the sense of equity and justice, has also been eloquent in communicating the idea that FAIR data serves the best interests of the research community and the advancement of science as a public enterprise that benefits society. ”
 :::::::::::::::::
@@ -49,6 +52,7 @@ The report states: “a FORCE11 Working Group coined the FAIR data definition, l
 
 :::::::::::::::::::::::: challenge 
 **FAIR isn’t limited to data. From the same report, what other examples of “objects” can be made FAIR?**(https://zenodo.org/record/1285272#.Yuk8O_HMIqt)
+
 ::::::: solution
 On page 15, the report states: “FAIR should be applied broadly to all objects (including metadata, identifiers, software and
 DMPs) that are essential to the practice of research, and should inform metrics relating directly to these objects.”  Noting that DMPs are “data management plans”.
