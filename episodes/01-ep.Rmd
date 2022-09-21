@@ -40,20 +40,20 @@ FAIR is an acronym relating to a “thing” that is made Findable, Accessible, 
 
 FAIR itself was then formalised and published in 2016 in FAIR Guiding Principles for scientific data management and stewardship.
 
-::::::: challenge
+::::::::::::::::::::::::::::::::::::: challenge
 Read page 11 of the European Commission report.  What benefit did the FORCE11 Working Group see to coining the word FAIR? 
 :::: solution
 The report states: “a FORCE11 Working Group coined the FAIR data definition, latching onto an arresting and rhetorically useful acronym. The word play with fairness, in the sense of equity and justice, has also been eloquent in communicating the idea that FAIR data serves the best interests of the research community and the advancement of science as a public enterprise that benefits society. ”
 ::::
-:::::::
+:::::::::::::::::::::::::::::::::::::::::::
 
-:::: challenge 
+:::::::::::::::::::::::: challenge 
 **FAIR isn’t limited to data. From the same report, what other examples of “objects” can be made FAIR?**(https://zenodo.org/record/1285272#.Yuk8O_HMIqt)
 ::: solution
 On page 15, the report states: “FAIR should be applied broadly to all objects (including metadata, identifiers, software and
 DMPs) that are essential to the practice of research, and should inform metrics relating directly to these objects.”  Noting that DMPs are “data management plans”.
 :::
-::::
+:::::::::::::::::::::::::::
 
 
 FAIR is now everywhere and used commonly in the arena of funded research.  To illustrate its importance, funders often require an applicant to justify why new data are being generated for a proposal, ( and why publically available data cannot be used instead at no cost).
