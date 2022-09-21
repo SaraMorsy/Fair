@@ -19,8 +19,8 @@ In terms of the column headings, these look pretty complete although patients wi
 Additional metadata can be added for provenance and general descriptions. For example, more information about the cohort name is required because **“Human Welsh Cohort”** does tell us much in the context of other existing Welsh cohorts. Here we would look to include a unique ID or unique working title for the cohort, or a project URL describing its origin and makeup.  
 
 There are many John Does in the World. Typically now, people will use ORCID IDs to uniquely identify themselves because this is a permanent ID and does not change when the details of an investigator changes, for example, when they change institution or email address.
-:::::::
-::::::::::::::::::::::
+::::::::::::
+::::::::::::::::::::::::::
 
 **As a side note, know that FAIR is not limited to the Life Sciences and spans across all research disciplines. The FAIR principles are also not limited to data and can be applied to the sharing and reuse of software, training and data workflow.**
 
@@ -28,8 +28,8 @@ There are many John Does in the World. Typically now, people will use ORCID IDs 
 What examples can you think of where software is shared in a way that is FAIR?
 ::::: solution
 Software shared openly on github is FAIR: it can be discovered, downloaded and annotated in a way where it can be used successfully.  It is also assigned to the original author for provenance.
-:::::
-::::::::::::::
+:::::::::::
+:::::::::::::::::::
 
 
 **The history of FAIR and its use today**
@@ -44,7 +44,7 @@ FAIR itself was then formalised and published in 2016 in FAIR Guiding Principles
 Read page 11 of the European Commission report.  What benefit did the FORCE11 Working Group see to coining the word FAIR? 
 ::::::::: solution
 The report states: “a FORCE11 Working Group coined the FAIR data definition, latching onto an arresting and rhetorically useful acronym. The word play with fairness, in the sense of equity and justice, has also been eloquent in communicating the idea that FAIR data serves the best interests of the research community and the advancement of science as a public enterprise that benefits society. ”
-:::::::::
+:::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::: challenge 
@@ -52,8 +52,8 @@ The report states: “a FORCE11 Working Group coined the FAIR data definition, l
 ::::::: solution
 On page 15, the report states: “FAIR should be applied broadly to all objects (including metadata, identifiers, software and
 DMPs) that are essential to the practice of research, and should inform metrics relating directly to these objects.”  Noting that DMPs are “data management plans”.
-:::::::
-:::::::::::::::::::::::::::
+::::::::::::::::
+:::::::::::::::::::::::::::::::::
 
 
 FAIR is now everywhere and used commonly in the arena of funded research.  To illustrate its importance, funders often require an applicant to justify why new data are being generated for a proposal, ( and why publically available data cannot be used instead at no cost).
