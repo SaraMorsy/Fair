@@ -1,5 +1,6 @@
 ---
 site: sandpaper::sandpaper_site
+title: FAIR Data in the Life Sciences
 ---
 
 This short online course caters for learners working with Life Science data and provides the necessary know-how to make data FAIR.  
