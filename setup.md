@@ -1,7 +1,5 @@
 ---
-title: Setup
+title: FAIR Data in the Life Sciences
 ---
 
-Setup instructions live in this document. Please specify the tools and the data
-sets the Learner needs to have installed.
 
