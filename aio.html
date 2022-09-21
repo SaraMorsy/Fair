@@ -246,6 +246,64 @@
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>The FAIR Principles were created to help researchers share, reuse, and manage their data. These Principles will be discussed and contextualised later, but for now FAIR data can be understooddefined as any dataset that can be discovered and downloaded by others; and interpreted correctly through the provision of detailed descriptions about the data. Data descriptions are called termed metadata, and their relationship between metadata and tothe data they describe is shown in the diagram below. Here a PI called John Doe wishes to share data about the genotypes and heart rates for a number of patients in a study. The data are shown in orange and takes the form of a spreadsheet. It is obvious from this example that the data alone are meaningless without the companion metadata in blue which describe the column headings and data units (BPM), as well as metadata relating to the entire dataset where a contact and cohort name are given. Without metadata, data cannot be reused correctly because it cannot be interpreted correctly.</p>
+<div id="challenge1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="look-at-the-metadata-in-blue-above.-what-could-be-done-better" class="callout-inner">
+<h3 class="callout-title">Look at the metadata in blue above. What could be done better?<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+</h3>
+<div class="callout-content">
+
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>In terms of the column headings, these look pretty complete although patients will have many genotypes, so describing the genotype using its unique ID would be advised (e.g. rs1333049). Additionally, spaces in column names could be replaced with underscores to aid scripting using the data. FOr example, <strong>“PATIENT ID” → “PATIENT_ID”</strong> Additional metadata can be added for provenance and general descriptions. For example, more information about the cohort name is required because “Human Welsh Cohort” does tell us much in the context of other existing Welsh cohorts. Here we would look to include a unique ID or unique working title for the cohort, or a project URL describing its origin and makeup.</p>
+</div>
+</div>
+</div>
+</div>
+<p>There are many John Does in the World. Typically now, people will use ORCID IDs to uniquely identify themselves because this is a permanent ID and does not change when the details of an investigator changes, for example, when they change institution or email address.</p>
+<p><strong>As a side note, know that FAIR is not limited to the Life Sciences and spans across all research disciplines. The FAIR principles are also not limited to data and can be applied to the sharing and reuse of software, training and data workflow.</strong></p>
+<div id="challenge2" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="what-examples-can-you-think-of-where-software-is-shared-in-a-way-that-is-fair" class="callout-inner">
+<h3 class="callout-title">What examples can you think of where software is shared in a way that is FAIR?<a class="anchor" aria-label="anchor" href="#challenge2"></a>
+</h3>
+<div class="callout-content">
+
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<p>Software shared openly on github is FAIR: it can be discovered, downloaded and annotated in a way where it can be used successfully. It is also assigned to the original author for provenance.</p>
+</div>
+</div>
+</div>
+</div>
+<p><strong>The history of FAIR and its use today</strong></p>
+<p>A report from the European Commission Expert Group on FAIR data describes the origins of FAIR and its first mention in 2014-2015 by a FORCE11 Working Group who define the FAIR Principles.</p>
+<p>FAIR is an acronym relating to a “thing” that is made Findable, Accessible, Interoperable and Reusable. For FAIR data, the “thing” we refer to is the the data. For a script or analysis workflow, the thing is “software”.</p>
+<p>FAIR itself was then formalised and published in 2016 in FAIR Guiding Principles for scientific data management and stewardship.</p>
 <div id="discussion1" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
@@ -254,66 +312,47 @@
 <h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#discussion1"></a>
 </h3>
 <div class="callout-content">
-<p>Look at the metadata in blue above. What could be done better? ::: Solution In terms of the column headings, these look pretty complete although patients will have many genotypes, so describing the genotype using its unique ID would be advised (e.g. rs1333049). Additionally, spaces in column names could be replaced with underscores to aid scripting using the data. FOr example, <strong>“PATIENT ID” → “PATIENT_ID”</strong> Additional metadata can be added for provenance and general descriptions. For example, more information about the cohort name is required because “Human Welsh Cohort” does tell us much in the context of other existing Welsh cohorts. Here we would look to include a unique ID or unique working title for the cohort, or a project URL describing its origin and makeup.</p>
-</div>
-</div>
-</div>
-<p>:::</p>
-<p>There are many John Does in the World. Typically now, people will use ORCID IDs to uniquely identify themselves because this is a permanent ID and does not change when the details of an investigator changes, for example, when they change institution or email address.</p>
-<p><strong>As a side note, know that FAIR is not limited to the Life Sciences and spans across all research disciplines. The FAIR principles are also not limited to data and can be applied to the sharing and reuse of software, training and data workflow.</strong></p>
-<div id="discussion2" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#discussion2"></a>
-</h3>
-<div class="callout-content">
-<p>What examples can you think of where software is shared in a way that is FAIR? ::: Solution Software shared openly on github is FAIR: it can be discovered, downloaded and annotated in a way where it can be used successfully. It is also assigned to the original author for provenance.</p>
-</div>
-</div>
-</div>
-<p>:::</p>
-<p><strong>The history of FAIR and its use today</strong></p>
-<p>A report from the European Commission Expert Group on FAIR data describes the origins of FAIR and its first mention in 2014-2015 by a FORCE11 Working Group who define the FAIR Principles.</p>
-<p>FAIR is an acronym relating to a “thing” that is made Findable, Accessible, Interoperable and Reusable. For FAIR data, the “thing” we refer to is the the data. For a script or analysis workflow, the thing is “software”.</p>
-<p>FAIR itself was then formalised and published in 2016 in FAIR Guiding Principles for scientific data management and stewardship.</p>
-<div id="discussion3" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#discussion3"></a>
-</h3>
-<div class="callout-content">
 <p>Read page 11 of the European Commission report. What benefit did the FORCE11 Working Group see to coining the word FAIR? :::: solution The report states: “a FORCE11 Working Group coined the FAIR data definition, latching onto an arresting and rhetorically useful acronym. The word play with fairness, in the sense of equity and justice, has also been eloquent in communicating the idea that FAIR data serves the best interests of the research community and the advancement of science as a public enterprise that benefits society.”</p>
 </div>
 </div>
 </div>
-<p>::::</p>
-<div id="discussion4" class="callout discussion">
+<p>:::::::</p>
+<div id="challenge3" class="callout challenge">
 <div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#discussion4"></a>
+<div id="fair-isnt-limited-to-data.-from-the-same-report-what-other-examples-of-objects-can-be-made-fair-httpszenodo.orgrecord1285272.yuk8o_hmiqt" class="callout-inner">
+<h3 class="callout-title">FAIR isn’t limited to data. From the same report, what other examples of “objects” can be made FAIR? [<a href="https://zenodo.org/record/1285272#.Yuk8O_HMIqt" class="external-link uri">https://zenodo.org/record/1285272#.Yuk8O_HMIqt</a>]<a class="anchor" aria-label="anchor" href="#challenge3"></a>
 </h3>
 <div class="callout-content">
-<p>FAIR isn’t limited to data. From the same report, what other examples of “objects” can be made FAIR? <a href="https://zenodo.org/record/1285272#.Yuk8O_HMIqt" class="external-link uri">https://zenodo.org/record/1285272#.Yuk8O_HMIqt</a> :::: solution On page 15, the report states: “FAIR should be applied broadly to all objects (including metadata, identifiers, software and DMPs) that are essential to the practice of research, and should inform metrics relating directly to these objects.” Noting that DMPs are “data management plans”.</p>
+
 </div>
 </div>
 </div>
-<p>::::</p>
+<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
+  <h4 class="accordion-header" id="headingSolution3">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div class="accordion-body">
+<p>On page 15, the report states: “FAIR should be applied broadly to all objects (including metadata, identifiers, software and DMPs) that are essential to the practice of research, and should inform metrics relating directly to these objects.” Noting that DMPs are “data management plans”.</p>
+</div>
+</div>
+</div>
+</div>
 <p>FAIR is now everywhere and used commonly in the arena of funded research. To illustrate its importance, funders often require an applicant to justify why new data are being generated for a proposal, ( and why publically available data cannot be used instead at no cost).</p>
 <div id="callout1" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<div id="further-reading-demonstrating-the-benefits-of-fair" class="callout-inner">
+<h3 class="callout-title">Further reading demonstrating the benefits of FAIR<a class="anchor" aria-label="anchor" href="#callout1"></a>
 </h3>
 <div class="callout-content">
-<p><strong>Further reading demonstrating the benefits of FAIR</strong> (A European Commission report in 2018)[<a href="https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1/language-en" class="external-link uri">https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1/language-en</a>], considers the detrimental effects of not complying with FAIR principles and details the negative impact on research activities, collaboration, and innovation. (EMBL-EBI report in 2020)[<a href="https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1/language-en" class="external-link uri">https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1/language-en</a>] shows how data sharing enabled the excelleration of COVID-19 research to meet the challenges of the pandemic.</p>
+<p>(A European Commission report in 2018)[<a href="https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1/language-en" class="external-link uri">https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1/language-en</a>], considers the detrimental effects of not complying with FAIR principles and details the negative impact on research activities, collaboration, and innovation. (EMBL-EBI report in 2020)[<a href="https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1/language-en" class="external-link uri">https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1/language-en</a>] shows how data sharing enabled the excelleration of COVID-19 research to meet the challenges of the pandemic.</p>
 </div>
 </div>
 </div>
