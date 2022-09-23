@@ -33,7 +33,6 @@ Software shared openly on github is FAIR: it can be discovered, downloaded and a
 :::::::::::
 :::::::::::::::::::
 
-
 **The history of FAIR and its use today**
 
 A report from the European Commission Expert Group on FAIR data describes the origins of FAIR and its first mention in 2014-2015 by a FORCE11 Working Group who define the FAIR Principles.  
