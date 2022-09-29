@@ -72,4 +72,3 @@ profiles:
 # Customisation
 # This space below is where custom yaml items (e.g. pinningsandpaper and varnish versions) should live
 varnish: SaraMorsy/varnish
-sandpaper: carpentries/sandpaper@allow-custom-title-340
