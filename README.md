@@ -1,4 +1,4 @@
-# ELIXIR-UK DaSH FAIR in Life Sciences Course
+# ELIXIR-UK DaSH Course: FAIR in Life Sciences 
     
 This short online course caters for learners working with Life Science data and provides the necessary know-how to make data FAIR.  
 
