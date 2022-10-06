@@ -17,8 +17,3 @@ The course is written in 2 parts and serves to complement longer training course
 - The origins of FAIR.
 - Why FAIR is important.
 - How data is made FAIR through showing worked examples.
-
-
-## Prerequisites
-
-This is a basic course and no prior knowledge is necessary.
