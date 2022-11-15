@@ -1,5 +1,5 @@
 ---
-title: 'A) Identifiers'
+title: 'Identifiers'
 teaching: 10
 exercises: 2
 ---
@@ -7,13 +7,18 @@ exercises: 2
 ::: callout
 ## Objectives
 1- To explain the definition and importance of using identifiers
+
 2- To illustrate what are the persistent identifiers
+
 3- To use Persistent identifiers in metadata
+
 4- To define how to keep metadata available even after loss of the data
+
 :::
 
 
 ### Persistent identifiers
+
 **(F1)** (Meta)data are assigned a globally unique and persistent identifier
 
 
@@ -22,8 +27,8 @@ exercises: 2
 **(F3)** Metadata clearly and explicitly include the identifier of the data it describes
 
 
-
 ### Metadata is always available
+
 **(A2)** Metadata are accessible, even when the data are no longer available
 
 
