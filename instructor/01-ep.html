@@ -85,11 +85,11 @@
   FAIR Data in the Life Sciences
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: NaN%" class="percentage">
-    NaN%
+<aside class="col-md-12 lesson-progress"><div style="width: 0%" class="percentage">
+    0%
   </div>
   <div class="progress data">
-    <div class="progress-bar data" role="progressbar" style="width: NaN%" aria-valuenow="NaN" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar data" role="progressbar" style="width: 0%" aria-valuenow="0" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -154,6 +154,15 @@
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
 
+<div class="accordion accordion-flush" id="accordionFlush3">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading3">
+        <a href="02-ep.html">2. A) Identifiers</a>
+    </div><!--/div.accordion-header-->
+        
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
                 </div>
               </div>
             </div>
@@ -196,12 +205,12 @@
   <div class="col-xl-8 col-lg-12 primary-content">
     <nav class="lesson-content mx-md-4" aria-label="Previous and Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="../instructor/index.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="../instructor/index.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/02-ep.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
         <a class="chapter-link" href="../instructor/index.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous: FAIR data in Life</a>
-        <a class="chapter-link float-end" href="../instructor/index.html" rel="next">Next: FAIR data in Life... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/02-ep.html" rel="next">Next: A) Identifiers... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>What is FAIR?</h1>
@@ -234,7 +243,7 @@
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>In terms of the column headings, these look pretty complete though there are issues with the data in orange. The diabetes status column appears to capture the type and stage of the disease. In row number 3, the name of the disease is not clear whether it is Diabetes Mellitus or diabetes insipidus. In row number 4, the type of diabetes mellitus is not clear whether 1 or 2. In the final row, there is an empty space, It is not clear whether this is missing information or the patient does not have diabetes</p>
 <p>So to do this better, two separate columns are created for the type and stage of the disease. The name of the disease included whether it is type 1 or 2 which is consistent along all the patients. For the empty space, using NA indicates that this is missing data</p>
@@ -263,7 +272,7 @@
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Software shared openly on github is FAIR: it can be discovered, downloaded and annotated in a way where it can be used successfully. It is also assigned to the original author for provenance.</p>
 </div>
@@ -293,7 +302,7 @@
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>The report states: “a FORCE11 Working Group coined the FAIR data definition, latching onto an arresting and rhetorically useful acronym. The word play with fairness, in the sense of equity and justice, has also been eloquent in communicating the idea that FAIR data serves the best interests of the research community and the advancement of science as a public enterprise that benefits society.”</p>
 </div>
@@ -319,7 +328,7 @@
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <p>On page 15, the report states: “FAIR should be applied broadly to all objects (including metadata, identifiers, software and DMPs) that are essential to the practice of research, and should inform metrics relating directly to these objects.” Noting that DMPs are “data management plans”.</p>
 </div>
@@ -351,12 +360,12 @@ any links that you are not going to use.
       </div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="../instructor/index.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="../instructor/index.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/02-ep.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
         <a class="chapter-link" href="../instructor/index.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous: FAIR data in Life</a>
-        <a class="chapter-link float-end" href="../instructor/index.html" rel="next">Next: FAIR data in Life... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/02-ep.html" rel="next">Next: A) Identifiers... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
     </nav></div> <!-- / div.primary-content.col-xs-12 -->
 <!-- END:   inst/pkgdown/templates/content-instructor.html-->
@@ -394,7 +403,7 @@ any links that you are not going to use.
   "creativeWorkStatus": "active",
   "url": "https://SaraMorsy.github.io/FAIR/instructor/01-ep.html",
   "identifier": "https://SaraMorsy.github.io/FAIR/instructor/01-ep.html",
-  "dateCreated": "2022-10-06",
+  "dateCreated": "2022-11-15",
   "dateModified": "2022-11-15",
   "datePublished": "2022-11-15"
 }
