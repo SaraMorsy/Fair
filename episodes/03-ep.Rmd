@@ -18,32 +18,32 @@ exercises: 2
 
 
 
-### Community standards
+<p style="text-align: center;"> Community standards </p>
 
 
 (A1) (Meta)data are retrievable by their identifier using a standardised communications protocol
 (R1.3)	meta(data) meet domain-relevant community standards
 
 
-### Provenance
+<p style="text-align: center;"> Provenance </p>
 
 
 (R1.2)	meta(data) are associated with detailed provenance
 
 
-### Rich metadata
+<p style="text-align: center;"> Rich metadata </p>
 (F2)  data are described with rich metadata (defined by R1 below)
 (R1)	meta(data) are richly described with a plurality of accurate and relevant attributes
 
 
-### Vocabularies are FAIR
+<p style="text-align: center;"> Vocabularies are FAIR </p>
 (I2)  (meta)data use vocabularies that follow FAIR principles
 (I1)  (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 
 
-### Linked metadata
+<p style="text-align: center;"> Linked metadata </p>
 (I3)  (meta)data include qualified references to other (meta)data
 
 
-### Metadata have multiple attributes
+<p style="text-align: center;"> Metadata have multiple attributes </p>
 (R1)	meta(data) are richly described with a plurality of accurate and relevant attributes
