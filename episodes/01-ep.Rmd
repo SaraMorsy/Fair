@@ -1,5 +1,5 @@
 ---
-title: 'What is FAIR?'
+title: 'What is FAIR?' #a lot of changes to trigger workflow to update the style, manual triggering does not work
 teaching: 10
 exercises: 2
 ---
@@ -8,16 +8,19 @@ The FAIR Principles were created to help researchers share, reuse, and manage th
 
 Data descriptions are called termed **metadata**, and their  relationship between metadata and tothe data they describe is shown in the diagram below.  Here a PI called John Doe wishes to share data about the genotypes and heart rates for a number of patients in a study.  The data are shown in orange and takes the form of a spreadsheet.  It is obvious from this example that the data alone are meaningless without the companion metadata in blue which describe the column headings and data units (BPM), as well as metadata relating to the entire dataset where a contact and cohort name are given.  Without metadata, data cannot be reused correctly because it cannot be interpreted correctly.
 
-![metadata](fig/fairifying1.png){alt='alt text'}
+
 
 
 :::::::::::::::::::::: challenge
-Look at the metadata in blue above.  What could be done better?
+Look at the metadata  in the following example in blue above.  What could be done better?
+![Example of improper metadata](fig/fairifying66.png){alt='alt text'}
 
 ::::::: solution
-In terms of the column headings, these look pretty complete although patients will have many genotypes, so describing the genotype using its unique ID would be advised **(e.g. rs1333049)**.  Additionally, spaces in column names could be replaced with underscores to aid scripting using the data.  FOr example, **“PATIENT ID” → “PATIENT_ID”**
+In terms of the column headings, these look pretty complete though there are issues with the data in orange.   The diabetes status column appears to capture the type and stage of the disease. In row number 3, the name of the disease is not clear whether it is Diabetes Mellitus or diabetes insipidus. In row number 4, the type of diabetes mellitus is not clear whether 1 or 2. In the final row, there is an empty space, It is not clear whether this is missing information or the patient does not have diabetes
 
-Additional metadata can be added for provenance and general descriptions. For example, more information about the cohort name is required because **“Human Welsh Cohort”** does tell us much in the context of other existing Welsh cohorts. Here we would look to include a unique ID or unique working title for the cohort, or a project URL describing its origin and makeup.  
+So to do this better, two separate columns are created for the type and stage of the disease. The name of the disease included whether it is type 1 or 2 which is consistent along all the patients. For the empty space, using NA indicates that this is missing data
+
+![Example of proper metadata](fig/fairifying1 (1).png){alt='alt text'}
 
 There are many John Does in the World. Typically now, people will use ORCID IDs to uniquely identify themselves because this is a permanent ID and does not change when the details of an investigator changes, for example, when they change institution or email address.
 ::::::::::::
@@ -32,7 +35,6 @@ What examples can you think of where software is shared in a way that is FAIR?
 Software shared openly on github is FAIR: it can be discovered, downloaded and annotated in a way where it can be used successfully.  It is also assigned to the original author for provenance.
 :::::::::::
 :::::::::::::::::::
-
 
 **The history of FAIR and its use today**
 
