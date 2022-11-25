@@ -51,7 +51,7 @@ exercises: 2
 ::: callout
 ## Resources
 
-- [Introdcution to metadata](https://carpentries-incubator.github.io/fair-bio-practice/07-data-in-excel/index.html)
+- [Introduction to metadata](https://carpentries-incubator.github.io/fair-bio-practice/07-data-in-excel/index.html)
 
 - [Data in Excel](https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html)
 
