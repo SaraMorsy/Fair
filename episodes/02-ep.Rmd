@@ -10,9 +10,11 @@ exercises: 2
 
 2- To illustrate what are the persistent identifiers
 
-3- To use Persistent identifiers in metadata
+3- To use Persistent identifiers not only for data but also for metadata
 
-4- To define how to keep metadata available even after loss of the data
+4- To give examples of the structure of persistent identifiers
+
+5- To define why to keep metadata available even after loss of the data
 
 :::
 
@@ -21,14 +23,43 @@ exercises: 2
 
 **(F1)** (Meta)data are assigned a globally unique and persistent identifier
 
+:::::::::::: callout
+#Resources
+[FAIRcookbook](https://faircookbook.elixir-europe.org/content/recipes/findability/identifiers.html)
+[RDMKit](https://rdmkit.elixir-europe.org/identifiers.html)
+[Data stewardship wizard](https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=d21fdb06-22bf-418e-aa40-dc5ef1485f56)
+McMurry, Julie A et al. “Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data.” PLoS biology vol. 15,6 e2001414. 29 Jun. 2017, [doi:10.1371/journal.pbio.200141](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878/)
+:::::::::::::::::
+
+::::::::::::: challenge
+# Exercise
+From the following resources, Can you give example of persistent identifiers that fulfill the criteria of being globally unique and persistent?
+
+What is minting identifiers?
+
+[Using this resource](https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=d21fdb06-22bf-418e-aa40-dc5ef1485f56), can you write a statement describing this dataset using this wizard [E-MTAB-7933](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933) ?
+:::::::::::::::::
 
 ### PIDs in metadata
 
 **(F3)** Metadata clearly and explicitly include the identifier of the data it describes
+
+:::::::::::: callout
+https://carpentries-incubator.github.io/fair-bio-practice/07-data-in-excel/index.html
+https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html
+https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-minimal-metadata-profiles.html
+https://rdmkit.elixir-europe.org/metadata_management.html
+::::::::::::
+
+::::::::::: challenge
+From the following resources, Can you determine what are the types of metadata in this dataset [E-MTAB-7933](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)?
+::::::::::::::::
 
 
 ### Metadata is always available
 
 **(A2)** Metadata are accessible, even when the data are no longer available
 
-
+:::::::::::::: challenge
+From the following resources: would you give an example of metadata without data?
+:::::::::::::::::
