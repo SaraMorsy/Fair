@@ -25,22 +25,22 @@ exercises: 2
 
 :::::::::::: callout
 #Resources
-[FAIRcookbook](https://faircookbook.elixir-europe.org/content/recipes/findability/identifiers.html)
+- [FAIRcookbook](https://faircookbook.elixir-europe.org/content/recipes/findability/identifiers.html)
 
-[RDMKit](https://rdmkit.elixir-europe.org/identifiers.html)
+- [RDMKit](https://rdmkit.elixir-europe.org/identifiers.html)
 
-[Data stewardship wizard](https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=d21fdb06-22bf-418e-aa40-dc5ef1485f56)
+- [Data stewardship wizard](https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=d21fdb06-22bf-418e-aa40-dc5ef1485f56)
 
-McMurry, Julie A et al. “Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data.” PLoS biology vol. 15,6 e2001414. 29 Jun. 2017, [doi:10.1371/journal.pbio.200141](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878/)
+- McMurry, Julie A et al. “Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data.” PLoS biology vol. 15,6 e2001414. 29 Jun. 2017, [doi:10.1371/journal.pbio.200141](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878/)
 :::::::::::::::::
 
 ::::::::::::: challenge
 # Exercise
-From the following resources, Can you give example of persistent identifiers that fulfill the criteria of being globally unique and persistent?
+- From the following resources, Can you give example of persistent identifiers that fulfill the criteria of being globally unique and persistent?
 
-What is minting identifiers?
+- What is minting identifiers? (I want to remove this)
 
-[Using this resource](https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=d21fdb06-22bf-418e-aa40-dc5ef1485f56), can you write a statement describing this dataset using this wizard [E-MTAB-7933](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933) ?
+- [Using this resource](https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=d21fdb06-22bf-418e-aa40-dc5ef1485f56), can you write a statement describing this dataset using this wizard [E-MTAB-7933](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933) ?
 :::::::::::::::::
 
 ### PIDs in metadata
@@ -48,17 +48,18 @@ What is minting identifiers?
 **(F3)** Metadata clearly and explicitly include the identifier of the data it describes
 
 :::::::::::: callout
-[Introdcution to metadata](https://carpentries-incubator.github.io/fair-bio-practice/07-data-in-excel/index.html)
+## Resources
+- [Introdcution to metadata](https://carpentries-incubator.github.io/fair-bio-practice/07-data-in-excel/index.html)
 
-[Data in Excel](https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html)
+- [Data in Excel](https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html)
 
-[Metadata profiles](https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-minimal-metadata-profiles.html)
+- [Metadata profiles](https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-minimal-metadata-profiles.html)
 
-[Metadata management](https://rdmkit.elixir-europe.org/metadata_management.html)
+- [Metadata management](https://rdmkit.elixir-europe.org/metadata_management.html)
 ::::::::::::
 
 ::::::::::: challenge
-From the following resources, Can you determine what are the types of metadata in this dataset [E-MTAB-7933](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)?
+- From the following resources, Can you determine what are the types of metadata in this dataset [E-MTAB-7933](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)?
 ::::::::::::::::
 
 
@@ -67,5 +68,5 @@ From the following resources, Can you determine what are the types of metadata i
 **(A2)** Metadata are accessible, even when the data are no longer available
 
 :::::::::::::: challenge
-From the following resources: would you give an example of metadata without data?
+- From the previous resources: would you give an example of metadata without data?
 :::::::::::::::::
