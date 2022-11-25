@@ -277,7 +277,7 @@
         
 <section id="aio-02-ep"><p>Content from <a href="02-ep.html">Identifiers</a></p>
 <hr>
-<p> Last updated on 2022-11-22 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/02-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p> Last updated on 2022-11-25 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/02-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -291,8 +291,9 @@
 <div class="callout-content">
 <p>1- To explain the definition and importance of using identifiers</p>
 <p>2- To illustrate what are the persistent identifiers</p>
-<p>3- To use Persistent identifiers in metadata</p>
-<p>4- To define how to keep metadata available even after loss of the data</p>
+<p>3- To use Persistent identifiers not only for data but also for metadata</p>
+<p>4- To give examples of the structure of persistent identifiers</p>
+<p>5- To define why to keep metadata available even after loss of the data</p>
 </div>
 </div>
 </div>
@@ -300,23 +301,85 @@
 <h3 id="persistent-identifiers">Persistent identifiers<a class="anchor" aria-label="anchor" href="#persistent-identifiers"></a>
 </h3>
 <p><strong>(F1)</strong> (Meta)data are assigned a globally unique and persistent identifier</p>
+<div id="callout2" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout2"></a>
+</h3>
+<div class="callout-content">
+<p>#Resources <a href="https://faircookbook.elixir-europe.org/content/recipes/findability/identifiers.html" class="external-link">FAIRcookbook</a> <a href="https://rdmkit.elixir-europe.org/identifiers.html" class="external-link">RDMKit</a> <a href="https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=d21fdb06-22bf-418e-aa40-dc5ef1485f56" class="external-link">Data stewardship wizard</a> McMurry, Julie A et al. “Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data.” PLoS biology vol. 15,6 e2001414. 29 Jun. 2017, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878/" class="external-link">doi:10.1371/journal.pbio.200141</a></p>
+</div>
+</div>
+</div>
+<div id="discussion1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="exercise" class="callout-inner">
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+</h3>
+<div class="callout-content">
+<p>From the following resources, Can you give example of persistent identifiers that fulfill the criteria of being globally unique and persistent?</p>
+<p>What is minting identifiers?</p>
+<p><a href="https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=d21fdb06-22bf-418e-aa40-dc5ef1485f56" class="external-link">Using this resource</a>, can you write a statement describing this dataset using this wizard <a href="https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933" class="external-link">E-MTAB-7933</a> ?</p>
+</div>
+</div>
+</div>
 </div>
 <div class="section level3">
 <h3 id="pids-in-metadata">PIDs in metadata<a class="anchor" aria-label="anchor" href="#pids-in-metadata"></a>
 </h3>
 <p><strong>(F3)</strong> Metadata clearly and explicitly include the identifier of the data it describes</p>
+<div id="callout3" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout3"></a>
+</h3>
+<div class="callout-content">
+<p><a href="https://carpentries-incubator.github.io/fair-bio-practice/07-data-in-excel/index.html" class="external-link uri">https://carpentries-incubator.github.io/fair-bio-practice/07-data-in-excel/index.html</a> <a href="https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html" class="external-link uri">https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html</a> <a href="https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-minimal-metadata-profiles.html" class="external-link uri">https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-minimal-metadata-profiles.html</a> <a href="https://rdmkit.elixir-europe.org/metadata_management.html" class="external-link uri">https://rdmkit.elixir-europe.org/metadata_management.html</a></p>
+</div>
+</div>
+</div>
+<div id="discussion2" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+</h3>
+<div class="callout-content">
+<p>From the following resources, Can you determine what are the types of metadata in this dataset <a href="https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933" class="external-link">E-MTAB-7933</a>?</p>
+</div>
+</div>
+</div>
 </div>
 <div class="section level3">
 <h3 id="metadata-is-always-available">Metadata is always available<a class="anchor" aria-label="anchor" href="#metadata-is-always-available"></a>
 </h3>
 <p><strong>(A2)</strong> Metadata are accessible, even when the data are no longer available</p>
+<div id="discussion3" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#discussion3"></a>
+</h3>
+<div class="callout-content">
+<p>From the following resources: would you give an example of metadata without data?</p>
+</div>
+</div>
+</div>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
 </div></section><section id="aio-03-ep"><p>Content from <a href="03-ep.html">Metadata</a></p>
 <hr>
-<p> Last updated on 2022-11-22 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/03-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p> Last updated on 2022-11-25 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/03-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -361,7 +424,7 @@ Metadata have multiple attributes
 </p>
 <p>(R1) meta(data) are richly described with a plurality of accurate and relevant attributes</p></section><section id="aio-04-ep"><p>Content from <a href="04-ep.html">Access</a></p>
 <hr>
-<p> Last updated on 2022-11-22 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/04-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p> Last updated on 2022-11-25 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/04-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -406,7 +469,7 @@ any links that you are not going to use.
  -->
 </div></section><section id="aio-05-ep"><p>Content from <a href="05-ep.html">Registration</a></p>
 <hr>
-<p> Last updated on 2022-11-22 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/05-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p> Last updated on 2022-11-25 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/05-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -451,8 +514,8 @@ any links that you are not going to use.
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/allow-custom-title-340" class="external-link">sandpaper (0.10.1)</a>,
-        <a href="https://github.com/carpentries/pegboard/tree/a8db02ab037f2ffeab6e13cc3b662ea8c42822ad" class="external-link">pegboard (0.3.2)</a>,
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.10.8" class="external-link">sandpaper (0.10.8)</a>,
+        <a href="https://github.com/carpentries/pegboard/tree/0.3.2" class="external-link">pegboard (0.3.2)</a>,
       and <a href="https://github.com/SaraMorsy/varnish/tree/a813f61a6abace9260a43dd3bb38d1b0d58d8a27" class="external-link">varnish (0.2.4)</a>.</p>
 			</div>
 		</footer>
@@ -474,9 +537,9 @@ any links that you are not going to use.
   "creativeWorkStatus": "active",
   "url": "https://SaraMorsy.github.io/FAIR/aio.html",
   "identifier": "https://SaraMorsy.github.io/FAIR/aio.html",
-  "dateCreated": "2022-11-15",
-  "dateModified": "2022-11-22",
-  "datePublished": "2022-11-22"
+  "dateCreated": "2022-11-25",
+  "dateModified": "2022-11-25",
+  "datePublished": "2022-11-25"
 }
 
   </script><script>
