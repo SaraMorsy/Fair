@@ -24,8 +24,7 @@ exercises: 2
 **(F1)** (Meta)data are assigned a globally unique and persistent identifier
 
 ::: callout
-
-#Resources
+## Resources
 
 - [FAIRcookbook](https://faircookbook.elixir-europe.org/content/recipes/findability/identifiers.html)
 
@@ -37,7 +36,7 @@ exercises: 2
 :::
 
 ::: challenge
-# Exercise
+## Exercise
 - From the following resources, Can you give example of persistent identifiers that fulfill the criteria of being globally unique and persistent?
 
 - What is minting identifiers? (I want to remove this)
@@ -50,7 +49,6 @@ exercises: 2
 **(F3)** Metadata clearly and explicitly include the identifier of the data it describes
 
 ::: callout
-
 ## Resources
 
 - [Introdcution to metadata](https://carpentries-incubator.github.io/fair-bio-practice/07-data-in-excel/index.html)
