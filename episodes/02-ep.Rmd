@@ -26,8 +26,11 @@ exercises: 2
 :::::::::::: callout
 #Resources
 [FAIRcookbook](https://faircookbook.elixir-europe.org/content/recipes/findability/identifiers.html)
+
 [RDMKit](https://rdmkit.elixir-europe.org/identifiers.html)
+
 [Data stewardship wizard](https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=d21fdb06-22bf-418e-aa40-dc5ef1485f56)
+
 McMurry, Julie A et al. “Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data.” PLoS biology vol. 15,6 e2001414. 29 Jun. 2017, [doi:10.1371/journal.pbio.200141](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878/)
 :::::::::::::::::
 
@@ -45,10 +48,13 @@ What is minting identifiers?
 **(F3)** Metadata clearly and explicitly include the identifier of the data it describes
 
 :::::::::::: callout
-https://carpentries-incubator.github.io/fair-bio-practice/07-data-in-excel/index.html
-https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html
-https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-minimal-metadata-profiles.html
-https://rdmkit.elixir-europe.org/metadata_management.html
+[Introdcution to metadata](https://carpentries-incubator.github.io/fair-bio-practice/07-data-in-excel/index.html)
+
+[Data in Excel](https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html)
+
+[Metadata profiles](https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-minimal-metadata-profiles.html)
+
+[Metadata management](https://rdmkit.elixir-europe.org/metadata_management.html)
 ::::::::::::
 
 ::::::::::: challenge
