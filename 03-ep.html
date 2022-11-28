@@ -153,19 +153,12 @@
 <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         Metadata
         </span>
-      </button>
+      
     </div><!--/div.accordion-header-->
-        
-    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
-      <div class="accordion-body">
-        <ul><li><a href="#meta-data">Meta-data</a></li>
-        </ul></div><!--/div.accordion-body-->
-    </div><!--/div.accordion-collapse-->
         
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -262,9 +255,7 @@
 </div>
 </div>
 </div>
-<section id="meta-data"><h2 class="section-heading">Meta-data<a class="anchor" aria-label="anchor" href="#meta-data"></a>
-</h2>
-<hr class="half-width"><div id="callout2" class="callout callout">
+<div id="callout2" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
@@ -283,8 +274,8 @@
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<div id="exercise" class="callout-inner">
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion1"></a>
 </h3>
 <div class="callout-content">
 <ul><li>From the following resources, Can you determine what are the types of metadata in this dataset <a href="https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933" class="external-link">E-MTAB-7933</a>?</li>
@@ -299,8 +290,8 @@ Metadata and data are always available
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<div id="exercise-1" class="callout-inner">
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion2"></a>
 </h3>
 <div class="callout-content">
 <ul><li>From the previous resources: would you give an example of metadata without data?</li>
@@ -328,7 +319,7 @@ Data and metadata should follow Community standards
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div id="exercise" class="callout-inner">
+<div id="exercise-2" class="callout-inner">
 <h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion3"></a>
 </h3>
 <div class="callout-content">
@@ -343,8 +334,8 @@ Provenance
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout4"></a>
+<div id="resources-2" class="callout-inner">
+<h3 class="callout-title">Resources<a class="anchor" aria-label="anchor" href="#callout4"></a>
 </h3>
 <div class="callout-content">
 <ul><li><a href="https://rdmkit.elixir-europe.org/data_provenance" class="external-link">How can you record data provenance</a></li>
@@ -361,8 +352,8 @@ Vocabularies are FAIR
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout5"></a>
+<div id="resources-3" class="callout-inner">
+<h3 class="callout-title">Resources<a class="anchor" aria-label="anchor" href="#callout5"></a>
 </h3>
 <div class="callout-content">
 <ul><li><a href="https://faircookbook.elixir-europe.org/content/recipes/introduction/metadata-fair.html" class="external-link">FAIR and the notion of metadata</a></li>
@@ -380,8 +371,8 @@ Linked metadata
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout6"></a>
+<div id="resources-4" class="callout-inner">
+<h3 class="callout-title">Resources<a class="anchor" aria-label="anchor" href="#callout6"></a>
 </h3>
 <div class="callout-content">
 <ul><li><a href="https://faircookbook.elixir-europe.org/content/recipes/interoperability/identifier-mapping.html#references" class="external-link">Interlinking data from different sources</a></li>
@@ -392,8 +383,8 @@ Linked metadata
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#discussion4"></a>
+<div id="exercise-3" class="callout-inner">
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion4"></a>
 </h3>
 <div class="callout-content">
 <ul><li>From the previous resources, Can you extract data provenance from this data set <a href="https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933" class="external-link">E-MTAB-7933</a>?</li>
@@ -405,7 +396,10 @@ Linked metadata
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
-</section></div> <!-- / div.lesson-content -->
+
+
+
+      </div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="02-ep.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="04-ep.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
