@@ -49,7 +49,7 @@ After reading this guide on different [protocol types](https://rdmkit.elixir-eur
 :::
 
 
-:::
+::: challenge
 ## Exercise
 - From the previous resources that we provided, what is the licence used by the following databases:
 1- Zenodo
