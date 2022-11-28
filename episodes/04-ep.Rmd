@@ -6,11 +6,15 @@ exercises: 2
 
 ::: callout
 ## Objectives
-Objectives:
-1- To illustrate what is the communications protocol     
+
+1- To illustrate what is the communications protocol  
+
 2- To articulate  what are the criteria for open and free protocol
+
 3- To relate to the quote “As open as possible as close as necessary” by giving examples on sensitive data
+
 3- To give examples of  databases that uses a protocol with   different  authentication process 
+
 4- To interpret the usage licence associated with different data sets
 
 :::
