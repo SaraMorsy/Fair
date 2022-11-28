@@ -13,11 +13,9 @@ exercises: 2
 3- To summarize steps of data indexing in a searchable repository
 :::
 
-### Indexed data repository 
-
+<p style="text-align: center;">Indexed data repository</p>
 
 **(F4)** (meta)data are registered or indexed in a searchable resource
-
 
 ::: callout
 ## Resources

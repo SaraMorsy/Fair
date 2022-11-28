@@ -16,7 +16,7 @@ exercises: 2
 6- To explain how to explicitly use rich metadata to describe your data
 :::
 
-Meta-data
+## Meta-data
 
 
 
@@ -34,7 +34,7 @@ Meta-data
 ::::::::::::::::
 
 
-### Metadata is always available
+<p style="text-align: center;"> Metadata and data are always available </p>
 
 **(A2)** Metadata are accessible, even when the data are no longer available
 
@@ -53,7 +53,7 @@ Meta-data
 
 ::: challenge
 ## Exercise
-Based on the previous resources, Could you know what will be the appropriate repository suitable for imaging data?
+Based on the previous resources, Could you know what will be the appropriate repository suitable for bioimaging data?
 :::
 
 <p style="text-align: center;"> Provenance </p>

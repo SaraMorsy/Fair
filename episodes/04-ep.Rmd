@@ -15,12 +15,9 @@ Objectives:
 
 :::
 
-
-### Standard communication protocol
-
+<p style="text-align: center;"> Standard communication protocol </p>
 
 (A1)   	(meta)data are retrievable by their identifier using a standardised communications protocol
-
 
 ::: callout
 ## Resources
@@ -33,7 +30,7 @@ Objectives:
 After reading this guide on different [protocol types](https://rdmkit.elixir-europe.org/data_transfer.html#how-do-you-transfer-large-data-files), give an example on one of databases that uses one of these protocols?
 :::
 
-### Data usage licence
+<p style="text-align: center;"> Data usage licence </p>
 
 
 (R1.1)	meta(data) are released with a clear and accessible data usage licence
@@ -56,7 +53,7 @@ After reading this guide on different [protocol types](https://rdmkit.elixir-eur
 2- arrayexpress
 ::: 
 
-## Sensitive data
+<p style="text-align: center;"> Sensitive data </p>
 
 ::: callout
 ## Resources
