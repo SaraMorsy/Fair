@@ -13,7 +13,6 @@ exercises: 2
 
 5- To illustrate what is rich metadata and how to use them
 
-<<<<<<< HEAD
 6- To explain how to explicitly use rich metadata to describe your data
 :::
 
@@ -37,16 +36,15 @@ let’s see this example on microarray data from a database called GEO (gene omn
 
 ![Types of metadata](fig/metadata.jpg){alt='alt text'}
 
-=======
+
 5- To define why to keep metadata available even after loss of the data
->>>>>>> 7b0ada98f36f1f0774563a3511a20417f9f10460
+
 :::
 
 
 ::: callout
 ## Resources
 
-<<<<<<< HEAD
 - [Introduction to metadata](https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html)
 - [Data in Excel](https://carpentries-incubator.github.io/fair-bio-practice/07-data-in-excel/index.html)
 - [Metadata profiles](https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-minimal-metadata-profiles.html)
@@ -130,7 +128,6 @@ The metadata and data should be described by vocabularies that comply with FAIR 
 (I3)  (meta)data include qualified references to other (meta)data
 
 As a result, over the time, many datasets are lost. Metadata is small and can be easily maintained not only on the database but personal computer of researchers. This also the case for sensitive data where the metadata are available and provides contact details of the researchers, how to get the data and data provenance
-
 
 
 ::: callout
