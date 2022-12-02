@@ -33,12 +33,11 @@ There are three types of metadata: descriptive, structural, and administrative.
 - **Administrative metadata** describes who managed the data, collaborators and project funds.  
 
 
-::: discussion
 ## Identify types of metadata in this microarray dataset
 let’s see this example on microarray data from a database called GEO (gene omnibus database). In this dataset, you will find the data, metadata, and PID. In the black circle, you will find the data ID which is unique and persistent to the data. For metadata, you will find the administrative metadata in the orange square. You will also find the descriptive metadata in the orange square, as you can see, it describes the author, publication and abstract for the study. For the structural metadata, it is described in the files (orange arrows). Also, you can find the data here (green arrow)
 
 ![Types of metadata](fig/metadata.jpg){alt='alt text'}
-:::
+
 
 ::: callout
 ## Resources
