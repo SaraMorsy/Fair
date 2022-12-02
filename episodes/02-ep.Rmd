@@ -29,7 +29,7 @@ metadata can describe data provenance which describes how your data is produced,
 There are three types of metadata: descriptive, structural, and administrative.  
 
 - **Descriptive Metadata** describes the characteristics of the dataset so for instance authors, abstracts, and any relevant publication.
-- **Structural metadata** describes how it is generated, and how it is internally structured. 
+- **Structural metadata** describes how it is generated, and how it is internally structured.
 - **Administrative metadata** describes who managed the data, collaborators and project funds.  
 
 
@@ -38,9 +38,6 @@ There are three types of metadata: descriptive, structural, and administrative.
 let’s see this example on microarray data from a database called GEO (gene omnibus database). In this dataset, you will find the data, metadata, and PID. In the black circle, you will find the data ID which is unique and persistent to the data. For metadata, you will find the administrative metadata in the orange square. You will also find the descriptive metadata in the orange square, as you can see, it describes the author, publication and abstract for the study. For the structural metadata, it is described in the files (orange arrows). Also, you can find the data here (green arrow)
 
 ![Types of metadata](fig/metadata.jpg){alt='alt text'}
-:::
-
-
 
 ::: callout
 ## Resources
@@ -92,7 +89,7 @@ Based on the previous resources, Could you know what will be the appropriate rep
 <p style="text-align: center;"> Provenance </p>
 
 Provenance is the detailed description of the history of the data and how it is generated.
-Here is an example from GEO database where there is accurate description of the data which allow the reusability of microarray data. As you see, there is rich description of the study design, organism, platform and description of data. The user can reuse the data safely as the decryption of the data and metadata allows accurate reusability of the data. Also, attachment to this dataset, there is files that allow machine readability of these metadata that can be read by software packages like R.
+Here is an example from GEO database where there is accurate description of the data which allow the reusability of microarray data. As you see, there is rich description of the study design, organism, platform and description of data. The user can reuse the data safely as the decryption of the data and metadata allows accurate reusability of the data. Also, attachment to this dataset, there are files that allow machine readability of these metadata that can be read by software packages like R.
 
 
 ::: callout
@@ -112,7 +109,7 @@ The metadata and data should be described by vocabularies that comply with FAIR 
 **I** Vocabularies are interoperable
 **R** Can be reused and interpreted easily by humans and machines
 
-
+You can read here in our resources how you can describe your data with FAIR vocabularies and formal language for knowledge representation
 
 ::: callout
 - [FAIR and the notion of metadata](https://faircookbook.elixir-europe.org/content/recipes/introduction/metadata-fair.html)
