@@ -24,10 +24,13 @@ As a researchers you would deal with bigger and larger datasets where metadata c
 
 
 #### what can metadata describe?
+
 metadata can describe data provenance which describes how your data is produced, and it can also describe the characteristics of your data.  
 There are three types of metadata: descriptive, structural, and administrative.  
 
-**Descriptive Metadata** describes the characteristics of the dataset so for instance authors, abstracts, and any relevant publication. **Structural metadata** describes how it is generated, and how it is internally structured. **Administrative metadata** describes who managed the data, collaborators and project funds.  
+- **Descriptive Metadata** describes the characteristics of the dataset so for instance authors, abstracts, and any relevant publication.
+- **Structural metadata** describes how it is generated, and how it is internally structured. 
+- **Administrative metadata** describes who managed the data, collaborators and project funds.  
 
 
 ::: discussion
@@ -35,16 +38,12 @@ There are three types of metadata: descriptive, structural, and administrative.
 let’s see this example on microarray data from a database called GEO (gene omnibus database). In this dataset, you will find the data, metadata, and PID. In the black circle, you will find the data ID which is unique and persistent to the data. For metadata, you will find the administrative metadata in the orange square. You will also find the descriptive metadata in the orange square, as you can see, it describes the author, publication and abstract for the study. For the structural metadata, it is described in the files (orange arrows). Also, you can find the data here (green arrow)
 
 ![Types of metadata](fig/metadata.jpg){alt='alt text'}
-
-
-5- To define why to keep metadata available even after loss of the data
-
 :::
+
 
 
 ::: callout
 ## Resources
-
 - [Introduction to metadata](https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html)
 - [Data in Excel](https://carpentries-incubator.github.io/fair-bio-practice/07-data-in-excel/index.html)
 - [Metadata profiles](https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-minimal-metadata-profiles.html)
@@ -78,13 +77,11 @@ Here we give you examples of different community standards where you can check t
 - RDMkit resources on [community standards](https://rdmkit.elixir-europe.org/your_domain), you will find resources for different research fields
 - [Domain specific repositories](https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html)
 - [How do we choose a research data repository?](https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html)
-=======
 - [FAIRcookbook](https://faircookbook.elixir-europe.org/content/recipes/findability/identifiers.html)
 - [RDMKit](https://rdmkit.elixir-europe.org/identifiers.html)
 - [Data stewardship wizard](https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=d21fdb06-22bf-418e-aa40-dc5ef1485f56)
 - McMurry, Julie A et al. “Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data.” PLoS biology vol. 15,6 e2001414. 29 Jun. 2017, [doi:10.1371/journal.pbio.200141](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878/)
 - [Machine actionability](https://rdmkit.elixir-europe.org/machine_actionability)
->>>>>>> 7b0ada98f36f1f0774563a3511a20417f9f10460
 :::
 
 ::: challenge
@@ -129,12 +126,11 @@ The metadata and data should be described by vocabularies that comply with FAIR 
 
 As a result, over the time, many datasets are lost. Metadata is small and can be easily maintained not only on the database but personal computer of researchers. This also the case for sensitive data where the metadata are available and provides contact details of the researchers, how to get the data and data provenance
 
-
 ::: callout
 - [Interlinking data from different sources](https://faircookbook.elixir-europe.org/content/recipes/interoperability/identifier-mapping.html#references)
 :::
 
-Usually, when the data is generated, both metadata and data files are separate files. As a researcher, you should ensure that both files refer to each other. Some tools can help you to do so. An example is a FAIRFier tool which helps you.
+Usually, when the data is generated, both metadata and data files are separate files. As a researcher, you should ensure that both files refer to each other.
 
 ::::::::::: challenge
 - From the previous resources, Can you extract data provenance from this data set [E-MTAB-7933](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)? 
