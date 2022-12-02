@@ -23,6 +23,17 @@ exercises: 2
 
 (A1)   	(meta)data are retrievable by their identifier using a standardised communications protocol
 
+**protocol** is a method that connects two computers, the protocol ensure security, authenticity of your data. Once the safety and authenticity of the data is verified, the transfer of data to another computer happens.
+
+Having a protocol does not guarantee that your data are accessible. The protocol should be free and open and allow easy and exchange of information. 
+
+When you upload your data into database, the database executes protocol that allows the user to  load data in the user’s web browser. This protocol allows the easy access of the data but still secures the data. 
+
+::: discussion
+## Authentication process
+It is the process that a protocol uses for verification. To know what authentication is: suppose we have three people named John Smith. We do not know which one submitted the data. This is through assigning a unique ID for each one that is interpreted by machines and humans so you would know who is the actual person that submitted the data. Doing so is a form of authentication. This is used by many databases like Zenodo, where you can sign-up using ORCID-ID allowing the database to identify you.
+:::
+
 ::: callout
 ## Resources
 - [SSH protocols](https://faircookbook.elixir-europe.org/content/recipes/accessibility/sftp.html)
@@ -39,6 +50,9 @@ After reading this guide on different [protocol types](https://rdmkit.elixir-eur
 
 (R1.1)	meta(data) are released with a clear and accessible data usage licence
 
+This describes the legal rights on how others use your data. As you publish your data, you should describe clearly the licence of your data. Bear in mind that description of licence is important to allow machine and human reusability of your data. There are many licence that can be used e.g. MIT licence or Common creative licence. These licences provide accurate description of the rights of data reuse, Please have a look at resources in the description box to know more about these licences. 
+
+![Creative commons licences (photo credit: foter)](fig/cc.jpg){alt='alt text'}
 
 ::: callout
 ## Resources
@@ -60,6 +74,10 @@ After reading this guide on different [protocol types](https://rdmkit.elixir-eur
 ::: 
 
 <p style="text-align: center;"> Sensitive data </p>
+
+Sensitive data are data that, if made publicly available, could cause consequences for individuals, groups, nations, or ecosystems and need to be secured from unauthorised access. To know if your data is sensitive or not, you should check national laws bearing in mind that it differ between countries.
+
+Through the following resources, you will know more about sensitive data and what to do if your data is  sensitive
 
 ::: callout
 ## Resources
