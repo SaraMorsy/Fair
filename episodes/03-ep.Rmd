@@ -15,7 +15,6 @@ exercises: 2
 4- To give examples of the structure of persistent identifiers
 
 5- To define why to keep metadata available even after loss of the data
-
 :::
 
 
@@ -29,7 +28,7 @@ That resource might be a publication, dataset, or person.   Persistent The ident
 Watch our RDMbBites on the persistent identifiers to understand more.   
 
 **It is important to note that when you upload your data to a public repository, the repository will create this ID for you automatically.**
-
+The following resources provide an overview of the information you would like to know about identifiers
 
 ::: callout
 ## Resources
@@ -39,7 +38,6 @@ Watch our RDMbBites on the persistent identifiers to understand more.
 - [Data stewardship wizard](https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=d21fdb06-22bf-418e-aa40-dc5ef1485f56)
 - McMurry, Julie A et al. “Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data.” PLoS biology vol. 15,6 e2001414. 29 Jun. 2017, [doi:10.1371/journal.pbio.200141](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878/)
 - [Machine actionability](https://rdmkit.elixir-europe.org/machine_actionability)
-
 :::
 
 ::: challenge
