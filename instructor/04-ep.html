@@ -85,11 +85,11 @@
   FAIR on demand
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 67%" class="percentage">
-    67%
+<aside class="col-md-12 lesson-progress"><div style="width: 50%" class="percentage">
+    50%
   </div>
   <div class="progress data">
-    <div class="progress-bar data" role="progressbar" style="width: 67%" aria-valuenow="67" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar data" role="progressbar" style="width: 50%" aria-valuenow="50" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -144,7 +144,7 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="02-ep.html">1. Identifiers</a>
+        <a href="02-ep.html">1. Metadata</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -153,7 +153,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="03-ep.html">2. Metadata</a>
+        <a href="03-ep.html">2. Identifiers</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -227,12 +227,12 @@
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link" href="../instructor/03-ep.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous: Metadata</a>
+        <a class="chapter-link" href="../instructor/03-ep.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous: Identifiers</a>
         <a class="chapter-link float-end" href="../instructor/05-ep.html" rel="next">Next: Registration... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Access</h1>
-        <p> Last updated on 2022-11-29 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/04-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <p> Last updated on 2022-12-06 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/04-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 12 minutes </p>
         
         <div class="text-end">
@@ -261,6 +261,21 @@
 Standard communication protocol
 </p>
 <p>(A1) (meta)data are retrievable by their identifier using a standardised communications protocol</p>
+<p><strong>protocol</strong> is a method that connects two computers, the protocol ensure security, authenticity of your data. Once the safety and authenticity of the data is verified, the transfer of data to another computer happens.</p>
+<p>Having a protocol does not guarantee that your data are accessible. The protocol should be free and open and allow easy and exchange of information.</p>
+<p>When you upload your data into database, the database executes protocol that allows the user to load data in the user’s web browser. This protocol allows the easy access of the data but still secures the data.</p>
+<div id="discussion1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="authentication-process" class="callout-inner">
+<h3 class="callout-title">Authentication process<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+</h3>
+<div class="callout-content">
+<p>It is the process that a protocol uses for verification. To know what authentication is, suppose we have three people named John Smith. We do not know which one submitted the data. This is through assigning a unique ID for each one that is interpreted by machines and humans so you would know who is the actual person that submitted the data. Doing so is a form of authentication. This is used by many databases like Zenodo, where you can sign-up using ORCID-ID allowing the database to identify you.</p>
+</div>
+</div>
+</div>
 <div id="callout2" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -274,12 +289,12 @@ Standard communication protocol
 </ul></div>
 </div>
 </div>
-<div id="discussion1" class="callout discussion">
+<div id="discussion2" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion2"></a>
 </h3>
 <div class="callout-content">
 <p>After reading this guide on different <a href="https://rdmkit.elixir-europe.org/data_transfer.html#how-do-you-transfer-large-data-files" class="external-link">protocol types</a>, give an example on one of databases that uses one of these protocols?</p>
@@ -290,7 +305,8 @@ Standard communication protocol
 Data usage licence
 </p>
 <p>(R1.1) meta(data) are released with a clear and accessible data usage licence</p>
-<div id="callout3" class="callout callout">
+<p>This describes the legal rights on how others use your data. As you publish your data, you should describe clearly the licence of your data. Bear in mind that description of licence is important to allow machine and human reusability of your data. There are many licence that can be used e.g. MIT licence or Common creative licence. These licences provide accurate description of the rights of data reuse, Please have a look at resources in the description box to know more about these licences.</p>
+<figure><img src="../fig/cc.jpg" alt="alt text" class="figure mx-auto d-block"><figcaption>Creative commons licences (photo credit: foter)</figcaption></figure><div id="callout3" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
@@ -312,12 +328,12 @@ Data usage licence
 </ul></div>
 </div>
 </div>
-<div id="discussion2" class="callout discussion">
+<div id="discussion3" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="exercise-1" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion3"></a>
 </h3>
 <div class="callout-content">
 <ul><li>From the previous resources that we provided, what is the licence used by the following datasets: 1- <a href="https://zenodo.org/record/7368547#.Y4TjT3bP02w" class="external-link">Zenodo</a>
@@ -329,6 +345,8 @@ Data usage licence
 <p style="text-align: center;">
 Sensitive data
 </p>
+<p>Sensitive data are data that, if made publicly available, could cause consequences for individuals, groups, nations, or ecosystems and need to be secured from unauthorised access. To know if your data is sensitive or not, you should check national laws bearing in mind that it differ between countries.</p>
+<p>Through the following resources, you will know more about sensitive data and what to do if your data is sensitive</p>
 <div id="callout4" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -357,7 +375,7 @@ any links that you are not going to use.
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link" href="../instructor/03-ep.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous: Metadata</a>
+        <a class="chapter-link" href="../instructor/03-ep.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous: Identifiers</a>
         <a class="chapter-link float-end" href="../instructor/05-ep.html" rel="next">Next: Registration... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
     </nav></div> <!-- / div.primary-content.col-xs-12 -->
@@ -374,7 +392,7 @@ any links that you are not going to use.
         <p>Materials licensed under <a href="../LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.10.8" class="external-link">sandpaper (0.10.8)</a>,
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.11.1" class="external-link">sandpaper (0.11.1)</a>,
         <a href="https://github.com/carpentries/pegboard/tree/0.3.2" class="external-link">pegboard (0.3.2)</a>,
       and <a href="https://github.com/SaraMorsy/varnish/tree/a813f61a6abace9260a43dd3bb38d1b0d58d8a27" class="external-link">varnish (0.2.4)</a>.</p>
 			</div>
@@ -396,9 +414,9 @@ any links that you are not going to use.
   "creativeWorkStatus": "active",
   "url": "https://SaraMorsy.github.io/FAIR/instructor/04-ep.html",
   "identifier": "https://SaraMorsy.github.io/FAIR/instructor/04-ep.html",
-  "dateCreated": "2022-11-28",
-  "dateModified": "2022-11-29",
-  "datePublished": "2022-11-29"
+  "dateCreated": "2022-12-02",
+  "dateModified": "2022-12-06",
+  "datePublished": "2022-12-06"
 }
 
   </script><script>
