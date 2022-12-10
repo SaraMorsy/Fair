@@ -34,11 +34,11 @@ The following resources provide an overview of the information you would like to
 ::: callout
 ## Resources
 
-- This link provide a nice and practical explanation of the unique and persistent identifiers from FAIRCookbook [Unique and persistent identifiers](https://faircookbook.elixir-europe.org/content/recipes/findability/identifiers.html)
+- [Unique and persistent identifiers](https://faircookbook.elixir-europe.org/content/recipes/findability/identifiers.html): this link provide a nice and practical explanation of the unique and persistent identifiers from FAIRCookbook 
 
-- Another nice explanation from RDMkit[Identifiers](https://rdmkit.elixir-europe.org/identifiers.html)
+- [Identifiers](https://rdmkit.elixir-europe.org/identifiers.html): another nice explanation from RDMkit
 
-- Identifiers are also important for machine readability, a nice page from RDMkit that describe machine readability[Machine actionability](https://rdmkit.elixir-europe.org/machine_actionability)
+- [Machine actionability](https://rdmkit.elixir-europe.org/machine_actionability): identifiers are also important for machine readability, a nice page from RDMkit that describe machine readability
 :::
 
 ::: challenge
