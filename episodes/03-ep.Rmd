@@ -17,10 +17,11 @@ exercises: 2
 5- To define why to keep metadata available even after loss of the data
 :::
 
-
 ### Persistent identifiers
+Identifiers are very important concept of the FAIR principle. Identifiers are considered one of the pillars for the FAIR principles. It makes your data more **Findable (F)**
 
-**(F1)** (Meta)data are assigned a globally unique and persistent identifier
+Let's start with the first principle of FAIR
+**(F1) (Meta)data are assigned a globally unique and persistent identifier **
 
 Identifiers are a long-lasting references to a digital resources such as datasets and provides the information required to reliably identify, verify and locate your research data. Commonly, a persistent identifier is a unique record ID in a database, or unique URL that takes a researcher to the data in question, in a database.
  
@@ -33,17 +34,18 @@ The following resources provide an overview of the information you would like to
 ::: callout
 ## Resources
 
-- [FAIRcookbook](https://faircookbook.elixir-europe.org/content/recipes/findability/identifiers.html)
-- [RDMKit](https://rdmkit.elixir-europe.org/identifiers.html)
-- [Data stewardship wizard](https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=d21fdb06-22bf-418e-aa40-dc5ef1485f56)
-- McMurry, Julie A et al. “Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data.” PLoS biology vol. 15,6 e2001414. 29 Jun. 2017, [doi:10.1371/journal.pbio.200141](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878/)
-- [Machine actionability](https://rdmkit.elixir-europe.org/machine_actionability)
+- This link provide a nice and practical explanation of the unique and persistent identifiers from FAIRCookbook [Unique and persistent identifiers](https://faircookbook.elixir-europe.org/content/recipes/findability/identifiers.html)
+
+- Another nice explanation from RDMkit[Identifiers](https://rdmkit.elixir-europe.org/identifiers.html)
+
+- Identifiers are also important for machine readability, a nice page from RDMkit that describe machine readability[Machine actionability](https://rdmkit.elixir-europe.org/machine_actionability)
 :::
 
 ::: challenge
 ## Exercise
-- From the following resources, Can you give example of persistent identifiers that fulfill the criteria of being globally unique and persistent?
-- What is minting identifiers? #(I want to remove this)
-- [Using Datastewardship wizard](https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=d21fdb06-22bf-418e-aa40-dc5ef1485f56), Can you identify the main points you can use to describe this dataset [E-MTAB-7933](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)?
+- From the previous resources, Can you give example of persistent identifiers that fulfill the criteria of being globally unique and persistent?
+- What is minting identifiers? # (I want to remove this)
+- [Using Datastewardship wizard](https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=d21fdb06-22bf-418e-aa40-dc5ef1485f56), Can you identify the key points that could be used to describe this dataset? [E-MTAB-7933](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)?
 :::
+
 
