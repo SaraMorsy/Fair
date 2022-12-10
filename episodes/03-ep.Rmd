@@ -29,7 +29,7 @@ That resource might be a publication, dataset, or person.   Persistent The ident
 Watch our RDMbBites on the persistent identifiers to understand more.   
 
 **It is important to note that when you upload your data to a public repository, the repository will create this ID for you automatically.**
-The following resources provide an overview of the information you would like to know about identifiers
+The resources listed below provide an overview of the information you need to know about identifiers.
 
 ::: callout
 ## Resources
