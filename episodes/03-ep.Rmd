@@ -26,8 +26,9 @@ Watch our RDMbBites on the persistent identifiers to understand more.
 
 Identifiers are very important concept of the FAIR principle. Identifiers are considered one of the pillars for the FAIR principles. It makes your data more **Findable (F)**
 
-Let's start with the first principle of FAIR
+Identifiers are important for the first F in FAIR
 **(F1) (Meta)data are assigned a globally unique and persistent identifier **
+
 **It is important to note that when you upload your data to a public repository, the repository will create this ID for you automatically.**
 The resources listed below provide an overview of the information you need to know about identifiers.
 
