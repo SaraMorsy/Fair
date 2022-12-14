@@ -277,7 +277,7 @@
         
 <section id="aio-02-ep"><p>Content from <a href="02-ep.html">Metadata</a></p>
 <hr>
-<p> Last updated on 2022-12-13 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/02-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p> Last updated on 2022-12-14 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/02-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 12 minutes </p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
@@ -301,10 +301,10 @@
 <section id="meta-data"><h2 class="section-heading">Meta-data<a class="anchor" aria-label="anchor" href="#meta-data"></a>
 </h2>
 <hr class="half-width">
-<p>Metadata is the descriptions of your data. In a simple words, if we had a data file such as an Excel spreadsheet containing data values for an assay, column headings are used to assign meaning and context. Here the data itself are the data values, and the metadata are the column headings</p>
+<p>Metadata is the descriptions of your data. In a simple words, if we had a data file such as an Excel spreadsheet containing data values for an assay, column headings are used to assign meaning and context. Here the data itself are the data values, and the metadata are the column headings. Any documentation or explanation of the excel file that accompanies it, is likewise considered metadata.</p>
 <p>As a researchers you would deal with bigger and larger datasets where metadata can also relate to provenance and include a description of the assay or the person performing the data. So, the more metadata that is given, the more context is supplied to someone reusing a data set.</p>
 <div class="section level4">
-<h4 id="what-can-metadata-describe">what can metadata describe?<a class="anchor" aria-label="anchor" href="#what-can-metadata-describe"></a>
+<h4 id="what-else-would-metadata-reveal">What else would metadata reveal?<a class="anchor" aria-label="anchor" href="#what-else-would-metadata-reveal"></a>
 </h4>
 <p>Metadata can describe a variety of things, including your data’s characteristics and data provenance, which explains how your data was created. There are three types of metadata: descriptive, structural, and administrative.</p>
 <ul>
@@ -323,7 +323,7 @@
 <h3 class="callout-title">Identify types of metadata in this microarray dataset<a class="anchor" aria-label="anchor" href="#discussion1"></a>
 </h3>
 <div class="callout-content">
-<p>let’s see this example on microarray data from a database called GEO (gene omnibus database). In this dataset, you will find the data, metadata, and PID. In the black circle, you will find the data ID which is unique and persistent to the data. For metadata, you will find the administrative metadata in the orange square. You will also find the descriptive metadata in the orange square, as you can see, it describes the author, publication and abstract for the study. For the structural metadata, it is described in the files (orange arrows). Also, you can find the data here (green arrow)</p>
+<p>let’s see this example on microarray data from a database called gene omnibus database (GEO). In this dataset, you will find the data, metadata, and persistent identifier (PID). In the black circle, you will find the data identifier (ID) which is unique and persistent to the data. For metadata, you will find the administrative metadata in the orange square. You will also find the descriptive metadata in the orange square, as you can see, it describes the author, publication and abstract for the study. For the structural metadata, it is described in the files (orange arrows). Also, you can find the data here (green arrow)</p>
 <figure><img src="../fig/metadata.jpg" alt="alt text" class="figure mx-auto d-block"><figcaption>Types of metadata</figcaption></figure>
 </div>
 </div>
@@ -364,8 +364,8 @@
 <p style="text-align: center;">
 Metadata and data are always available
 </p>
-<p><strong>(A2)</strong> Metadata are accessible, even when the data are no longer available</p>
-<p>The maintenance of the data sets in the public database comes at a cost. his can be avoided by maintenance of the metadata instead. As a result, over the time, many data sets are lost. Metadata is small and can be easily maintained not only on the database but personal computer of researchers. This also the case for sensitive data where the metadata are available and provides contact details of the researchers, how to get the data and data provenance</p>
+<p><strong>(A2) Metadata are accessible, even when the data are no longer available</strong></p>
+<p>The maintenance of the data sets in the public database comes at a cost. This can be avoided by maintenance of the metadata instead. Metadata is small and can be easily maintained not only on the database but personal computer of researchers. This also the case for sensitive data where the metadata are available and provides contact details of the researchers, how to get the data and data provenance</p>
 <div id="discussion3" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
@@ -375,7 +375,7 @@ Metadata and data are always available
 </h3>
 <div class="callout-content">
 <ul>
-<li>From the previous resources, you should have an idea on metadata, would you give an example of metadata without data?</li>
+<li>After reading previous resources, you should have an idea on metadata, would you give an example of metadata without data?</li>
 </ul>
 </div>
 </div>
@@ -383,7 +383,7 @@ Metadata and data are always available
 <p style="text-align: center;">
 Data and metadata should follow Community standards
 </p>
-<p>When you describe your data, make sure you follow the guidelines of the community standards. This is important as your data is more reliable to use. If you decide to use different standard, make sure you explain this in clear documentation. Use of the community standards will not only allow reusability of your data but it will be easily interoperable across different platforms. Here we give you examples of different community standards where you can check to describe your data using the appropriate descriptors. More resources are available <a href="https://rdmkit.elixir-europe.org/your_domain" class="external-link">here</a></p>
+<p>Each data type has its own community that creates criteria to ensure that metadata and data are described appropriately. When describing your data, make sure to adhere to the community standards. This is critical as your data becomes more trustworthy. If you decide to utilise other criteria, make sure you document this clearly. The use of community standards will not only allow your data to be reused, but it will also be easily interoperable across multiple platforms. We provide samples of various community standards that you may use to ensure that your data is described using the right descriptors. RDMkit provides a nice domain specific-training <a href="https://rdmkit.elixir-europe.org/your_domain" class="external-link">here</a></p>
 <div id="callout3" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -393,10 +393,10 @@ Data and metadata should follow Community standards
 </h3>
 <div class="callout-content">
 <ul>
-<li>RDMkit resources on <a href="https://rdmkit.elixir-europe.org/your_domain" class="external-link">community standards</a>, you will find resources for different research fields</li>
 <li>
 <a href="https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html" class="external-link">Domain specific repositories</a>: It is a nice course on types of repositories and give examples on domain specific repositories</li>
-<li><a href="https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html" class="external-link">How do we choose a research data repository?</a></li>
+<li>ED-DaSH lesson on how to choose a data repository<a href="https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html" class="external-link">How do we choose a research data repository?</a>
+</li>
 </ul>
 </div>
 </div>
@@ -409,15 +409,14 @@ Data and metadata should follow Community standards
 <h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion4"></a>
 </h3>
 <div class="callout-content">
-<p>Based on the previous resources, Could you know what will be the appropriate repository for bioimaging data?</p>
+<p>In the light of previous resources, Could you know what will be the appropriate storage for bioimaging data?</p>
 </div>
 </div>
 </div>
 <p style="text-align: center;">
 Provenance
 </p>
-<p>Provenance is the detailed description of the history of the data and how it is generated. Here is an example from GEO database where there is accurate description of the data which allow the reusability of microarray data. As you see, there is rich description of the study design, organism, platform and description of data. The user can reuse the data safely as the decryption of the data and metadata allows accurate reusability of the data. Also, attachment to this dataset, there are files that allow machine readability of these metadata that can be read by software packages like R.</p>
-<div id="callout4" class="callout callout">
+<figure><strong>Provenance</strong> is the detailed description of the history of the data and how it is generated. Here is an example from GEO database where there is accurate description of the data which allow the reusability of microarray data. As you see, there is rich description of the study design, organism, platform and description of data. The user can reuse the data safely as the decryption of the data and metadata allows accurate reusability of the data. Also, attachment to this dataset, there are files that allow machine readability of these metadata that can be read by software packages like R. <img src="../fig/provenance.png" alt="alt text" class="figure mx-auto d-block"></figure><div id="callout4" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
@@ -438,8 +437,7 @@ Provenance
 Vocabularies are FAIR
 </p>
 <p>(I2) (meta)data use vocabularies that follow FAIR principles (I1) (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation</p>
-<p>The metadata and data should be described by vocabularies that comply with FAIR which means <strong>F</strong> globally unique and persistent identifiers<br><strong>A</strong> accessible documentation that extensively describes your identifiers <strong>I</strong> Vocabularies are interoperable <strong>R</strong> Can be reused and interpreted easily by humans and machines</p>
-<p>You can read here in our resources how you can describe your data with FAIR vocabularies and formal language for knowledge representation</p>
+<p>The metadata and data should be described by vocabularies that comply with FAIR which means that metadata and data should be: <strong>F</strong> globally unique and persistent identifiers<br><strong>A</strong> accessible documentation that extensively describes your identifiers <strong>I</strong> Vocabularies are interoperable <strong>R</strong> Can be reused and interpreted easily by humans and machines</p>
 <div id="callout5" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -456,7 +454,7 @@ Vocabularies are FAIR
 Linked metadata
 </p>
 <p>(I3) (meta)data include qualified references to other (meta)data</p>
-<p>As a result, over the time, many datasets are lost. Metadata is small and can be easily maintained not only on the database but personal computer of researchers. This also the case for sensitive data where the metadata are available and provides contact details of the researchers, how to get the data and data provenance</p>
+<p>When uploading your dataset to any database, you should include the following information: 1- Additional datasets that supplement your data 2- It should be stated if your dataset is built on another dataset.</p>
 <div id="callout6" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -466,7 +464,8 @@ Linked metadata
 </h3>
 <div class="callout-content">
 <ul>
-<li><a href="https://faircookbook.elixir-europe.org/content/recipes/interoperability/identifier-mapping.html#references" class="external-link">Interlinking data from different sources</a></li>
+<li>A recipe from the FAIRcookbook on how to <a href="https://faircookbook.elixir-europe.org/content/recipes/interoperability/identifier-mapping.html#references" class="external-link">Interlink data from different sources</a>
+</li>
 </ul>
 </div>
 </div>
@@ -493,7 +492,7 @@ any links that you are not going to use.
 </div>
 </section></section><section id="aio-03-ep"><p>Content from <a href="03-ep.html">Identifiers</a></p>
 <hr>
-<p> Last updated on 2022-12-13 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/03-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p> Last updated on 2022-12-14 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/03-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 12 minutes </p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
@@ -561,7 +560,7 @@ any links that you are not going to use.
  -->
 </div></section><section id="aio-04-ep"><p>Content from <a href="04-ep.html">Access</a></p>
 <hr>
-<p> Last updated on 2022-12-13 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/04-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p> Last updated on 2022-12-14 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/04-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 12 minutes </p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
@@ -681,7 +680,7 @@ Sensitive data
 </div>
 </div></section><section id="aio-05-ep"><p>Content from <a href="05-ep.html">Registration</a></p>
 <hr>
-<p> Last updated on 2022-12-13 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/05-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p> Last updated on 2022-12-14 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/05-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 12 minutes </p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
@@ -772,9 +771,9 @@ Indexed data repository
   "creativeWorkStatus": "active",
   "url": "https://SaraMorsy.github.io/FAIR/instructor/aio.html",
   "identifier": "https://SaraMorsy.github.io/FAIR/instructor/aio.html",
-  "dateCreated": "2022-12-13",
-  "dateModified": "2022-12-13",
-  "datePublished": "2022-12-13"
+  "dateCreated": "2022-12-14",
+  "dateModified": "2022-12-14",
+  "datePublished": "2022-12-14"
 }
 
   </script><script>
