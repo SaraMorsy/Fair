@@ -17,7 +17,8 @@ exercises: 2
 
 **(F4)** (meta)data are registered or indexed in a searchable resource
 
-If your data contains persistent and unique identifiers, they are insufficient to ensure data findability without a public platform where your data can be investigated, which is why F4 is so vital. There are numerous databases where you can upload your data. These are typically data-driven. Examples of these databases are Arrayexpress for microarray data and RNAseq data, Zinc database for the chemical molecules. These databases have set of rules in place to make sure that your data will be FAIR.
+To ensure data findability, your data should be uploaded to a public repository where your data can be searched and found, which is why F4 is so vital. There are numerous databases where you can upload your data, these are typically data-driven. 
+Examples of these databases are **Arrayexpress** for microarray data and RNAseq data, **Zinc database** for the chemical molecules. These databases have set of rules in place to make sure that your data will be FAIR.
 
 After you upload your data into this database, they are assigned an ID and are indexed in the database. So whenever you look for the ID, or even use a keyword for your data, you will find your data.
 
@@ -27,11 +28,11 @@ Our resources provide an overview of data repositories and examples.
 ::: callout
 ## Resources
 The FAIR cookbook and RDMkit both provide excellent instructions for depositing data into your databases:
-- [Depositing to generic repositories- Zenodo use](https://faircookbook.elixir-europe.org/content/recipes/findability/zenodo-deposition.html)
-- [Registering Datasets in Wikidata](https://faircookbook.elixir-europe.org/content/recipes/findability/registeringDatasets.html)
-- [Data publications and depostion](https://rdmkit.elixir-europe.org/data_publication)
-- [Finding and reusing existing data](https://rdmkit.elixir-europe.org/existing_data)
-- [Search engine optimization](https://faircookbook.elixir-europe.org/content/recipes/findability/seo.html)
+- FAIRcookbook recipe on [Depositing to generic repositories- Zenodo use](https://faircookbook.elixir-europe.org/content/recipes/findability/zenodo-deposition.html)
+- FAIRcookbook recipe on [Registering Datasets in Wikidata](https://faircookbook.elixir-europe.org/content/recipes/findability/registeringDatasets.html)
+- RDMkit guidelines on [Data publications and depostion](https://rdmkit.elixir-europe.org/data_publication)
+- RDMkit guidelines on [Finding and reusing existing data](https://rdmkit.elixir-europe.org/existing_data)
+- FAIRcookbook recipe on[Search engine optimization](https://faircookbook.elixir-europe.org/content/recipes/findability/seo.html)
 :::
 
 ::: challenge
