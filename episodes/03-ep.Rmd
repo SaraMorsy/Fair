@@ -39,6 +39,8 @@ The resources listed below provide an overview of the information you need to kn
 - [Identifiers](https://rdmkit.elixir-europe.org/identifiers.html): another nice explanation from RDMkit
 
 - [Machine actionability](https://rdmkit.elixir-europe.org/machine_actionability): identifiers are also important for machine readability, a nice page from RDMkit that describe machine readability
+
+- Examples and explanation of different identifiers from FAIRsharing.org https://fairsharing.org/search?recordType=identifier_schema
 :::
 
 ::: challenge
