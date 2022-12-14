@@ -47,7 +47,7 @@ let’s see this example on microarray data from a database called gene omnibus 
 - After reading the guide on [types to metadata](https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html), Can you determine what are the types of metadata in this dataset [E-MTAB-7933](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)?
 ::::::::::::::::::::::::::::::::::::::
 
-<p style="text-align: center;"> Metadata and data are always available </p>
+### Metadata and data are always available
 
 **(A2) Metadata are accessible, even when the data are no longer available**
 
@@ -58,8 +58,7 @@ The maintenance of the data sets in the public database comes at a cost. This ca
 - After reading previous resources, you should have an idea on metadata, would you give an example of metadata without data?
 :::::::::::::::::
 
-<p style="text-align: center;"> Data and metadata should follow Community standards </p>
-
+### Data and metadata should follow Community standards
 Each data type has its own community that creates criteria to ensure that metadata and data are described appropriately. When describing your data, make sure to adhere to the community standards. This is critical as your data becomes more trustworthy. If you decide to utilise other criteria, make sure you document this clearly. The use of community standards will not only allow your data to be reused, but it will also be easily interoperable across multiple platforms.
 We provide samples of various community standards that you may use to ensure that your data is described using the right descriptors. 
 RDMkit provides a nice domain specific-training [here](https://rdmkit.elixir-europe.org/your_domain) 
@@ -78,7 +77,7 @@ RDMkit provides a nice domain specific-training [here](https://rdmkit.elixir-eur
 In the light of previous resources, Could you know what will be the appropriate storage for bioimaging data?
 :::
 
-<p style="text-align: center;"> Provenance </p>
+### Provenance
 
 **Provenance** is the detailed description of the history of the data and how it is generated.
 Here is an example from GEO database where there is accurate description of the data which allow the reusability of microarray data. As you see, there is rich description of the study design, organism, platform and description of data. The user can reuse the data safely as the decryption of the data and metadata allows accurate reusability of the data. Also, attachment to this dataset, there are files that allow machine readability of these metadata that can be read by software packages like R.
@@ -89,7 +88,7 @@ Here is an example from GEO database where there is accurate description of the 
 - FAIRcookbook recipe on [Audit of the provenence process](https://faircookbook.elixir-europe.org/content/recipes/reusability/provenance.html)
 ::: 
 
-<p style="text-align: center;"> Vocabularies are FAIR </p>
+### Vocabularies are FAIR
 (I2)  (meta)data use vocabularies that follow FAIR principles
 (I1)  (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 
@@ -110,7 +109,7 @@ You can learn more about how to describe your data using FAIR vocabularies and f
 - [List of ontologies](https://obofoundry.org/)
 :::
 
-<p style="text-align: center;"> Linked metadata </p>
+### Linked metadata
 (I3)  (meta)data include qualified references to other (meta)data
 
 When uploading your dataset to any database, you should include the following information:
