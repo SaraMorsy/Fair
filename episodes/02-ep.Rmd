@@ -36,9 +36,9 @@ let’s see this example on microarray data from a database called gene omnibus 
 
 ::: callout
 ## Resources
-- [Introduction to metadata](https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html): It is a nice introduction to metadata from Ed-DaSH carpentries course
-- [Metadata profiles](https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-minimal-metadata-profiles.html): A nice recipe from the FAIRCookbook on how to create metadata profiles
-- [Metadata management](https://rdmkit.elixir-europe.org/metadata_management.html): RDMkit on how to manage metadata
+- This is a nice introduction to metadata from Ed-DaSH carpentries course [Introduction to metadata](https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html) 
+- The following recipe from the FAIRCookbook provides instructions on how to create metadata profiles[Metadata profiles](https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-minimal-metadata-profiles.html): 
+- RDMkit explanation on how to manage metadata: [Metadata management](https://rdmkit.elixir-europe.org/metadata_management.html)
 :::
 
 :::::::::::::::::::::::::::::: challenge
@@ -64,8 +64,8 @@ RDMkit provides a nice domain specific-training [here](https://rdmkit.elixir-eur
 ::: callout
 ## Resources
 
-- [Domain specific repositories](https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html): It is a nice course on types of repositories and give examples on domain specific repositories
-- ED-DaSH lesson on how to choose a data repository[How do we choose a research data repository?](https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html)
+- [Domain specific repositories](https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html): This is a lesson on types of repositories and give examples on domain specific repositories
+- ED-DaSH lesson on how to choose a data repository [How do we choose a research data repository?](https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html)
 - FAIRsharing provided a great information on writing domain specific metadata, you can find it [here](https://fairsharing.org/searchfairsharingRegistry=Standard&subjects=life%2520science&page=1)
 - 
 :::
