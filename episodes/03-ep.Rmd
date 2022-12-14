@@ -18,16 +18,16 @@ exercises: 2
 :::
 
 ### Persistent identifiers
+
+Identifiers are a long-lasting references to a digital resources such as datasets and provides the information required to reliably identify, verify and locate your research data. Commonly, a persistent identifier is a unique record ID in a database, or unique URL that takes a researcher to the data in question, in a database.
+
+That resource might be a publication, dataset, or person.   Persistent The identifiers have to be unique, globally only your data are identified by this ID that is never used by anyone in the whole world. In addition, these IDs and must not do not become invalid over time.
+Watch our RDMbBites on the persistent identifiers to understand more.   
+
 Identifiers are very important concept of the FAIR principle. Identifiers are considered one of the pillars for the FAIR principles. It makes your data more **Findable (F)**
 
 Let's start with the first principle of FAIR
 **(F1) (Meta)data are assigned a globally unique and persistent identifier **
-
-Identifiers are a long-lasting references to a digital resources such as datasets and provides the information required to reliably identify, verify and locate your research data. Commonly, a persistent identifier is a unique record ID in a database, or unique URL that takes a researcher to the data in question, in a database.
- 
-That resource might be a publication, dataset, or person.   Persistent The identifiers have to be unique, globally only your data are identified by this ID that is never used by anyone in the whole world. In addition, these IDs and must not do not become invalid over time.
-Watch our RDMbBites on the persistent identifiers to understand more.   
-
 **It is important to note that when you upload your data to a public repository, the repository will create this ID for you automatically.**
 The resources listed below provide an overview of the information you need to know about identifiers.
 
@@ -44,7 +44,7 @@ The resources listed below provide an overview of the information you need to kn
 ::: challenge
 ## Exercise
 - From the previous resources, Can you give example of persistent identifiers that fulfill the criteria of being globally unique and persistent?
-- What is minting identifiers? # (I want to remove this)
+- What is minting identifiers?
 - [Using Datastewardship wizard](https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=d21fdb06-22bf-418e-aa40-dc5ef1485f56), Can you identify the key points that could be used to describe this dataset? [E-MTAB-7933](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)?
 :::
 
