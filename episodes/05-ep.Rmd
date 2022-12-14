@@ -27,12 +27,13 @@ Our resources provide an overview of data repositories and examples.
 
 ::: callout
 ## Resources
-The FAIR cookbook and RDMkit both provide excellent instructions for depositing data into your databases:
+The FAIR cookbook and RDMkit both provide excellent instructions for uploading data into your databases:
 - FAIRcookbook recipe on [Depositing to generic repositories- Zenodo use](https://faircookbook.elixir-europe.org/content/recipes/findability/zenodo-deposition.html)
 - FAIRcookbook recipe on [Registering Datasets in Wikidata](https://faircookbook.elixir-europe.org/content/recipes/findability/registeringDatasets.html)
 - RDMkit guidelines on [Data publications and depostion](https://rdmkit.elixir-europe.org/data_publication)
 - RDMkit guidelines on [Finding and reusing existing data](https://rdmkit.elixir-europe.org/existing_data)
 - FAIRcookbook recipe on[Search engine optimization](https://faircookbook.elixir-europe.org/content/recipes/findability/seo.html)
+- FAIRsharing offers a nice portal to different [examples of databases](https://fairsharing.org/search?fairsharingRegistry=Database&subjects=life%2520science&page=1)
 :::
 
 ::: challenge
