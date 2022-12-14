@@ -20,10 +20,8 @@ exercises: 2
 
 Metadata is the descriptions of your data.  In a simple words, if we had a data file such as an Excel spreadsheet containing data values for an assay, column headings are used to assign meaning and context.  Here the data itself are the data values, and the metadata are the column headings. Any documentation or explanation of the excel file that accompanies it, is likewise considered metadata.
 
-As a researchers you would deal with bigger and larger datasets where metadata can also relate to provenance and include a description of the assay or the person performing the data.  So, the more metadata that is given, the more context is supplied to someone reusing a data set.
-
 #### What else would metadata reveal?
-Metadata can describe a variety of things, including your data's characteristics and data provenance, which explains how your data was created. There are three types of metadata: descriptive, structural, and administrative.  
+Metadata can demonstrate a variety of things, including your data's characteristics and data provenance, which explains how your data was created. There are three types of metadata: descriptive, structural, and administrative.  
 
 - **Descriptive Metadata** describes the characteristics of the dataset so for instance authors, abstracts, and any relevant publication.
 - **Structural metadata** describes how it is generated, and how it is internally structured.
