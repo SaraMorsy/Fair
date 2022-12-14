@@ -24,10 +24,7 @@ Identifiers are a long-lasting references to a digital resources such as dataset
 That resource might be a publication, dataset, or person.   Persistent The identifiers have to be unique, globally only your data are identified by this ID that is never used by anyone in the whole world. In addition, these IDs and must not do not become invalid over time.
 Watch our RDMbBites on the persistent identifiers to understand more.   
 
-Identifiers are very important concept of the FAIR principle. Identifiers are considered one of the pillars for the FAIR principles. It makes your data more **Findable (F)**
-
-Identifiers are important for the first F in FAIR
-**(F1) (Meta)data are assigned a globally unique and persistent identifier **
+Identifiers are very important concept of the FAIR principle. They are considered one of the pillars for the FAIR principles. It makes your data more **Findable (F)** 
 
 **It is important to note that when you upload your data to a public repository, the repository will create this ID for you automatically.**
 The resources listed below provide an overview of the information you need to know about identifiers.
