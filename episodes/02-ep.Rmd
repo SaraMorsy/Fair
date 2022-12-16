@@ -47,27 +47,30 @@ let’s see this example on microarray data from a database called arrayexpress.
 
 
 :::::::::::::::::::::::::::::: challenge
-- From FAIRcoobook, can you find the recipe on how to create metadata profiles?
+- From the FAIRcoobook, can you find the recipe on how to create metadata profiles? you can start from (here)[https://faircookbook.elixir-europe.org/content/home.html]
 :::::: solution
+First of all, let's understand the structure of the FAIRCookbook. For a quick overview, you can watch our RDMBites on FAIRcookbook (here)[]
+
+The building unit of FAIR cookbook is called a recipe, The recipe is the term used to describe instructions for how to FAIRify your data. As you see in the image, the structure of each recipe includes these main items:
+1- Graphical overview which is the midmap for the recipe
+2- Ingredients which gives you an idea for the skills needed and tools you can use to apply the recipes
+3- The steps and the process
+4- Recommendations of what to read next and references to your reading
+![FAIRcookbook recipes structure]()
+
+
+
+
+
 
 :::::::::::::::::::::::::::::::::::::::
 
-### Metadata and data are always available
 
-**(A2) Metadata are accessible, even when the data are no longer available**
-
-The maintenance of the data sets in the public database comes at a cost. This can be avoided by maintenance of the metadata instead. Metadata is small and can be easily maintained not only on the database but personal computer of researchers. This also the case for sensitive data where the metadata are available and provides contact details of the researchers, how to get the data and data provenance
-
-
-:::::::::::::: challenge
-- After reading previous resources, you should have an idea on metadata, would you give an example of metadata without data?
-:::::::::::::::::
 
 ### Data and metadata should follow Community standards
 Each data type has its own community that creates criteria to ensure that metadata and data are described appropriately. When describing your data, make sure to adhere to the community standards. This is critical as your data becomes more trustworthy. If you decide to utilise other criteria, make sure you document this clearly. The use of community standards will not only allow your data to be reused, but it will also be easily interoperable across multiple platforms.
 We provide samples of various community standards that you may use to ensure that your data is described using the right descriptors. 
 RDMkit provides a nice domain specific-training [here](https://rdmkit.elixir-europe.org/your_domain) 
-
 
 
 ::: challenge
@@ -101,6 +104,19 @@ The metadata and data should be described by vocabularies that comply with FAIR 
 When uploading your dataset to any database, you should include the following information:
 1- Additional datasets that supplement your data
 2- It should be stated if your dataset is built on another dataset.
+
+### Metadata and data are always available
+
+**(A2) Metadata are accessible, even when the data are no longer available**
+
+The maintenance of the data sets in the public database comes at a cost. This can be avoided by maintenance of the metadata instead. Metadata is small and can be easily maintained not only on the database but personal computer of researchers. This also the case for sensitive data where the metadata are available and provides contact details of the researchers, how to get the data and data provenance
+
+
+::::::::::::::::::::::::: challenge
+- After reading previous resources, you should have an idea on metadata, would you give an example of metadata without data?
+:::::::::solution
+
+:::::::::::::::::::::::::
 
 ::: callout
 ## Resources
