@@ -6,22 +6,33 @@ exercises: 2
 ::: callout
 ## Objectives
 1- To identify what are metadata and its types
-
-3- To take part in understanding what are the community standards and how to use them for data and metadata
-
-4- To define what is data provenance
-
-5- To illustrate what is rich metadata and how to use them
-
-6- To explain how to explicitly use rich metadata to describe your data
+2- To memorize the community standards and how to use them for data and metadata
+3- To define what is data provenance
 :::
 
 ## Meta-data
 
 Metadata is the description of your data.  In a simple words, if we had a data file such as an Excel spreadsheet containing data values for an assay, column headings are used to assign meaning and context.  Here the data itself are the data values, and the metadata are the column headings. Any documentation or explanation of the excel file that accompanies it, is likewise considered metadata.
 
+As you can see in the following image,  the data are colored in orange which represents the heart rate, genotype and patient ID. In blue color, you can see the metadata which describe what is this data, (the name of the cohort, the contact e-mail for more information on the dataset.
+
+![Types of metadata](fig/fairifying1.jpg){alt='alt text'}
+
+
 #### What else would metadata reveal?
-Metadata can demonstrate a variety of things, including your data's characteristics and data provenance, which explains how your data was created. There are three types of metadata: descriptive, structural, and administrative.  
+To understand what else metadata can describe, let's have a look again on the previous image, **what else would you like to add to understand the data more?**
+
+Additional metadata for provenance and general descriptions can be added. More information about the cohort name, for example, is required because "Human Welsh Cohort" does not tell us much in comparison to other existing Welsh cohorts. Here, we would include a unique ID or working title for the cohort, as well as a project URL describing its origin and composition.
+
+The column headings appear to be complete, though there are some issues with the data in orange. The diabetes status column appears to capture the disease's type and stage.
+- In row 3, it is unclear whether the disease is Diabetes Mellitus or Diabetes Insipidus.
+- In row 4, it is unclear whether the type of diabetes mellitus is 1 or 2.
+- There is an empty space in the final row. It is unclear whether this is due to a lack of information or the patient does not have diabetes.
+So to do this better, two separate columns are created for the type and stage of the disease. The disease's name included whether it was type 1 or type 2. You can check this in here 
+![Types of metadata](fig/fairifying4.jpg){alt='alt text'}
+
+
+**Building on the previous examples,** Metadata can demonstrate a variety of things, including your data's characteristics and data provenance, which explains how your data was created. There are three types of metadata: descriptive, structural, and administrative.  
 
 - **Descriptive Metadata** describes the characteristics of the dataset so for instance authors, abstracts, and any relevant publication.
 - **Structural metadata** describes how it is generated, and how it is internally structured.
@@ -29,21 +40,17 @@ Metadata can demonstrate a variety of things, including your data's characterist
 
 ::: discussion
 ## Identify types of metadata in this microarray dataset
-let’s see this example on microarray data from a database called gene omnibus database (GEO). In this dataset, you will find the data, metadata, and persistent identifier (PID). In the black circle, you will find the data identifier (ID) which is unique and persistent to the data. For metadata, you will find the administrative metadata in the orange square. You will also find the descriptive metadata in the orange square, as you can see, it describes the author, publication and abstract for the study. For the structural metadata, it is described in the files (orange arrows). Also, you can find the data here (green arrow)
-
+let’s see this example on microarray data from a database called arrayexpress. In this dataset, you will find the data, metadata, and persistent identifier (PID). In the black circle, you will find the data identifier (ID) which is unique and persistent to the data. For metadata, you will find the administrative metadata in the orange square. You will also find the descriptive metadata in the orange square, as you can see, it describes the author, publication and abstract for the study. For the structural metadata, it is described in the files (orange arrows). 
 ![Types of metadata](fig/metadata.jpg){alt='alt text'}
 :::
 
-::: callout
-## Resources
-- This is a nice introduction to metadata from Ed-DaSH carpentries course [Introduction to metadata](https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html) 
-- The following recipe from the FAIRCookbook provides instructions on how to create metadata profiles[Metadata profiles](https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-minimal-metadata-profiles.html): 
-- RDMkit explanation on how to manage metadata: [Metadata management](https://rdmkit.elixir-europe.org/metadata_management.html)
-:::
+
 
 :::::::::::::::::::::::::::::: challenge
-- After reading the guide on [types to metadata](https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html), Can you determine what are the types of metadata in this dataset [E-MTAB-7933](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)?
-::::::::::::::::::::::::::::::::::::::
+- From FAIRcoobook, can you find the recipe on how to create metadata profiles?
+:::::: solution
+
+:::::::::::::::::::::::::::::::::::::::
 
 ### Metadata and data are always available
 
@@ -61,14 +68,7 @@ Each data type has its own community that creates criteria to ensure that metada
 We provide samples of various community standards that you may use to ensure that your data is described using the right descriptors. 
 RDMkit provides a nice domain specific-training [here](https://rdmkit.elixir-europe.org/your_domain) 
 
-::: callout
-## Resources
 
-- [Domain specific repositories](https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html): This is a lesson on types of repositories and give examples on domain specific repositories
-- ED-DaSH lesson on how to choose a data repository [How do we choose a research data repository?](https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html)
-- FAIRsharing provided a great information on writing domain specific metadata, you can find it [here](https://fairsharing.org/searchfairsharingRegistry=Standard&subjects=life%2520science&page=1)
-- 
-:::
 
 ::: challenge
 ## Exercise
@@ -81,10 +81,7 @@ In the light of previous resources, Could you know what will be the appropriate
 Here is an example from GEO database where there is accurate description of the data which allow the reusability of microarray data. As you see, there is rich description of the study design, organism, platform and description of data. The user can reuse the data safely as the decryption of the data and metadata allows accurate reusability of the data. Also, attachment to this dataset, there are files that allow machine readability of these metadata that can be read by software packages like R.
 ![An example from GEO dataset shows how the data were generated and processed](fig/provenance.png){alt='alt text'}
 
-::: callout
-- A nice guideline on [How can you record data provenance](https://rdmkit.elixir-europe.org/data_provenance)
-- FAIRcookbook recipe on [Audit of the provenence process](https://faircookbook.elixir-europe.org/content/recipes/reusability/provenance.html)
-::: 
+
 
 ### Vocabularies are FAIR
 (I2)  (meta)data use vocabularies that follow FAIR principles
@@ -97,6 +94,31 @@ The metadata and data should be described by vocabularies that comply with FAIR 
 **I** Vocabularies are interoperable
 **R** Can be reused and interpreted easily by humans and machines
 
+
+### Linked metadata
+(I3)  (meta)data include qualified references to other (meta)data
+
+When uploading your dataset to any database, you should include the following information:
+1- Additional datasets that supplement your data
+2- It should be stated if your dataset is built on another dataset.
+
+::: callout
+## Resources
+- This is a nice introduction to metadata from Ed-DaSH carpentries course [Introduction to metadata](https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html) 
+- The following recipe from the FAIRCookbook provides instructions on how to create metadata profiles[Metadata profiles](https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-minimal-metadata-profiles.html): 
+- RDMkit explanation on how to manage metadata: [Metadata management](https://rdmkit.elixir-europe.org/metadata_management.html)
+:::
+::: callout
+## Resources
+
+- [Domain specific repositories](https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html): This is a lesson on types of repositories and give examples on domain specific repositories
+- ED-DaSH lesson on how to choose a data repository [How do we choose a research data repository?](https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html)
+- FAIRsharing provided a great information on writing domain specific metadata, you can find it [here](https://fairsharing.org/searchfairsharingRegistry=Standard&subjects=life%2520science&page=1)
+- 
+:::
+::: callout
+- A recipe from the FAIRcookbook on how to [Interlink data from different sources](https://faircookbook.elixir-europe.org/content/recipes/interoperability/identifier-mapping.html#references)
+:::
 ::: callout
 ## Resources
 You can learn more about how to describe your data using FAIR vocabularies and formal language for knowledge representation from the following:
@@ -107,16 +129,10 @@ You can learn more about how to describe your data using FAIR vocabularies and f
 - [List of ontologies](https://obofoundry.org/)
 :::
 
-### Linked metadata
-(I3)  (meta)data include qualified references to other (meta)data
-
-When uploading your dataset to any database, you should include the following information:
-1- Additional datasets that supplement your data
-2- It should be stated if your dataset is built on another dataset.
-
 ::: callout
-- A recipe from the FAIRcookbook on how to [Interlink data from different sources](https://faircookbook.elixir-europe.org/content/recipes/interoperability/identifier-mapping.html#references)
-:::
+- A nice guideline on [How can you record data provenance](https://rdmkit.elixir-europe.org/data_provenance)
+- FAIRcookbook recipe on [Audit of the provenence process](https://faircookbook.elixir-europe.org/content/recipes/reusability/provenance.html)
+::: 
 
 Usually, when the data is generated, both metadata and data files are separate files. As a researcher, you should ensure that both files refer to each other.
 
