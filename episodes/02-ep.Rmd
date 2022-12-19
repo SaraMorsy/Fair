@@ -58,7 +58,11 @@ The building unit of FAIR cookbook is called a recipe, The recipe is the term us
 4- Recommendations of what to read next and references to your reading
 ![FAIRcookbook recipes structure]()
 
+So let's use the search box and write down metadata profiles
 
+As you see the results comes up, choose metdata profiles
+
+As we explained earlier the recipe shows necessary steps for  creating metadata profiles
 
 
 
@@ -70,12 +74,17 @@ The building unit of FAIR cookbook is called a recipe, The recipe is the term us
 ### Data and metadata should follow Community standards
 Each data type has its own community that creates criteria to ensure that metadata and data are described appropriately. When describing your data, make sure to adhere to the community standards. This is critical as your data becomes more trustworthy. If you decide to utilise other criteria, make sure you document this clearly. The use of community standards will not only allow your data to be reused, but it will also be easily interoperable across multiple platforms.
 We provide samples of various community standards that you may use to ensure that your data is described using the right descriptors. 
-RDMkit provides a nice domain specific-training [here](https://rdmkit.elixir-europe.org/your_domain) 
 
 
 ::: challenge
 ## Exercise
-In the light of previous resources, Could you know what will be the appropriate storage for bioimaging data?
+RDMkit provides a nice domain specific-training[here](https://rdmkit.elixir-europe.org/your_domain), what is the name of community standard for bioimage?
+
+- you can start from here
+- As you see in this picture the structure of rdmkit is as follows
+
+
+- 
 :::
 
 ### Provenance
