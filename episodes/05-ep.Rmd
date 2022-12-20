@@ -18,9 +18,21 @@ exercises: 2
 **(F4)** (meta)data are registered or indexed in a searchable resource
 
 To ensure data findability, your data should be uploaded to a public repository where your data can be searched and found, which is why F4 is so vital. There are numerous databases where you can upload your data, these are typically data-driven. 
-Examples of these databases are **Arrayexpress** for microarray data and RNAseq data, **Zinc database** for the chemical molecules. These databases have set of rules in place to make sure that your data will be FAIR.
+Examples of these databases are **Arrayexpress** for microarray data and RNAseq data. These databases have set of rules in place to make sure that your data will be FAIR.
 
 After you upload your data into this database, they are assigned an ID and are indexed in the database. So whenever you look for the ID, or even use a keyword for your data, you will find your data.
+
+::::::: challenge
+You have a dataset and you want to upload it to Wikidata, Can you do this using one of FAIRcookbook recipes?
+::::::::: solution
+As we explained before the structure of the recipe so let's look for the suitable recipe in the FAIRcookbook
+
+So as you can see the 
+
+
+:::::::::::
+
+As you can see in the following example how this dataset is indexed and can be searchable using the array express search box
 
 Our resources provide an overview of data repositories and examples.
 
