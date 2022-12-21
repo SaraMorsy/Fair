@@ -68,9 +68,6 @@ As we explained earlier the recipe shows necessary steps for  creating metadata 
 
 
 :::::::::::::::::::::::::::::::::::::::
-
-
-
 ### Data and metadata should follow Community standards
 Each data type has its own community that creates criteria to ensure that metadata and data are described appropriately. When describing your data, make sure to adhere to the community standards. This is critical as your data becomes more trustworthy. If you decide to utilise other criteria, make sure you document this clearly. The use of community standards will not only allow your data to be reused, but it will also be easily interoperable across multiple platforms.
 We provide samples of various community standards that you may use to ensure that your data is described using the right descriptors. 
@@ -93,13 +90,7 @@ RDMkit provides a nice domain specific-training[here](https://rdmkit.elixir-euro
 Here is an example from GEO database where there is accurate description of the data which allow the reusability of microarray data. As you see, there is rich description of the study design, organism, platform and description of data. The user can reuse the data safely as the decryption of the data and metadata allows accurate reusability of the data. Also, attachment to this dataset, there are files that allow machine readability of these metadata that can be read by software packages like R.
 ![An example from GEO dataset shows how the data were generated and processed](fig/provenance.png){alt='alt text'}
 
-
-
 ### Vocabularies are FAIR
-(I2)  (meta)data use vocabularies that follow FAIR principles
-(I1)  (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
-
-
 The metadata and data should be described by vocabularies that comply with FAIR which means that metadata and data should be:
 **F** globally unique and persistent identifiers                           
 **A** accessible documentation that extensively describes your identifiers
@@ -108,16 +99,11 @@ The metadata and data should be described by vocabularies that comply with FAIR 
 
 
 ### Linked metadata
-(I3)  (meta)data include qualified references to other (meta)data
-
 When uploading your dataset to any database, you should include the following information:
 1- Additional datasets that supplement your data
 2- It should be stated if your dataset is built on another dataset.
 
 ### Metadata and data are always available
-
-**(A2) Metadata are accessible, even when the data are no longer available**
-
 The maintenance of the data sets in the public database comes at a cost. This can be avoided by maintenance of the metadata instead. Metadata is small and can be easily maintained not only on the database but personal computer of researchers. This also the case for sensitive data where the metadata are available and provides contact details of the researchers, how to get the data and data provenance
 
 
@@ -127,23 +113,12 @@ The maintenance of the data sets in the public database comes at a cost. This ca
 
 :::::::::::::::::::::::::
 
-::: callout
-## Resources
-- This is a nice introduction to metadata from Ed-DaSH carpentries course [Introduction to metadata](https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html) 
-- The following recipe from the FAIRCookbook provides instructions on how to create metadata profiles[Metadata profiles](https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-minimal-metadata-profiles.html): 
-- RDMkit explanation on how to manage metadata: [Metadata management](https://rdmkit.elixir-europe.org/metadata_management.html)
-:::
-::: callout
-## Resources
+Usually, when the data is generated, both metadata and data files are separate files. As a researcher, you should ensure that both files refer to each other.
 
-- [Domain specific repositories](https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html): This is a lesson on types of repositories and give examples on domain specific repositories
-- ED-DaSH lesson on how to choose a data repository [How do we choose a research data repository?](https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html)
-- FAIRsharing provided a great information on writing domain specific metadata, you can find it [here](https://fairsharing.org/searchfairsharingRegistry=Standard&subjects=life%2520science&page=1)
-- 
-:::
-::: callout
-- A recipe from the FAIRcookbook on how to [Interlink data from different sources](https://faircookbook.elixir-europe.org/content/recipes/interoperability/identifier-mapping.html#references)
-:::
+::::::::::: challenge
+- Can you extract data provenance from this data set [E-MTAB-7933](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)? 
+::::::::::::::::
+
 ::: callout
 ## Resources
 You can learn more about how to describe your data using FAIR vocabularies and formal language for knowledge representation from the following:
@@ -152,17 +127,22 @@ You can learn more about how to describe your data using FAIR vocabularies and f
 - Read more about vocabularies and ontologies from 
 - [Vocabularies and ontology](https://carpentries-incubator.github.io/fair-bio-practice/06-being-precise/index.html)
 - [List of ontologies](https://obofoundry.org/)
-:::
-
-::: callout
+- This is a nice introduction to metadata from Ed-DaSH carpentries course [Introduction to metadata](https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html) 
+- The following recipe from the FAIRCookbook provides instructions on how to create metadata profiles[Metadata profiles](https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-minimal-metadata-profiles.html): 
+- RDMkit explanation on how to manage metadata: [Metadata management](https://rdmkit.elixir-europe.org/metadata_management.html)
+- [Domain specific repositories](https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html): This is a lesson on types of repositories and give examples on domain specific repositories
+- ED-DaSH lesson on how to choose a data repository [How do we choose a research data repository?](https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html)
+- FAIRsharing provided a great information on writing domain specific metadata, you can find it [here](https://fairsharing.org/searchfairsharingRegistry=Standard&subjects=life%2520science&page=1)
+- A recipe from the FAIRcookbook on how to [Interlink data from different sources](https://faircookbook.elixir-europe.org/content/recipes/interoperability/identifier-mapping.html#references)
 - A nice guideline on [How can you record data provenance](https://rdmkit.elixir-europe.org/data_provenance)
 - FAIRcookbook recipe on [Audit of the provenence process](https://faircookbook.elixir-europe.org/content/recipes/reusability/provenance.html)
-::: 
+:::
 
-Usually, when the data is generated, both metadata and data files are separate files. As a researcher, you should ensure that both files refer to each other.
-
-::::::::::: challenge
-- Can you extract data provenance from this data set [E-MTAB-7933](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)? 
-::::::::::::::::
-
-
+::: checklist
+### FAIR principles
+This episode covers the following principles:
+(I2)  (meta)data use vocabularies that follow FAIR principles
+(I1)  (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
+(I3)  (meta)data include qualified references to other (meta)data
+(A2) Metadata are accessible, even when the data are no longer available**
+:::
