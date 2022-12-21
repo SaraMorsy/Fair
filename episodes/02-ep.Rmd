@@ -4,7 +4,7 @@ teaching: 10
 exercises: 2
 ---
 ::: callout
-## Objectives
+## Outcomes
 1- To identify what are metadata and its types
 2- To memorize the community standards and how to use them for data and metadata
 3- To define what is data provenance
@@ -164,3 +164,5 @@ Usually, when the data is generated, both metadata and data files are separate f
 ::::::::::: challenge
 - Can you extract data provenance from this data set [E-MTAB-7933](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)? 
 ::::::::::::::::
+
+
