@@ -1,11 +1,11 @@
 ---
 title: "Registration"
 teaching: 10
-exercises: 2
+exercises: 1
 ---
 
 ::: callout
-## Objectives
+## Outcomes
 1- To define what is data repository?
 
 2- To illustrate different types of data repository
@@ -13,32 +13,38 @@ exercises: 2
 3- To summarize steps of data indexing in a searchable repository
 :::
 
-<p style="text-align: center;">Indexed data repository</p>
-
-**(F4)** (meta)data are registered or indexed in a searchable resource
+### Indexed data repository
 
 To ensure data findability, your data should be uploaded to a public repository where your data can be searched and found, which is why F4 is so vital. There are numerous databases where you can upload your data, these are typically data-driven. 
 Examples of these databases are **Arrayexpress** for microarray data and RNAseq data. These databases have set of rules in place to make sure that your data will be FAIR.
 
 After you upload your data into this database, they are assigned an ID and are indexed in the database. So whenever you look for the ID, or even use a keyword for your data, you will find your data.
 
+Take a look at the **ArrayExpress** database where all datasets are indexed, and you can simply find any dataset using the search tools. By indexing data, you can get the dataset using any keyword other than the PID. For example, if you want to locate human NSCL cell lines, you can just type this into the search toolbox and find the dataset. Indexing and registering datasets ,  also means they are curated in such a way that you may discover them using different keywords.
+
+
 ::::::: challenge
-You have a dataset and you want to upload it to Wikidata, Can you do this using one of FAIRcookbook recipes?
+One of the things you can do to index your dataset, is to upload it to Zenodo, Can you use one of the resources we recommended before to know how to do this?
 ::::::::: solution
 As we explained before the structure of the recipe so let's look for the suitable recipe in the FAIRcookbook
+So as you navigate the homepage of FAIRcookbook, you will find different tabs that covers each of FAIR principles, so for instance, if you want recipes on **Accessibility** of FAIR, you will find all recipes that can help you make your data accessible. 
+- Follow the following steps to find the recipe:
+1- In this exercise, we are looking for a recipe on **indexing or registering dataset in a searchable resource** which you can find it in the findability tab. 
 
-So as you can see the 
-
-
+2- Click on the findability tab
+3- on the left side, you will find a navigation bar which will help you find different recipes that make your data findable. 
+4- As you can see here, you will find a recipe on registering datasets with Wikidata and another one on depositing to generic repositories-Zenodo use case
+5- Once you click on one of these resources, you will find the following:
+A) Requirements that you need to implement the recipe to your dataset
+B) The instructions 
+C) References and further readings
+B) Authors and licence
 :::::::::::
-
-As you can see in the following example how this dataset is indexed and can be searchable using the array express search box
-
-Our resources provide an overview of data repositories and examples.
 
 
 ::: callout
 ## Resources
+**Our resources provide an overview of data repositories and examples**
 The FAIR cookbook and RDMkit both provide excellent instructions for uploading your data into databases:
 - FAIRcookbook recipe on [Depositing to generic repositories- Zenodo use](https://faircookbook.elixir-europe.org/content/recipes/findability/zenodo-deposition.html)
 - FAIRcookbook recipe on [Registering Datasets in Wikidata](https://faircookbook.elixir-europe.org/content/recipes/findability/registeringDatasets.html)
@@ -48,7 +54,8 @@ The FAIR cookbook and RDMkit both provide excellent instructions for uploading y
 - FAIRsharing offers a nice portal to different [examples of databases](https://fairsharing.org/search?fairsharingRegistry=Database&subjects=life%2520science&page=1)
 :::
 
-::: challenge
-## Exercise
-Using RDMkit explanation on how to [Finding and reusing existing data](https://rdmkit.elixir-europe.org/existing_data), could you find a dataset relevant to your field that you needed for one of your research?
+::: checklist
+### FAIR principles
+This episode covers the following principles:
+1- (F4) (meta)data are registered or indexed in a searchable resource
 :::
