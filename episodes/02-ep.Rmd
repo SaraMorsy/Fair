@@ -56,7 +56,7 @@ The building unit of FAIR cookbook is called a recipe, The recipe is the term us
 2- Ingredients which gives you an idea for the skills needed and tools you can use to apply the recipes
 3- The steps and the process
 4- Recommendations of what to read next and references to your reading
-![FAIRcookbook recipes structure]()
+![FAIRcookbook recipes structure](/fig/ep5.png)
 
 So let's use the search box and write down metadata profiles
 
