@@ -43,6 +43,8 @@ So to do this better, two separate columns are created for the type and stage of
 ## Identify types of metadata in this microarray dataset
 Let's look at an example using microarray data from the arrayexpress database. This dataset contains data and metadata. The **administrative metadata** can be found in the orange square. The **descriptive metadata** is located in the black square, and as you can see, it summarize the dataset. The structure of dataset and files are marked by dark blue square which represents  **structural metadata**. 
 ![Types of metadata](fig/img3.jpg){alt='alt text'}
+:::
+
 :::::::::::::::::::::::::::::: challenge
 - From the FAIRcoobook, can you find the recipe on how to create metadata profiles for your dataset? you can start from (here)[https://faircookbook.elixir-europe.org/content/home.html]
 :::::: solution
@@ -59,7 +61,7 @@ So let's use the search box and write down metadata profiles
 ![FAIRcookbook search wizard](/fig/img4.PNG)
 As you see the results comes up, choose metdata profiles. As we explained earlier the recipe shows necessary steps for  creating metadata profiles for different data types
 ![FAIRcookbook search results](/fig/img6.PNG)
-:::::::::::
+:::::::
 :::::::::::::::::::::::::::::::::::::::
 
 ---
@@ -67,7 +69,7 @@ As you see the results comes up, choose metdata profiles. As we explained earlie
 Each data type has its own community that develops guidelines to ensure that metadata and data are appropriately described. Make sure to follow the community standards when describing your data. This becomes increasingly important as your data will become more reliable for other researchers. If you decide to use other guidelines, make sure you clearly document this. The use of community standards allows your data to be reused while also making it easily interoperable across multiple platforms.
 We provide examples of various community standards that you can use to ensure that your data is described correctly.
 
-::: challenge
+:::: challenge
 ## Exercise
 RDMkit provides a nice domain specific-training[here](https://rdmkit.elixir-europe.org/your_domain), using this training, can you find the bioimage community standards?
 
@@ -85,7 +87,8 @@ You can find the bioimage community standards on top of the page. As you can see
 3- bioimage data collection
 4- Data publication and archiving
 ![RDMkit page on bioimage community standards](/fig/img9.PNG)
-::::::::::
+:::
+:::::::::
 
 ## Data Provenance
 
@@ -123,7 +126,7 @@ In the results section, you can find REFLECT guidelines.
 
 ![REFLECT guidelines](fig/img16.jpg){alt='alt text'}
 For each resource/guideline, you will find general information, relationship graph, organization funding and maintaining the resource
-::::
+:::
 ::::::::::
 
 ## Linked metadata
