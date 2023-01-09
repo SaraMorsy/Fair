@@ -85,11 +85,11 @@
   FAIR on demand
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 50%" class="percentage">
-    50%
+<aside class="col-md-12 lesson-progress"><div style="width: 51%" class="percentage">
+    51%
   </div>
   <div class="progress data">
-    <div class="progress-bar data" role="progressbar" style="width: 50%" aria-valuenow="50" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar data" role="progressbar" style="width: 51%" aria-valuenow="51" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -162,12 +162,20 @@
 <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         Access
         </span>
-      
+      </button>
     </div><!--/div.accordion-header-->
+        
+    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
+      <div class="accordion-body">
+        <ul><li><a href="#standard-communication-protocol">Standard communication protocol</a></li>
+<li><a href="#authentication-process">Authentication process</a></li>
+        </ul></div><!--/div.accordion-body-->
+    </div><!--/div.accordion-collapse-->
         
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -232,7 +240,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Access</h1>
-        <p> Last updated on 2022-12-16 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/04-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <p> Last updated on 2023-01-09 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/04-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 12 minutes </p>
         
         <div class="text-end">
@@ -245,36 +253,58 @@
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="objectives" class="callout-inner">
-<h3 class="callout-title">Objectives<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<div id="outcomes" class="callout-inner">
+<h3 class="callout-title">Outcomes<a class="anchor" aria-label="anchor" href="#callout1"></a>
 </h3>
 <div class="callout-content">
-<p>1- To illustrate what is the communications protocol</p>
-<p>2- To articulate what are the criteria for open and free protocol</p>
-<p>3- To relate to the quote “As open as possible as close as necessary” by giving examples on sensitive data</p>
-<p>3- To give examples of databases that uses a protocol with different authentication process</p>
-<p>4- To interpret the usage licence associated with different data sets</p>
+<p>1- To illustrate what is the communications protocol and the criteria for open and free protocol</p>
+<p>2- To give examples of databases that uses a protocol with different authentication process</p>
+<p>3- To interpret the usage licence associated with different data sets</p>
 </div>
 </div>
 </div>
-<p style="text-align: center;">
-Standard communication protocol
-</p>
-<p>(A1) (meta)data are retrievable by their identifier using a standardised communications protocol</p>
-<p>Simply put, <strong>a protocol</strong> is a method that connects two computers, the protocol ensure security, and authenticity of your data. Once the safety and authenticity of the data is verified, the transfer of data to another computer happens.</p>
+<section id="standard-communication-protocol"><h2 class="section-heading">Standard communication protocol<a class="anchor" aria-label="anchor" href="#standard-communication-protocol"></a>
+</h2>
+<hr class="half-width"><p>Simply put, <strong>a protocol</strong> is a method that connects two computers, the protocol ensure security, and authenticity of your data. Once the safety and authenticity of the data is verified, the transfer of data to another computer happens.</p>
 <p>Having a protocol does not guarantee that your data are accessible. However, you can choose a protocol that is free, open and allow easy and exchange of information. One of the steps you can do is to choose the right database, so when you upload your data into database, the database executes a protocol that allows the user to load data in the user’s web browser. This protocol allows the easy access of the data but still secures the data.</p>
+</section><section id="authentication-process"><h2 class="section-heading">Authentication process<a class="anchor" aria-label="anchor" href="#authentication-process"></a>
+</h2>
+<hr class="half-width"><p>It is the process that a protocol uses for verification. To know what authentication is, suppose we have three people named John Smith. We do not know which one submitted the data. This is through assigning a unique ID for each one that is interpreted by machines and humans so you would know who is the actual person that submitted the data. Doing so is a form of authentication. This is used by many databases like Zenodo, where you can sign-up using ORCID-ID allowing the database to identify you.</p>
 <div id="discussion1" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div id="authentication-process" class="callout-inner">
-<h3 class="callout-title">Authentication process<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<div id="exercise" class="callout-inner">
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion1"></a>
 </h3>
 <div class="callout-content">
-<p>It is the process that a protocol uses for verification. To know what authentication is, suppose we have three people named John Smith. We do not know which one submitted the data. This is through assigning a unique ID for each one that is interpreted by machines and humans so you would know who is the actual person that submitted the data. Doing so is a form of authentication. This is used by many databases like Zenodo, where you can sign-up using ORCID-ID allowing the database to identify you.</p>
+<p>After reading this guide on different <a href="https://rdmkit.elixir-europe.org/data_transfer.html#how-do-you-transfer-large-data-files" class="external-link">protocol types</a>, do you know what is the protocol used in <a href="https://www.ebi.ac.uk/biostudies/arrayexpress" class="external-link">arrayexpress</a>? ::: solution As we explained before on how to use the RDMkit, going through the page, you will find different types of licence explained</p>
+<p>From this part, you can understand that the protocol used for the arrayexpress is <strong>HTTP (HyperText Transfer Protocol)</strong> (highlighted in purple)</p>
 </div>
 </div>
 </div>
+<p>::::</p>
+<div class="section level3">
+<h3 id="data-usage-licence">Data usage licence<a class="anchor" aria-label="anchor" href="#data-usage-licence"></a></h3>
+<p>This describes the legal rights on how others use your data. As you publish your data, you should describe clearly in what capacity your data can be used. Bear in mind that description of licence is important to allow machine and human reusability of your data. There are many licence that can be used e.g. MIT licence or Common creative licence. These licences provide accurate description of the rights of data reuse, Please have a look at resources in the description box to know more about these licences.</p>
+<figure><img src="../fig/cc.jpg" alt="alt text" class="figure mx-auto d-block"><figcaption>Creative commons licences (photo credit: foter)</figcaption></figure><div id="discussion2" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="exercise-1" class="callout-inner">
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+</h3>
+<div class="callout-content">
+<ul><li>From the this RDMkit guideline on types of <a href="https://rdmkit.elixir-europe.org/licensing" class="external-link">licence</a>, what is the licence used by the following datasets: 1- <a href="https://zenodo.org/record/7368547#.Y4TjT3bP02w" class="external-link">A large-scale COVID-19 Twitter chatter dataset for open scientific research - an international collaboration</a> 2- <a href="https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933" class="external-link">RNA-seq of circadian timeseries sampling (LL2-3) of 13-14 day old Arabidopsis thaliana Col-0 (24 h to 68 h, sampled every 4 h)</a> ::: solution The link we provided, provided a nice explanation on types of licence and as you read the following section from RDMKit, you will find the following:</li>
+</ul><p>From this section, you can clearly understand the type of licence used for: 1- <a href="https://zenodo.org/record/7368547#.Y4TjT3bP02w" class="external-link">A large-scale COVID-19 Twitter chatter dataset for open scientific research - an international collaboration</a> is CC-BY-4 2- <a href="https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933" class="external-link">RNA-seq of circadian timeseries sampling (LL2-3) of 13-14 day old Arabidopsis thaliana Col-0 (24 h to 68 h, sampled every 4 h)</a> is CC-BY-4</p>
+</div>
+</div>
+</div>
+<p>::::</p>
+</div>
+<div class="section level3">
+<h3 id="sensitive-data">Sensitive data<a class="anchor" aria-label="anchor" href="#sensitive-data"></a></h3>
+<p>Sensitive data are data that, if made publicly available, could cause consequences for individuals, groups, nations, or ecosystems and need to be secured from unauthorised access. To determine whether your data is sensitive, you should consult national laws, which vary by country. Through the following resources, you will know more about sensitive data and what to do if your data is sensitive</p>
 <div id="callout2" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -287,64 +317,32 @@ Standard communication protocol
 </li>
 <li>A nice explanation from RDMkit on protocols and how they will help you protect your data<a href="https://rdmkit.elixir-europe.org/data_transfer.html" class="external-link">Protocols and safety of data transfer</a>
 </li>
-</ul></div>
-</div>
-</div>
-<div id="discussion2" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion2"></a>
-</h3>
-<div class="callout-content">
-<p>After reading this guide on different <a href="https://rdmkit.elixir-europe.org/data_transfer.html#how-do-you-transfer-large-data-files" class="external-link">protocol types</a>, give an example on one of databases that uses one of these protocols?</p>
-</div>
-</div>
-</div>
-<p style="text-align: center;">
-Data usage licence
-</p>
-<p><strong>(R1.1) meta(data) are released with a clear and accessible data usage licence</strong></p>
-<p>This describes the legal rights on how others use your data. As you publish your data, you should describe clearly in what capacity your data can be used. Bear in mind that description of licence is important to allow machine and human reusability of your data. There are many licence that can be used e.g. MIT licence or Common creative licence. These licences provide accurate description of the rights of data reuse, Please have a look at resources in the description box to know more about these licences.</p>
-<figure><img src="../fig/cc.jpg" alt="alt text" class="figure mx-auto d-block"><figcaption>Creative commons licences (photo credit: foter)</figcaption></figure><div id="callout3" class="callout callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
-</div>
-<div id="resources-1" class="callout-inner">
-<h3 class="callout-title">Resources<a class="anchor" aria-label="anchor" href="#callout3"></a>
-</h3>
-<div class="callout-content">
-<p>Having your work licenced does not sound simple as it seems; here are some resources to help you find the correct licence for you: - Why should you assign licence to your protocol from RDMkit <a href="https://rdmkit.elixir-europe.org/licensing" class="external-link">here</a> - A nice recipe from FAIRcookbook with step-by-step instructions for - <a href="https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI-licensing.html" class="external-link">licence</a> - <a href="https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI_licensing_software.html" class="external-link">software licence</a> - <a href="https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI_licensing_data.html" class="external-link">Data licence</a> - <a href="https://faircookbook.elixir-europe.org/content/recipes/reusability/expressing-data-use.html" class="external-link">Declaring data permitted uses</a> - To know more about creative common licence, check this link <a href="https://creativecommons.org/choose/" class="external-link">Creative commons licence</a></p>
-</div>
-</div>
-</div>
-<div id="discussion3" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="exercise-1" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion3"></a>
-</h3>
-<div class="callout-content">
-<ul><li>From the previous resources that we provided, what is the licence used by the following datasets: 1- <a href="https://zenodo.org/record/7368547#.Y4TjT3bP02w" class="external-link">A large-scale COVID-19 Twitter chatter dataset for open scientific research - an international collaboration</a> 2- <a href="https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933" class="external-link">RNA-seq of circadian timeseries sampling (LL2-3) of 13-14 day old Arabidopsis thaliana Col-0 (24 h to 68 h, sampled every 4 h)</a>
+</ul><p><strong>Having your work licenced does not sound simple as it seems; here are some resources to help you find the correct licence for you:</strong></p>
+<ul><li>Why should you assign licence to your protocol from RDMkit <a href="https://rdmkit.elixir-europe.org/licensing" class="external-link">here</a>
 </li>
+<li>A nice recipe from FAIRcookbook with step-by-step instructions for</li>
+<li><a href="https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI-licensing.html" class="external-link">licence</a></li>
+<li><a href="https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI_licensing_software.html" class="external-link">software licence</a></li>
+<li><a href="https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI_licensing_data.html" class="external-link">Data licence</a></li>
+<li><a href="https://faircookbook.elixir-europe.org/content/recipes/reusability/expressing-data-use.html" class="external-link">Declaring data permitted uses</a></li>
+<li>To know more about creative common licence, check this link <a href="https://creativecommons.org/choose/" class="external-link">Creative commons licence</a>
+</li>
+</ul><p><strong>To get more information on sensitive data, you can have a look on these reources:</strong></p>
+<ul><li><a href="https://rdmkit.elixir-europe.org/sensitive_data" class="external-link">What is sensitive data?</a></li>
+<li><a href="https://faircookbook.elixir-europe.org/content/recipes/reusability/expressing-data-use.html#" class="external-link">How to describe the permitted use of data</a></li>
+<li><a href="https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html" class="external-link">ELSI and GDPR</a></li>
 </ul></div>
 </div>
 </div>
-<p style="text-align: center;">
-Sensitive data
-</p>
-<p>Sensitive data are data that, if made publicly available, could cause consequences for individuals, groups, nations, or ecosystems and need to be secured from unauthorised access. To determine whether your data is sensitive, you should consult national laws, which vary by country. Through the following resources, you will know more about sensitive data and what to do if your data is sensitive</p>
-<div id="callout4" class="callout callout">
+<div id="checklist1" class="callout checklist">
 <div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
+<i class="callout-icon" data-feather="check-square"></i>
 </div>
-<div id="resources-2" class="callout-inner">
-<h3 class="callout-title">Resources<a class="anchor" aria-label="anchor" href="#callout4"></a>
+<div id="fair-principles" class="callout-inner">
+<h3 class="callout-title">FAIR principles<a class="anchor" aria-label="anchor" href="#checklist1"></a>
 </h3>
 <div class="callout-content">
-<p>To get more information on sensitive data, you can have a look on these reources: - <a href="https://rdmkit.elixir-europe.org/sensitive_data" class="external-link">What is sensitive data?</a> - <a href="https://faircookbook.elixir-europe.org/content/recipes/reusability/expressing-data-use.html#" class="external-link">How to describe the permitted use of data</a> - <a href="https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html" class="external-link">ELSI and GDPR</a></p>
+<p>This episode covers the following principles: 1- (A1) (meta)data are retrievable by their identifier using a standardised communications protocol 2- (R1.1) meta(data) are released with a clear and accessible data usage licence</p>
 </div>
 </div>
 </div>
@@ -352,10 +350,8 @@ Sensitive data
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
-
-
-
-      </div> <!-- / div.lesson-content -->
+</div>
+</section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="../instructor/03-ep.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="../instructor/05-ep.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
@@ -379,8 +375,8 @@ any links that you are not going to use.
         <p>Materials licensed under <a href="../LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.11.2" class="external-link">sandpaper (0.11.2)</a>,
-        <a href="https://github.com/carpentries/pegboard/tree/0.3.2" class="external-link">pegboard (0.3.2)</a>,
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.11.3" class="external-link">sandpaper (0.11.3)</a>,
+        <a href="https://github.com/carpentries/pegboard/tree/0.4.1" class="external-link">pegboard (0.4.1)</a>,
       and <a href="https://github.com/SaraMorsy/varnish/tree/a813f61a6abace9260a43dd3bb38d1b0d58d8a27" class="external-link">varnish (0.2.4)</a>.</p>
 			</div>
 		</footer></div> <!-- / div.container -->
@@ -401,9 +397,9 @@ any links that you are not going to use.
   "creativeWorkStatus": "active",
   "url": "https://SaraMorsy.github.io/FAIR/instructor/04-ep.html",
   "identifier": "https://SaraMorsy.github.io/FAIR/instructor/04-ep.html",
-  "dateCreated": "2022-12-16",
-  "dateModified": "2022-12-16",
-  "datePublished": "2022-12-16"
+  "dateCreated": "2023-01-09",
+  "dateModified": "2023-01-09",
+  "datePublished": "2023-01-09"
 }
 
   </script><script>

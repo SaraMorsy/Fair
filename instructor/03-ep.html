@@ -85,11 +85,11 @@
   FAIR on demand
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 25%" class="percentage">
-    25%
+<aside class="col-md-12 lesson-progress"><div style="width: 26%" class="percentage">
+    26%
   </div>
   <div class="progress data">
-    <div class="progress-bar data" role="progressbar" style="width: 25%" aria-valuenow="25" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar data" role="progressbar" style="width: 26%" aria-valuenow="26" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -153,12 +153,20 @@
 <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         Identifiers
         </span>
-      
+      </button>
     </div><!--/div.accordion-header-->
+        
+    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
+      <div class="accordion-body">
+        <ul><li><a href="#persistent-identifiers">Persistent identifiers</a></li>
+<li><a href="#the-structure-of-persistent-identifiers">the Structure of persistent identifiers</a></li>
+        </ul></div><!--/div.accordion-body-->
+    </div><!--/div.accordion-collapse-->
         
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -232,7 +240,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Identifiers</h1>
-        <p> Last updated on 2022-12-16 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/03-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <p> Last updated on 2023-01-09 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/03-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 12 minutes </p>
         
         <div class="text-end">
@@ -245,25 +253,36 @@
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="objectives" class="callout-inner">
-<h3 class="callout-title">Objectives<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<div id="outcomes" class="callout-inner">
+<h3 class="callout-title">Outcomes<a class="anchor" aria-label="anchor" href="#callout1"></a>
 </h3>
 <div class="callout-content">
-<p>1- To explain the definition and importance of using identifiers</p>
-<p>2- To illustrate what are the persistent identifiers 3- To give examples of the structure of persistent identifiers</p>
+<p>1- Explain the definition and importance of using identifiers 2- Illustrate what are the persistent identifiers 3- Give examples of the structure of persistent identifiers</p>
 </div>
 </div>
 </div>
-<div class="section level3">
-<h3 id="persistent-identifiers">Persistent identifiers<a class="anchor" aria-label="anchor" href="#persistent-identifiers"></a></h3>
-<p>Identifiers are a long-lasting references to a digital resources such as datasets and provides the information required to reliably identify, verify and locate your research data. Commonly, a persistent identifier is a unique record ID in a database, or unique URL that takes a researcher to the data in question, in a database.</p>
+<section id="persistent-identifiers"><h2 class="section-heading">Persistent identifiers<a class="anchor" aria-label="anchor" href="#persistent-identifiers"></a>
+</h2>
+<hr class="half-width"><p>Identifiers are a long-lasting references to a digital resources such as datasets and provides the information required to reliably identify, verify and locate your research data. Commonly, a persistent identifier is a unique record ID in a database, or unique URL that takes a researcher to the data in question, in a database.</p>
 <p>That resource might be a publication, dataset, or person. Persistent The identifiers have to be unique, globally only your data are identified by this ID that is never used by anyone in the whole world. In addition, these IDs and must not do not become invalid over time. Watch our RDMbBites on the persistent identifiers to understand more.</p>
 <p>Identifiers are very important concept of the FAIR principle. They are considered one of the pillars for the FAIR principles. It makes your data more <strong>Findable (F)</strong></p>
-<p><strong>It is important to note that when you upload your data to a public repository, the repository will create this ID for you automatically.</strong> The resources listed below provide an overview of the information you need to know about identifiers.</p>
+<div id="discussion1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div class="section level3">
-<h3 id="the-structure-of-persistent-identifiers">the Structure of persistent identifiers<a class="anchor" aria-label="anchor" href="#the-structure-of-persistent-identifiers"></a></h3>
-<p>As you can see in this picture, the structure of any identifiers consist of 1- The initial resolver service which 2- #### Let’s check this example from the arrayexpress dataset, you can check it from this link As you can see, each dataset in arrayexpress has its own persistent identifier that usually start with the</p>
+<div id="find-the-pid" class="callout-inner">
+<h3 class="callout-title">Find the PID<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+</h3>
+<div class="callout-content">
+<figure>Remember our example on metadata types from arrayexpress <a href="https://saramorsy.github.io/FAIR/02-ep.html" class="external-link">here</a>, can you tell what is the persistent identifier of this dataset? :::: solution The PID in this case or as it called in array express “Accession” is <strong>E-MTAB-7933</strong>. If you use this accession number, you will find the dataset. <strong>In addition, have you noticed that also the data files are named using this PID</strong> . <img src="../fig/img17.PNG" alt="alt text" class="figure mx-auto d-block"></figure></div>
+</div>
+</div>
+<p>::::::::::::</p>
+<p><strong>It is important to note that when you upload your data to a public repository, the repository will create this ID for you automatically.</strong></p>
+</section><section id="the-structure-of-persistent-identifiers"><h2 class="section-heading">the Structure of persistent identifiers<a class="anchor" aria-label="anchor" href="#the-structure-of-persistent-identifiers"></a>
+</h2>
+<hr class="half-width"><p>As you can see in this picture, the structure of any identifiers consist of 1- The initial resolver service: domain which is unique and specific to each community e.g. ORCID for researchers and DOI for publications 2- <strong>Prefix</strong>: Unique number that represent category e.g. for DOI specific numbers refer to the publisher and directory 3- <strong>Suffix</strong>: The unique dataset number and it is unique under its prefix</p>
+<p><a href="fig/img18.jpg">The structure of persistent identifiers as in DOI, In the prefix, you can see that first part of prefix represent DOI directory and the following number is publisher. Suffix is unique under its unique prefix</a></p>
 <div id="callout2" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -272,25 +291,10 @@
 <h3 class="callout-title">Resources<a class="anchor" aria-label="anchor" href="#callout2"></a>
 </h3>
 <div class="callout-content">
-<ul><li><p><a href="https://faircookbook.elixir-europe.org/content/recipes/findability/identifiers.html" class="external-link">Unique and persistent identifiers</a>: this link provide a nice and practical explanation of the unique and persistent identifiers from FAIRCookbook</p></li>
-<li><p><a href="https://rdmkit.elixir-europe.org/identifiers.html" class="external-link">Identifiers</a>: another nice explanation from RDMkit</p></li>
+<p>The resources listed below provide an overview of the information you need to know about identifiers. - <a href="https://faircookbook.elixir-europe.org/content/recipes/findability/identifiers.html" class="external-link">Unique and persistent identifiers</a>: this link provide a nice and practical explanation of the unique and persistent identifiers from FAIRCookbook</p>
+<ul><li><p><a href="https://rdmkit.elixir-europe.org/identifiers.html" class="external-link">Identifiers</a>: another nice explanation from RDMkit</p></li>
 <li><p><a href="https://rdmkit.elixir-europe.org/machine_actionability" class="external-link">Machine actionability</a>: identifiers are also important for machine readability, a nice explanation from RDMkit that describes machine readability</p></li>
 <li><p>Examples and explanation of different identifiers from FAIRsharing.org <a href="https://fairsharing.org/search?recordType=identifier_schema" class="external-link uri">https://fairsharing.org/search?recordType=identifier_schema</a></p></li>
-</ul></div>
-</div>
-</div>
-<div id="discussion1" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion1"></a>
-</h3>
-<div class="callout-content">
-<ul><li>From the previous resources, Can you give example of persistent identifiers that fulfill the criteria of being globally unique and persistent?</li>
-<li>What is minting identifiers?</li>
-<li>
-<a href="https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=d21fdb06-22bf-418e-aa40-dc5ef1485f56" class="external-link">Using Datastewardship wizard</a>, Can you identify the key points that could be used to describe this dataset? <a href="https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933" class="external-link">E-MTAB-7933</a>?</li>
 </ul></div>
 </div>
 </div>
@@ -298,11 +302,7 @@
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
-</div>
-
-
-
-      </div> <!-- / div.lesson-content -->
+</section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="../instructor/02-ep.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="../instructor/04-ep.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
@@ -326,8 +326,8 @@ any links that you are not going to use.
         <p>Materials licensed under <a href="../LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.11.2" class="external-link">sandpaper (0.11.2)</a>,
-        <a href="https://github.com/carpentries/pegboard/tree/0.3.2" class="external-link">pegboard (0.3.2)</a>,
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.11.3" class="external-link">sandpaper (0.11.3)</a>,
+        <a href="https://github.com/carpentries/pegboard/tree/0.4.1" class="external-link">pegboard (0.4.1)</a>,
       and <a href="https://github.com/SaraMorsy/varnish/tree/a813f61a6abace9260a43dd3bb38d1b0d58d8a27" class="external-link">varnish (0.2.4)</a>.</p>
 			</div>
 		</footer></div> <!-- / div.container -->
@@ -348,9 +348,9 @@ any links that you are not going to use.
   "creativeWorkStatus": "active",
   "url": "https://SaraMorsy.github.io/FAIR/instructor/03-ep.html",
   "identifier": "https://SaraMorsy.github.io/FAIR/instructor/03-ep.html",
-  "dateCreated": "2022-12-16",
-  "dateModified": "2022-12-16",
-  "datePublished": "2022-12-16"
+  "dateCreated": "2023-01-09",
+  "dateModified": "2023-01-09",
+  "datePublished": "2023-01-09"
 }
 
   </script><script>
