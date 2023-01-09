@@ -69,7 +69,6 @@ As you see the results comes up, choose metdata profiles. As we explained earlie
 :::::::
 :::::::::::::::::::::::::::::::::::::::
 
----
 ## Data and metadata should follow Community standards
 Each data type has its own community that develops guidelines to ensure that metadata and data are appropriately described. Make sure to follow the community standards when describing your data. This becomes increasingly important as your data will become more reliable for other researchers. If you decide to use other guidelines, make sure you clearly document this. The use of community standards allows your data to be reused while also making it easily interoperable across multiple platforms.
 We provide examples of various community standards that you can use to ensure that your data is described correctly.
