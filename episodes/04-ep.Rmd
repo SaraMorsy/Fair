@@ -82,5 +82,6 @@ Through the following resources, you will know more about sensitive data and wha
 ### FAIR principles
 This episode covers the following principles:
 1- (A1) (meta)data are retrievable by their identifier using a standardised communications protocol
+
 2- (R1.1)	meta(data) are released with a clear and accessible data usage licence
 :::
