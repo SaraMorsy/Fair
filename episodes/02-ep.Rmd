@@ -63,7 +63,7 @@ The building unit of FAIR cookbook is called a recipe, The recipe is the term us
 ![FAIRcookbook recipes structure](fig/img4.png){alt='alt text'}
 
 So let's use the search box and write down metadata profiles
-![FAIRcookbook search wizard](fig/img4.PNG){alt='alt text'}
+![FAIRcookbook search wizard](fig/img4.png){alt='alt text'}
 As you see the results comes up, choose metdata profiles. As we explained earlier the recipe shows necessary steps for  creating metadata profiles for different data types
 ![FAIRcookbook search results](fig/img6.PNG){alt='alt text'}
 :::::::
