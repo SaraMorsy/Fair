@@ -11,7 +11,7 @@ exercises: 2
 2- Recall the community standards and how to apply
 them to data and metadata.
 
-3- To define data provenance.
+3- Define data provenance.
 :::
 
 ## Meta-data
@@ -58,12 +58,12 @@ The building unit of FAIR cookbook is called a recipe, The recipe is the term us
 2- Ingredients which gives you an idea for the skills needed and tools you can use to apply the recipes
 3- The steps and the process
 4- Recommendations of what to read next and references to your reading
-![FAIRcookbook recipes structure](/fig/img4.png)
+![FAIRcookbook recipes structure](/fig/img4.png){alt='alt text'}
 
 So let's use the search box and write down metadata profiles
-![FAIRcookbook search wizard](/fig/img4.PNG)
+![FAIRcookbook search wizard](/fig/img4.PNG){alt='alt text'}
 As you see the results comes up, choose metdata profiles. As we explained earlier the recipe shows necessary steps for  creating metadata profiles for different data types
-![FAIRcookbook search results](/fig/img6.PNG)
+![FAIRcookbook search results](/fig/img6.PNG){alt='alt text'}
 :::::::
 :::::::::::::::::::::::::::::::::::::::
 
@@ -78,18 +78,18 @@ RDMkit provides a nice domain specific-training[here](https://rdmkit.elixir-euro
 
 :::: solution
 RDMkit is The Research Data Management toolkit for Life Sciences. It provides Best practices and guidelines to help you make your data FAIR (Findable, Accessible, Interoperable and Reusable). It also provides catalogue of tools and resources for research data management. 
-![RDMkit main page](/fig/img7.PNG)
+![RDMkit main page](/fig/img7.PNG){alt='alt text'}
 
 As you can see in the above image, RDMkit covers a variety of research data management topics. The community standards are covered under domain tab. 
 It provides community standards for all types of data. 
-![RDMkit page on community standards](/fig/img8.PNG)
+![RDMkit page on community standards](/fig/img8.PNG){alt='alt text'}
 
 You can find the bioimage community standards on top of the page. As you can see, it covers the following
 1- What is bioimage data and metadata?
 2- Standards of bioimage research data management
 3- bioimage data collection
 4- Data publication and archiving
-![RDMkit page on bioimage community standards](/fig/img9.PNG)
+![RDMkit page on bioimage community standards](/fig/img9.PNG){alt='alt text'}
 ::::
 :::::::::
 
