@@ -120,6 +120,7 @@ As you can see in this picture, you wil find data provenance in under protocol a
 
 ## Vocabularies are FAIR
 The metadata and data should be described by vocabularies that comply with FAIR which means that metadata and data should be:
+
 **F** globally unique and persistent identifiers                           
 **A** accessible documentation that extensively describes your identifiers
 
@@ -170,19 +171,33 @@ Usually, when the data is generated, both metadata and data files are separate f
 ::: callout
 ## Resources
 You can learn more about how to describe your data using FAIR vocabularies and formal language for knowledge representation from the following:
+
 - Recipe from the FAIRCookbook on[FAIR and the notion of metadata](https://faircookbook.elixir-europe.org/content/recipes/introduction/metadata-fair.html)
+
 - RDMkit explanation of machine readability[Machine readability](https://rdmkit.elixir-europe.org/machine_actionability)
+
 - Read more about vocabularies and ontologies from 
-- [Vocabularies and ontology](https://carpentries-incubator.github.io/fair-bio-practice/06-being-precise/index.html)
+[Vocabularies and ontology](https://carpentries-incubator.github.io/fair-bio-practice/06-being-precise/index.html)
+
 - [List of ontologies](https://obofoundry.org/)
+
 - This is a nice introduction to metadata from Ed-DaSH carpentries course [Introduction to metadata](https://carpentries-incubator.github.io/fair-bio-practice/05-intro-to-metadata/index.html) 
+
 - The following recipe from the FAIRCookbook provides instructions on how to create metadata profiles[Metadata profiles](https://faircookbook.elixir-europe.org/content/recipes/interoperability/creating-minimal-metadata-profiles.html): 
+
 - RDMkit explanation on how to manage metadata: [Metadata management](https://rdmkit.elixir-europe.org/metadata_management.html)
-- [Domain specific repositories](https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html): This is a lesson on types of repositories and give examples on domain specific repositories
+
+- [Domain specific repositories](https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html): 
+
+This is a lesson on types of repositories and give examples on domain specific repositories
 - ED-DaSH lesson on how to choose a data repository [How do we choose a research data repository?](https://carpentries-incubator.github.io/fair-bio-practice/13-data-repositories/index.html)
+
 - FAIRsharing provided a great information on writing domain specific metadata, you can find it [here](https://fairsharing.org/searchfairsharingRegistry=Standard&subjects=life%2520science&page=1)
+
 - A recipe from the FAIRcookbook on how to [Interlink data from different sources](https://faircookbook.elixir-europe.org/content/recipes/interoperability/identifier-mapping.html#references)
+
 - A nice guideline on [How can you record data provenance](https://rdmkit.elixir-europe.org/data_provenance)
+
 - FAIRcookbook recipe on [Audit of the provenence process](https://faircookbook.elixir-europe.org/content/recipes/reusability/provenance.html)
 :::
 
