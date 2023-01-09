@@ -51,7 +51,7 @@ Let's look at an example using microarray data from the arrayexpress database. T
 :::::::::::::::::::::::::::::: challenge
 - From the FAIRcoobook, can you find the recipe on how to create metadata profiles for your dataset? you can start from (here)[https://faircookbook.elixir-europe.org/content/home.html]
 :::::: solution
-First of all, let's understand the structure of the FAIRCookbook. For a quick overview, you can watch our RDMBites on FAIRcookbook (here)[]
+First of all, let's understand the structure of the FAIRCookbook. For a quick overview, you can watch our RDMBites on FAIRcookbook [here](https://drive.google.com/drive/folders/16XZtCWBR-F3cvDHkB7A8jkjj6wvQ7sOr)
 
 The building unit of FAIR cookbook is called a recipe, The recipe is the term used to describe instructions for how to FAIRify your data. As you see in the image, the structure of each recipe includes these main items:
 1- Graphical overview which is the mindmap for the recipe
