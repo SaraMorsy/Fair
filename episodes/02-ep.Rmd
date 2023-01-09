@@ -5,18 +5,18 @@ exercises: 2
 ---
 ::: callout
 ## Outcomes
-1- To identify what are metadata and its types
-2- To memorize the community standards and how to use them for data and metadata
-3- To define what is data provenance
+1- Define metadata and its various types.
+2- Recall the community standards and how to apply them to data and metadata.
+3- To define data provenance.
 :::
 
 ## Meta-data
 
-Metadata is the description of your data.  In a simple words, if we had a data file such as an Excel spreadsheet containing data values for an assay, column headings are used to assign meaning and context.  Here the data itself are the data values, and the metadata are the column headings. Any documentation or explanation of the excel file that accompanies it, is likewise considered metadata.
+The description of your data is called metadata. In other words, if we had a data file containing data values for an assay, such as an Excel spreadsheet, column headings are used to assign meaning and context. The data values are the data in this case, and the metadata are the column headings. Any documentation or explanation of the accompanying excel file is also considered metadata.
 
-As you can see in the following image,  the data are colored in orange which represents the heart rate, genotype and patient ID. In blue color, you can see the metadata which describe what is this data, (the name of the cohort, the contact e-mail for more information on the dataset.
+As seen in the image below, the data is coloured orange to represent the heart rate, genotype, and patient ID. The metadata that describes what this data is (the name of the cohort, the contact e-mail for more information on the dataset) is shown in blue.
 
-![Types of metadata](fig/fairifying1.jpg){alt='alt text'}
+![Types of metadata](fig/img2.png){alt='alt text'}
 
 
 #### What else would metadata reveal?
@@ -29,66 +29,77 @@ The column headings appear to be complete, though there are some issues with the
 - In row 4, it is unclear whether the type of diabetes mellitus is 1 or 2.
 - There is an empty space in the final row. It is unclear whether this is due to a lack of information or the patient does not have diabetes.
 So to do this better, two separate columns are created for the type and stage of the disease. The disease's name included whether it was type 1 or type 2. You can check this in here 
-![Types of metadata](fig/fairifying4.jpg){alt='alt text'}
+![Types of metadata](fig/img1.png){alt='alt text'}
 
 
-**Building on the previous examples,** Metadata can demonstrate a variety of things, including your data's characteristics and data provenance, which explains how your data was created. There are three types of metadata: descriptive, structural, and administrative.  
+**Building on the previous examples,**metadata can show a variety of things, such as your data's characteristics and data provenance, which explains how your data was created. Metadata is classified into three types: descriptive, structural, and administrative.
 
-- **Descriptive Metadata** describes the characteristics of the dataset so for instance authors, abstracts, and any relevant publication.
-- **Structural metadata** describes how it is generated, and how it is internally structured.
-- **Administrative metadata** describes who managed the data, collaborators and project funds.  
+- **Descriptive Metadata** describes the characteristics of the dataset
+- **Structural Metadata** describes how the dataset is generated and structured internally.
+- **Administrative metadata** describes who was in charge of the data, who worked on the project, and how much money was spent.
 
 ::: discussion
 ## Identify types of metadata in this microarray dataset
-let’s see this example on microarray data from a database called arrayexpress. In this dataset, you will find the data, metadata, and persistent identifier (PID). In the black circle, you will find the data identifier (ID) which is unique and persistent to the data. For metadata, you will find the administrative metadata in the orange square. You will also find the descriptive metadata in the orange square, as you can see, it describes the author, publication and abstract for the study. For the structural metadata, it is described in the files (orange arrows). 
-![Types of metadata](fig/metadata.jpg){alt='alt text'}
-:::
-
-
-
+Let's look at an example using microarray data from the arrayexpress database. This dataset contains data and metadata. The **administrative metadata** can be found in the orange square. The **descriptive metadata** is located in the black square, and as you can see, it summarize the dataset. The structure of dataset and files are marked by dark blue square which represents  **structural metadata**. 
+![Types of metadata](fig/img3.jpg){alt='alt text'}
 :::::::::::::::::::::::::::::: challenge
-- From the FAIRcoobook, can you find the recipe on how to create metadata profiles? you can start from (here)[https://faircookbook.elixir-europe.org/content/home.html]
+- From the FAIRcoobook, can you find the recipe on how to create metadata profiles for your dataset? you can start from (here)[https://faircookbook.elixir-europe.org/content/home.html]
 :::::: solution
 First of all, let's understand the structure of the FAIRCookbook. For a quick overview, you can watch our RDMBites on FAIRcookbook (here)[]
 
 The building unit of FAIR cookbook is called a recipe, The recipe is the term used to describe instructions for how to FAIRify your data. As you see in the image, the structure of each recipe includes these main items:
-1- Graphical overview which is the midmap for the recipe
+1- Graphical overview which is the mindmap for the recipe
 2- Ingredients which gives you an idea for the skills needed and tools you can use to apply the recipes
 3- The steps and the process
 4- Recommendations of what to read next and references to your reading
-![FAIRcookbook recipes structure](/fig/ep5.png)
+![FAIRcookbook recipes structure](/fig/img4.png)
 
 So let's use the search box and write down metadata profiles
-
-As you see the results comes up, choose metdata profiles
-
-As we explained earlier the recipe shows necessary steps for  creating metadata profiles
-
-
-
-
+![FAIRcookbook search wizard](/fig/img4.PNG)
+As you see the results comes up, choose metdata profiles. As we explained earlier the recipe shows necessary steps for  creating metadata profiles for different data types
+![FAIRcookbook search results](/fig/img6.PNG)
+:::::::::::
 :::::::::::::::::::::::::::::::::::::::
-### Data and metadata should follow Community standards
-Each data type has its own community that creates criteria to ensure that metadata and data are described appropriately. When describing your data, make sure to adhere to the community standards. This is critical as your data becomes more trustworthy. If you decide to utilise other criteria, make sure you document this clearly. The use of community standards will not only allow your data to be reused, but it will also be easily interoperable across multiple platforms.
-We provide samples of various community standards that you may use to ensure that your data is described using the right descriptors. 
 
+---
+### Data and metadata should follow Community standards
+Each data type has its own community that develops guidelines to ensure that metadata and data are appropriately described. Make sure to follow the community standards when describing your data. This becomes increasingly important as your data will become more reliable for other researchers. If you decide to use other guidelines, make sure you clearly document this. The use of community standards allows your data to be reused while also making it easily interoperable across multiple platforms.
+We provide examples of various community standards that you can use to ensure that your data is described correctly.
 
 ::: challenge
 ## Exercise
-RDMkit provides a nice domain specific-training[here](https://rdmkit.elixir-europe.org/your_domain), what is the name of community standard for bioimage?
+RDMkit provides a nice domain specific-training[here](https://rdmkit.elixir-europe.org/your_domain), using this training, can you find the bioimage community standards?
 
-- you can start from here
-- As you see in this picture the structure of rdmkit is as follows
+::: solution
+RDMkit is The Research Data Management toolkit for Life Sciences. It provides Best practices and guidelines to help you make your data FAIR (Findable, Accessible, Interoperable and Reusable). It also provides catalogue of tools and resources for research data management. 
+![RDMkit main page](/fig/img7.PNG)
 
+As you can see in the above image, RDMkit covers a variety of research data management topics. The community standards are covered under domain tab. 
+It provides community standards for all types of data. 
+![RDMkit page on community standards](/fig/img8.PNG)
 
-- 
-:::
+You can find the bioimage community standards on top of the page. As you can see, it covers the following
+1- What is bioimage data and metadata?
+2- Standards of bioimage research data management
+3- bioimage data collection
+4- Data publication and archiving
+![RDMkit page on bioimage community standards](/fig/img9.PNG)
+::::::::::
 
-### Provenance
+### Data Provenance
 
 **Provenance** is the detailed description of the history of the data and how it is generated.
-Here is an example from GEO database where there is accurate description of the data which allow the reusability of microarray data. As you see, there is rich description of the study design, organism, platform and description of data. The user can reuse the data safely as the decryption of the data and metadata allows accurate reusability of the data. Also, attachment to this dataset, there are files that allow machine readability of these metadata that can be read by software packages like R.
-![An example from GEO dataset shows how the data were generated and processed](fig/provenance.png){alt='alt text'}
+Here is an example from arrayexpress database where there is accurate description of the data which allow the reusability of microarray data. 
+As you can see in this example from **E-MTAB-6980** dataset, there is rich description of the study design, organism, platform and timing of data collection. 
+
+![An example from arrayexpress dataset shows the protocols and how the data were generated and processed](fig/img10.PNG){alt='alt text'}
+::::::::::: challenge
+- Can you extract data provenance from this data set [E-MTAB-7933](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)? 
+:::: solution
+As you can see in this picture, you wil find data provenance in under protocol and experimental factors tab.
+![](fig/img11.jpg){alt='alt text'}
+::::
+:::::::::::
 
 ### Vocabularies are FAIR
 The metadata and data should be described by vocabularies that comply with FAIR which means that metadata and data should be:
@@ -97,11 +108,28 @@ The metadata and data should be described by vocabularies that comply with FAIR 
 **I** Vocabularies are interoperable
 **R** Can be reused and interpreted easily by humans and machines
 
+:::::: challenge
+## exercise
+If you have a biological dataset related to cardiovascular system, do you know how to choose the right vocabularies and ontologies for it?
+::: solution
+It is time to introduce you to [FAIRsharing](https://fairsharing.org/), a resource for standards, databases and policies. The FAIRsharing is an important resource to 
+::::
+::::::::::
 
 ### Linked metadata
 When uploading your dataset to any database, you should include the following information:
 1- Additional datasets that supplement your data
 2- It should be stated if your dataset is built on another dataset.
+
+::::: challenge
+## Exercise
+How could you interlink data to your dataset?
+::: solution
+One of ways to do this, is to follow the FAIRcookbook recipes on interlinking data from different resources as presented in this graphical overview. you can find the recipe [here](https://faircookbook.elixir-europe.org/content/recipes/interoperability/identifier-mapping.html)
+
+![Graphical overview from FAIRcookbook recipe on the interlinking data](fig/img12.jpg){alt='alt text'}
+:::
+:::::
 
 ### Metadata and data are always available
 The maintenance of the data sets in the public database comes at a cost. This can be avoided by maintenance of the metadata instead. Metadata is small and can be easily maintained not only on the database but personal computer of researchers. This also the case for sensitive data where the metadata are available and provides contact details of the researchers, how to get the data and data provenance
@@ -115,9 +143,6 @@ The maintenance of the data sets in the public database comes at a cost. This ca
 
 Usually, when the data is generated, both metadata and data files are separate files. As a researcher, you should ensure that both files refer to each other.
 
-::::::::::: challenge
-- Can you extract data provenance from this data set [E-MTAB-7933](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)? 
-::::::::::::::::
 
 ::: callout
 ## Resources
