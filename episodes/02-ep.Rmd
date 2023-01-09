@@ -19,7 +19,7 @@ As seen in the image below, the data is coloured orange to represent the heart r
 ![Types of metadata](fig/img2.png){alt='alt text'}
 
 
-#### What else would metadata reveal?
+## What else would metadata reveal?
 To understand what else metadata can describe, let's have a look again on the previous image, **what else would you like to add to understand the data more?**
 
 Additional metadata for provenance and general descriptions can be added. More information about the cohort name, for example, is required because "Human Welsh Cohort" does not tell us much in comparison to other existing Welsh cohorts. Here, we would include a unique ID or working title for the cohort, as well as a project URL describing its origin and composition.
@@ -62,7 +62,7 @@ As you see the results comes up, choose metdata profiles. As we explained earlie
 :::::::::::::::::::::::::::::::::::::::
 
 ---
-### Data and metadata should follow Community standards
+## Data and metadata should follow Community standards
 Each data type has its own community that develops guidelines to ensure that metadata and data are appropriately described. Make sure to follow the community standards when describing your data. This becomes increasingly important as your data will become more reliable for other researchers. If you decide to use other guidelines, make sure you clearly document this. The use of community standards allows your data to be reused while also making it easily interoperable across multiple platforms.
 We provide examples of various community standards that you can use to ensure that your data is described correctly.
 
@@ -86,7 +86,7 @@ You can find the bioimage community standards on top of the page. As you can see
 ![RDMkit page on bioimage community standards](/fig/img9.PNG)
 ::::::::::
 
-### Data Provenance
+## Data Provenance
 
 **Provenance** is the detailed description of the history of the data and how it is generated.
 Here is an example from arrayexpress database where there is accurate description of the data which allow the reusability of microarray data. 
@@ -101,7 +101,7 @@ As you can see in this picture, you wil find data provenance in under protocol a
 ::::
 :::::::::::
 
-### Vocabularies are FAIR
+## Vocabularies are FAIR
 The metadata and data should be described by vocabularies that comply with FAIR which means that metadata and data should be:
 **F** globally unique and persistent identifiers                           
 **A** accessible documentation that extensively describes your identifiers
@@ -110,13 +110,22 @@ The metadata and data should be described by vocabularies that comply with FAIR 
 
 :::::: challenge
 ## exercise
-If you have a biological dataset related to cardiovascular system, do you know how to choose the right vocabularies and ontologies for it?
+You are researcher working in the field of food safety and you are doing clinical trial, do you know how to choose the right vocabularies and ontologies for it?
 ::: solution
-It is time to introduce you to [FAIRsharing](https://fairsharing.org/), a resource for standards, databases and policies. The FAIRsharing is an important resource to 
+It is time to introduce you to [FAIRsharing](https://fairsharing.org/), a resource for standards, databases and policies. The FAIRsharing is an important resource for researchers to help them identify the suitable repositories, standards and databases for their data. It also contains the latest policies from from governments, funders and publishers for FAIRer data.
+
+![](fig/img14.jpg){alt='alt text'}
+You can use the search wizard, to look for the guidelines for reporting the data and metadata of randomized controlled trials of the livestock and food. 
+
+![The latest guideline on metadata for randomized controlled trials of live stock and food ](fig/img15.jpg){alt='alt text'}
+In the results section, you can find REFLECT guidelines. 
+
+![REFLECT guidelines](fig/img16.jpg){alt='alt text'}
+For each resource/guideline, you will find general information, relationship graph, organization funding and maintaining the resource
 ::::
 ::::::::::
 
-### Linked metadata
+## Linked metadata
 When uploading your dataset to any database, you should include the following information:
 1- Additional datasets that supplement your data
 2- It should be stated if your dataset is built on another dataset.
@@ -131,15 +140,8 @@ One of ways to do this, is to follow the FAIRcookbook recipes on interlinking da
 :::
 :::::
 
-### Metadata and data are always available
+## Metadata and data are always available
 The maintenance of the data sets in the public database comes at a cost. This can be avoided by maintenance of the metadata instead. Metadata is small and can be easily maintained not only on the database but personal computer of researchers. This also the case for sensitive data where the metadata are available and provides contact details of the researchers, how to get the data and data provenance
-
-
-::::::::::::::::::::::::: challenge
-- After reading previous resources, you should have an idea on metadata, would you give an example of metadata without data?
-:::::::::solution
-
-:::::::::::::::::::::::::
 
 Usually, when the data is generated, both metadata and data files are separate files. As a researcher, you should ensure that both files refer to each other.
 
