@@ -3,6 +3,7 @@ title: 'Metadata'
 teaching: 10
 exercises: 2
 ---
+
 ::: callout
 ## Outcomes
 1- Define metadata and its various types.
