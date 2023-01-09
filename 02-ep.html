@@ -327,7 +327,7 @@
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <figure>RDMkit is The Research Data Management toolkit for Life Sciences. It provides Best practices and guidelines to help you make your data FAIR (Findable, Accessible, Interoperable and Reusable). It also provides catalogue of tools and resources for research data management. <img src="/fig/img7.PNG" alt="RDMkit main page" class="figure mx-auto d-block"></figure><figure>As you can see in the above image, RDMkit covers a variety of research data management topics. The community standards are covered under domain tab. It provides community standards for all types of data. <img src="/fig/img8.PNG" alt="RDMkit page on community standards" class="figure mx-auto d-block"></figure><figure>You can find the bioimage community standards on top of the page. As you can see, it covers the following 1- What is bioimage data and metadata? 2- Standards of bioimage research data management 3- bioimage data collection 4- Data publication and archiving <img src="/fig/img9.PNG" alt="RDMkit page on bioimage community standards" class="figure mx-auto d-block"></figure></div>
 </div>
@@ -336,40 +336,80 @@
 </section><section id="data-provenance"><h2 class="section-heading">Data Provenance<a class="anchor" aria-label="anchor" href="#data-provenance"></a>
 </h2>
 <hr class="half-width"><p><strong>Provenance</strong> is the detailed description of the history of the data and how it is generated. Here is an example from arrayexpress database where there is accurate description of the data which allow the reusability of microarray data. As you can see in this example from <strong>E-MTAB-6980</strong> dataset, there is rich description of the study design, organism, platform and timing of data collection.</p>
-<figure><img src="fig/img10.PNG" alt="alt text" class="figure mx-auto d-block"> ::::::::::: challenge - Can you extract data provenance from this data set <a href="https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933" class="external-link">E-MTAB-7933</a>? :::: solution As you can see in this picture, you wil find data provenance in under protocol and experimental factors tab. <img src="fig/img11.jpg" alt="alt text" class="figure mx-auto d-block"> :::: :::::::::::</figure></section><section id="vocabularies-are-fair"><h2 class="section-heading">Vocabularies are FAIR<a class="anchor" aria-label="anchor" href="#vocabularies-are-fair"></a>
+<figure><img src="fig/img10.PNG" alt="alt text" class="figure mx-auto d-block"> ::::::::::::: challenge ## Exercise - Can you extract data provenance from this data set <a href="https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933" class="external-link">E-MTAB-7933</a>?</figure><div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<figure>As you can see in this picture, you wil find data provenance in under protocol and experimental factors tab. <img src="fig/img11.jpg" alt="alt text" class="figure mx-auto d-block"></figure></div>
+</div>
+</div>
+</div>
+<p>:::::::::::::</p>
+</section><section id="vocabularies-are-fair"><h2 class="section-heading">Vocabularies are FAIR<a class="anchor" aria-label="anchor" href="#vocabularies-are-fair"></a>
 </h2>
 <hr class="half-width"><p>The metadata and data should be described by vocabularies that comply with FAIR which means that metadata and data should be: <strong>F</strong> globally unique and persistent identifiers<br><strong>A</strong> accessible documentation that extensively describes your identifiers</p>
 <p><strong>I</strong> Vocabularies are interoperable</p>
 <p><strong>R</strong> Can be reused and interpreted easily by humans and machines</p>
-<div id="discussion3" class="callout discussion">
+<div id="challenge2" class="callout challenge">
 <div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-1" class="callout-inner">
-<h3 class="callout-title">exercise<a class="anchor" aria-label="anchor" href="#discussion3"></a>
+<h3 class="callout-title">exercise<a class="anchor" aria-label="anchor" href="#challenge2"></a>
 </h3>
 <div class="callout-content">
-<p>You are researcher working in the field of food safety and you are doing clinical trial, do you know how to choose the right vocabularies and ontologies for it? ::: solution It is time to introduce you to <a href="https://fairsharing.org/" class="external-link">FAIRsharing</a>, a resource for standards, databases and policies. The FAIRsharing is an important resource for researchers to help them identify the suitable repositories, standards and databases for their data. It also contains the latest policies from from governments, funders and publishers for FAIRer data.</p>
+<p>You are researcher working in the field of food safety and you are doing clinical trial, do you know how to choose the right vocabularies and ontologies for it?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
+  <h4 class="accordion-header" id="headingSolution3">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div class="accordion-body">
+<p>It is time to introduce you to <a href="https://fairsharing.org/" class="external-link">FAIRsharing</a>, a resource for standards, databases and policies. The FAIRsharing is an important resource for researchers to help them identify the suitable repositories, standards and databases for their data. It also contains the latest policies from from governments, funders and publishers for FAIRer data.</p>
 <figure><img src="fig/img14.jpg" alt="alt text" class="figure mx-auto d-block"> You can use the search wizard, to look for the guidelines for reporting the data and metadata of randomized controlled trials of the livestock and food.</figure><figure><img src="fig/img15.jpg" alt="alt text" class="figure mx-auto d-block"> In the results section, you can find REFLECT guidelines.</figure><figure><img src="fig/img16.jpg" alt="alt text" class="figure mx-auto d-block"> For each resource/guideline, you will find general information, relationship graph, organization funding and maintaining the resource</figure></div>
 </div>
 </div>
-<p>::::::::::</p>
+</div>
 </section><section id="linked-metadata"><h2 class="section-heading">Linked metadata<a class="anchor" aria-label="anchor" href="#linked-metadata"></a>
 </h2>
 <hr class="half-width"><p>When uploading your dataset to any database, you should include the following information: 1- Additional datasets that supplement your data 2- It should be stated if your dataset is built on another dataset.</p>
-<div id="discussion4" class="callout discussion">
+<div id="challenge3" class="callout challenge">
 <div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-2" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion4"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge3"></a>
 </h3>
 <div class="callout-content">
-<p>How could you interlink data to your dataset? ::: solution One of ways to do this, is to follow the FAIRcookbook recipes on interlinking data from different resources as presented in this graphical overview. you can find the recipe <a href="https://faircookbook.elixir-europe.org/content/recipes/interoperability/identifier-mapping.html" class="external-link">here</a></p>
+<p>How could you interlink data to your dataset?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution4" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
+  <h4 class="accordion-header" id="headingSolution4">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div class="accordion-body">
+<p>One of ways to do this, is to follow the FAIRcookbook recipes on interlinking data from different resources as presented in this graphical overview. you can find the recipe <a href="https://faircookbook.elixir-europe.org/content/recipes/interoperability/identifier-mapping.html" class="external-link">here</a></p>
 <figure><img src="fig/img12.jpg" alt="alt text" class="figure mx-auto d-block"><figcaption>Graphical overview from FAIRcookbook recipe on the interlinking data</figcaption></figure></div>
 </div>
 </div>
-<p>:::::</p>
+</div>
 </section><section id="metadata-and-data-are-always-available"><h2 class="section-heading">Metadata and data are always available<a class="anchor" aria-label="anchor" href="#metadata-and-data-are-always-available"></a>
 </h2>
 <hr class="half-width"><p>The maintenance of the data sets in the public database comes at a cost. This can be avoided by maintenance of the metadata instead. Metadata is small and can be easily maintained not only on the database but personal computer of researchers. This also the case for sensitive data where the metadata are available and provides contact details of the researchers, how to get the data and data provenance</p>
