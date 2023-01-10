@@ -79,34 +79,36 @@ In our specialized courses, we will give you examples on how to upload your data
 
 **By uploading data to a database, you comply with the following FAIR principles**
 
-**F1** (Meta)data are assigned a globally unique and persistent identifier
+- **F1** (Meta)data are assigned a globally unique and persistent identifier
 
-**F3** Metadata clearly and explicitly include the identifier of the data they describe
+- **F3** Metadata clearly and explicitly include the identifier of the data they describe
 
-**F4** (Meta)data are registered or indexed in a searchable resource
+- **F4** (Meta)data are registered or indexed in a searchable resource
 
 It will also allow your data to be more accessible as the standardized communications protocol and authentication are automatically set for your data
 
-**A1** (Meta)data are retrievable by their identifier using a standardised communications protocol
+- **A1** (Meta)data are retrievable by their identifier using a standardised communications protocol
 
-A1.1 The protocol is open, free, and universally implementable
+- A1.1 The protocol is open, free, and universally implementable
 
-A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
+- A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
 
-**A2** Metadata are accessible, even when the data are no longer available
+- **A2** Metadata are accessible, even when the data are no longer available
 
-**I3** (Meta)data include qualified references to other (meta)data
+- **I3** (Meta)data include qualified references to other (meta)data
 
-**R1.1** (Meta)data are released with a clear and accessible data usage license
+- **R1.1** (Meta)data are released with a clear and accessible data usage license
 :::
 
 #### How to choose the right database for your dataset?
 
-1- Check the community standards for your data
+1- Check the community standards for your data, you can find more information [here](https://rdmkit.elixir-europe.org/your_domain)
 
 2- Look for resources that describe the databases and check if it fits your data, you might consider the following:
+
 A) Accessibility options 
 B) Licence
+
 One of these resources is **FAIRsharing**, it provides a registry for different databases and repositories. Here is an example where the FAIR sharing provides you with information regarding protein database [here](https://fairsharing.org/FAIRsharing.rtndct). It has the following information
 
 1- General information
