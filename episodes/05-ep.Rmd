@@ -25,10 +25,11 @@ The following table summarize these differences
 
 Data repository            Data warehouse     Data mart                     Data lake 
 ---------------            --------------     ----------                    ------- 
-Supported data types       Structured       Highly Structured          Structured, semi-structured, unstructured, binary
-Data quality                curated         Highly curated             Raw data 
+Supported data types       Structured                 Highly Structured                Structured, semi-structured, unstructured, binary
+Data quality                curated                   Highly curated                   Raw data 
 
 **2- The purpose of data repository into:** 
+
 A) Controlled access repository
 
 B) Discipline specific repository
@@ -37,7 +38,7 @@ C) Institutional repository
 
 D) General data repository
 
-###### The following image summarize these types with different examples
+**The following image summarize these types with different examples**
 
 ![Types of data repository, CC.BY from re3data.org](fig/img56.jpg)
 
