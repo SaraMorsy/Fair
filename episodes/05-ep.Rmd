@@ -6,15 +6,15 @@ exercises: 1
 
 ::: callout
 ## Outcomes
-1- Define what is data repository?
+1- Define what is data repository
 
 2- Illustrate different types of data repository
 
-3- Summarize steps of data indexing in a searchable repository
+3- Summarize the steps of data indexing in a searchable repository
 :::
 ## Indexed data repository
 To ensure data findability, your data should be uploaded to a public repository where your data can be searched and found, which is why F4 is so vital. There are numerous databases where you can upload your data, these are typically data-driven. 
-Examples of these databases are **ArrayExpress** for microarray data and RNAseq data. These databases have set of rules in place to make sure that your data will be FAIR.
+Examples of these databases are **ArrayExpress** for microarray data and RNAseq data. These databases have a set of rules in place to make sure that your data will be FAIR.
 
 After you upload your data into this database, they are assigned an ID and are indexed in the database. So whenever you look for the ID, or even use a keyword for your data, you will find your data.
 
@@ -23,7 +23,7 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 
 ::::::: challenge
 ## Exercise
-One of the things you can do to index your dataset, is to upload it to Zenodo, Can you use one of the resources we recommended before to know how to do this?
+One of the things you can do to index your dataset, is to upload it to Zenodo, can you use one of the resources we recommended before to know how to do this?
 
 1- [RDMkit](https://rdmkit.elixir-europe.org/)
 
@@ -44,7 +44,7 @@ So as you navigate the homepage of FAIRcookbook, you will find different tabs th
 2- Click on the findability tab
 
 3- on the left side, you will find a navigation bar which will help you find different recipes that make your data **findable**. 
-![You can find on the left sie the list of recipes to make your data findable](fig/img52.png)
+![You can find on the left side the list of recipes to make your data findable](fig/img52.png)
 
 4- As you can see here, you will find a recipe on registering datasets with Wikidata and another one on depositing to generic repositories-Zenodo use case
 
