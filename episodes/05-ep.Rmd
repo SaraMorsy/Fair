@@ -99,20 +99,17 @@ A1.2 The protocol allows for an authentication and authorisation procedure, wher
 1- Check the community standards for your data
 
 2- Look for resources that describe the databases and check if it fits your data, you might consider the following:
-
 A) Accessibility options 
-
 B) Licence
-
 One of these resources is **FAIRsharing**, *it provides a registry for different databases and repositories. Here is an example where the FAIR sharing provides you with information regarding protein database [here](https://fairsharing.org/FAIRsharing.rtndct). It has the following information
 
 1- General information
 
-2- Which policies that use this database?
+2- Which policies use this database?
 
 3- Related community standards
 
-4- Organization maintaing this database
+4- Organization maintaining this database
 
 5- Documentation and support
 
@@ -126,15 +123,10 @@ One of these resources is **FAIRsharing**, *it provides a registry for different
 The FAIR cookbook and RDMkit both provide excellent instructions for uploading your data into databases:
 
 - FAIRcookbook recipe on [Depositing to generic repositories- Zenodo use](https://faircookbook.elixir-europe.org/content/recipes/findability/zenodo-deposition.html)
-
 - FAIRcookbook recipe on [Registering Datasets in Wikidata](https://faircookbook.elixir-europe.org/content/recipes/findability/registeringDatasets.html)
-
 - RDMkit guidelines on [Data publications and depostion](https://rdmkit.elixir-europe.org/data_publication)
-
 - RDMkit guidelines on [Finding and reusing existing data](https://rdmkit.elixir-europe.org/existing_data)
-
-- FAIRcookbook recipe on[Search engine optimization](https://faircookbook.elixir-europe.org/content/recipes/findability/seo.html)
-
+- FAIRcookbook recipe on [Search engine optimization](https://faircookbook.elixir-europe.org/content/recipes/findability/seo.html)
 - FAIRsharing offers a nice portal to different [examples of databases](https://fairsharing.org/search?fairsharingRegistry=Database&subjects=life%2520science&page=1)
 :::
 
