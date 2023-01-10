@@ -33,8 +33,7 @@ One of the things you can do to index your dataset, is to upload it to Zenodo, C
 3- [FAIRsharing](https://fairsharing.org/)
 
 :::: solution
-Since you want a technical guideline, FAIRcookbook and RDMkit are the best to start with. We will start with FAIRcookbook
-- [FAIRcookbook](https://faircookbook.elixir-europe.org/)
+Since you want a technical guideline, FAIRcookbook and RDMkit are the best to start with. We will start with [FAIRcookbook](https://faircookbook.elixir-europe.org/)
 As we explained before the structure of the recipe so let's look for the suitable recipe in the FAIRcookbook
 So as you navigate the homepage of FAIRcookbook, you will find different tabs that covers each of FAIR principles, so for instance, if you want recipes on **Accessibility** of FAIR, you will find all recipes that can help you make your data accessible. 
 
@@ -50,7 +49,7 @@ So as you navigate the homepage of FAIRcookbook, you will find different tabs th
 
 4- As you can see here, you will find a recipe on registering datasets with Wikidata and another one on depositing to generic repositories-Zenodo use case
 
-5- Once you click on one of these resources, you will find the following:
+**Once you click on one of these resources, you will find the following:**
 
 A) Requirements that you need to apply the recipe to your dataset
 
@@ -66,7 +65,7 @@ In our specialized courses, we will give you examples on how to upload your data
 ::::::::::
 
 ::: discussion
-## Why should you upload your data to a database?
+### Why should you upload your data to a database?
 1- Databases assign your data a unique persistent identifier.
 
 2- Your data will be indexed, making it easier to find.
@@ -126,6 +125,7 @@ One of these resources is **FAIRsharing**, *it provides a registry for different
 ::: callout
 ## Resources
 **Our resources provide an overview of data repositories and examples**
+
 The FAIR cookbook and RDMkit both provide excellent instructions for uploading your data into databases:
 
 - FAIRcookbook recipe on [Depositing to generic repositories- Zenodo use](https://faircookbook.elixir-europe.org/content/recipes/findability/zenodo-deposition.html)
