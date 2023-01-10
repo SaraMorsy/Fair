@@ -13,7 +13,7 @@ exercises: 1
 3- Summarize steps of data indexing in a searchable repository
 :::
 
-### Indexed data repository
+## Indexed data repository
 
 To ensure data findability, your data should be uploaded to a public repository where your data can be searched and found, which is why F4 is so vital. There are numerous databases where you can upload your data, these are typically data-driven. 
 Examples of these databases are **Arrayexpress** for microarray data and RNAseq data. These databases have set of rules in place to make sure that your data will be FAIR.
@@ -52,7 +52,7 @@ B) Authors and licence
 
 In our specialized courses, we will give you examples on how to upload your data to specialized repository
 ::::
-::::::
+::::::::::
 
 ::: discussion
 
