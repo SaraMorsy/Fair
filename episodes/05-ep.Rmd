@@ -6,11 +6,11 @@ exercises: 1
 
 ::: callout
 ## Outcomes
-1- To define what is data repository?
+1- Define what is data repository?
 
-2- To illustrate different types of data repository
+2- Illustrate different types of data repository
 
-3- To summarize steps of data indexing in a searchable repository
+3- Summarize steps of data indexing in a searchable repository
 :::
 
 ### Indexed data repository
@@ -26,6 +26,8 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 ::::::: challenge
 One of the things you can do to index your dataset, is to upload it to Zenodo, Can you use one of the resources we recommended before to know how to do this?
 :::: solution
+We have recommended three recommended resources:
+1- 
 As we explained before the structure of the recipe so let's look for the suitable recipe in the FAIRcookbook
 So as you navigate the homepage of FAIRcookbook, you will find different tabs that covers each of FAIR principles, so for instance, if you want recipes on **Accessibility** of FAIR, you will find all recipes that can help you make your data accessible. 
 - Follow the following steps to find the recipe:
