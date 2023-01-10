@@ -20,6 +20,11 @@ After you upload your data into this database, they are assigned an ID and are i
 
 Take a look at the **ArrayExpress** database where all datasets are indexed, and you can simply find any dataset using the search tools. By indexing data, you can get the dataset using any keyword other than the PID. For example, if you want to locate human NSCL cell lines, you can just type this into the search toolbox and find the dataset. Indexing and registering datasets, also means they are curated in such a way that you may discover them using different keywords.
 
+![When you upload your dataset to a database, it can be curated and easily found using different keywords](fig/img54.png)
+
+![By indexing your dataset, you can retrieve it using its PID](fig/img55.png)
+
+![]
 
 ::::::: challenge
 ## Exercise
