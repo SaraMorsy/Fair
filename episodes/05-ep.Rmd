@@ -8,12 +8,42 @@ exercises: 1
 ## Outcomes
 1- Define what is data repository
 
-2- Illustrate different types of data repository
+2- Illustrate the importance of indexed data repository
 
 3- Summarize the steps of data indexing in a searchable repository
 :::
 ## Indexed data repository
-To ensure data findability, your data should be uploaded to a public repository where your data can be searched and found, which is why F4 is so vital. There are numerous databases where you can upload your data, these are typically data-driven. 
+
+### what is a data repository?
+It is a general term used to describe any storage space you use to deposit data, metadata and any associated research. Kindly note that database is more specific and it is mainly for the storage of your data. 
+
+#### Types of data repository
+There are many types of data repsoitory classified based on:
+**1- The structure of the data:** Data warehouse, Data lake and Data mart
+The following table summarize these differences
+
+
+Data repository            Data warehouse     Data mart                     Data lake 
+---------------            --------------     ----------                    ------- 
+Supported data types       Structured       Highly Structured          Structured, semi-structured, unstructured, binary
+Data quality                curated         Highly curated             Raw data 
+
+**2- The purpose of data repository into:** 
+A) Controlled access repository
+
+B) Discipline specific repository
+
+C) Institutional repository
+
+D) General data repository
+
+###### The following image summarize these types with different examples
+
+![Types of data repository, CC.BY from re3data.org](fig/img56.jpg)
+
+### Importance of indexed data repository
+
+To ensure data findability, your data should be uploaded to a public repository where your data can be searched and found, It will make your data comply with the fourth principle of findability (F4) which states that . There are numerous databases where you can upload your data, these are typically data-driven. 
 Examples of these databases are **ArrayExpress** for microarray data and RNAseq data. These databases have a set of rules in place to make sure that your data will be FAIR.
 
 After you upload your data into this database, they are assigned an ID and are indexed in the database. So whenever you look for the ID, or even use a keyword for your data, you will find your data.
@@ -26,7 +56,6 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 
 ![By indexing your dataset, you can retrieve it using its PID](fig/img55.png)
 
-![]
 
 ::::::: challenge
 ## Exercise
@@ -79,25 +108,25 @@ In our specialized courses, we will give you examples on how to upload your data
 
 **By uploading data to a database, you comply with the following FAIR principles**
 
-- **F1** (Meta)data are assigned a globally unique and persistent identifier
+- **F1** (Meta)data is assigned a globally unique and persistent identifier
 
 - **F3** Metadata clearly and explicitly include the identifier of the data they describe
 
-- **F4** (Meta)data are registered or indexed in a searchable resource
+- **F4** (Meta)data is registered or indexed in a searchable resource
 
 It will also allow your data to be more accessible as the standardized communications protocol and authentication are automatically set for your data
 
-- **A1** (Meta)data are retrievable by their identifier using a standardised communications protocol
+- **A1** (Meta)data is retrievable by their identifier using a standardised communications protocol
 
 - A1.1 The protocol is open, free, and universally implementable
 
 - A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
 
-- **A2** Metadata are accessible, even when the data are no longer available
+- **A2** Metadata is accessible, even when the data is no longer available
 
 - **I3** (Meta)data include qualified references to other (meta)data
 
-- **R1.1** (Meta)data are released with a clear and accessible data usage license
+- **R1.1** (Meta)data is released with a clear and accessible data usage license
 :::
 
 #### How to choose the right database for your dataset?
