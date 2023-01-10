@@ -18,10 +18,11 @@ Examples of these databases are **ArrayExpress** for microarray data and RNAseq 
 
 After you upload your data into this database, they are assigned an ID and are indexed in the database. So whenever you look for the ID, or even use a keyword for your data, you will find your data.
 
-Take a look at the **ArrayExpress** database where all datasets are indexed, and you can simply find any dataset using the search tools. By indexing data, you can get the dataset using any keyword other than the PID. For example, if you want to locate human NSCL cell lines, you can just type this into the search toolbox and find the dataset. Indexing and registering datasets , also means they are curated in such a way that you may discover them using different keywords.
+Take a look at the **ArrayExpress** database where all datasets are indexed, and you can simply find any dataset using the search tools. By indexing data, you can get the dataset using any keyword other than the PID. For example, if you want to locate human NSCL cell lines, you can just type this into the search toolbox and find the dataset. Indexing and registering datasets, also means they are curated in such a way that you may discover them using different keywords.
 
 
 ::::::: challenge
+## Exercise
 One of the things you can do to index your dataset, is to upload it to Zenodo, Can you use one of the resources we recommended before to know how to do this?
 
 1- [RDMkit](https://rdmkit.elixir-europe.org/)
