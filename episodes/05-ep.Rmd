@@ -67,7 +67,7 @@ In our specialized courses, we will give you examples on how to upload your data
 
 ::: discussion
 
-Why should you upload your data to a database?
+## Why should you upload your data to a database?
 1- Databases assign your data a unique persistent identifier.
 
 2- Your data will be indexed, making it easier to find.
