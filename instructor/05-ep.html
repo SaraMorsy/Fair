@@ -257,20 +257,48 @@
 </h3>
 <div class="callout-content">
 <p>1- Define what is data repository</p>
-<p>2- Illustrate different types of data repository</p>
+<p>2- Illustrate the importance of indexed data repository</p>
 <p>3- Summarize the steps of data indexing in a searchable repository</p>
 </div>
 </div>
 </div>
 <section id="indexed-data-repository"><h2 class="section-heading">Indexed data repository<a class="anchor" aria-label="anchor" href="#indexed-data-repository"></a>
 </h2>
-<hr class="half-width"><p>To ensure data findability, your data should be uploaded to a public repository where your data can be searched and found, which is why F4 is so vital. There are numerous databases where you can upload your data, these are typically data-driven. Examples of these databases are <strong>ArrayExpress</strong> for microarray data and RNAseq data. These databases have a set of rules in place to make sure that your data will be FAIR.</p>
+<hr class="half-width"><div class="section level3">
+<h3 id="what-is-a-data-repository">what is a data repository?<a class="anchor" aria-label="anchor" href="#what-is-a-data-repository"></a></h3>
+<p>It is a general term used to describe any storage space you use to deposit data, metadata and any associated research. Kindly note that database is more specific and it is mainly for the storage of your data.</p>
+<div class="section level4">
+<h4 id="types-of-data-repository">Types of data repository<a class="anchor" aria-label="anchor" href="#types-of-data-repository"></a></h4>
+<p>There are many types of data repsoitory classified based on: <strong>1- The structure of the data:</strong> Data warehouse, Data lake and Data mart The following table summarize these differences</p>
+<table class="table"><thead><tr class="header"><th>Data repository</th>
+<th>Data warehouse</th>
+<th align="left">Data mart</th>
+<th>Data lake</th>
+</tr></thead><tbody><tr class="odd"><td>Supported data types</td>
+<td>Structured Hi</td>
+<td align="left">ghly Structured Struc</td>
+<td>tured, semi-structured, unstructured, binary</td>
+</tr><tr class="even"><td>Data quality</td>
+<td>curated Hi</td>
+<td align="left">ghly curated Raw d</td>
+<td>ata</td>
+</tr></tbody></table><p><strong>2- The purpose of data repository into:</strong> A) Controlled access repository</p>
+<ol start="2" style="list-style-type: upper-alpha"><li><p>Discipline specific repository</p></li>
+<li><p>Institutional repository</p></li>
+<li><p>General data repository</p></li>
+</ol><div class="section level6">
+<h6 id="the-following-image-summarize-these-types-with-different-examples">The following image summarize these types with different examples<a class="anchor" aria-label="anchor" href="#the-following-image-summarize-these-types-with-different-examples"></a></h6>
+<figure><img src="../fig/img56.jpg" alt="" class="figure mx-auto d-block"><figcaption>Types of data repository, CC.BY from re3data.org</figcaption></figure></div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="importance-of-indexed-data-repository">Importance of indexed data repository<a class="anchor" aria-label="anchor" href="#importance-of-indexed-data-repository"></a></h3>
+<p>To ensure data findability, your data should be uploaded to a public repository where your data can be searched and found, It will make your data comply with the fourth principle of findability (F4) which states that . There are numerous databases where you can upload your data, these are typically data-driven. Examples of these databases are <strong>ArrayExpress</strong> for microarray data and RNAseq data. These databases have a set of rules in place to make sure that your data will be FAIR.</p>
 <p>After you upload your data into this database, they are assigned an ID and are indexed in the database. So whenever you look for the ID, or even use a keyword for your data, you will find your data.</p>
 <p>Take a look at the <strong>ArrayExpress</strong> database where all datasets are indexed, and you can simply find any dataset using the search tools. By indexing data, you can get the dataset using any keyword other than the PID. For example, if you want to locate human NSCL cell lines, you can just type this into the search toolbox and find the dataset. Indexing and registering datasets, also means they are curated in such a way that you may discover them using different keywords.</p>
 <div class="section level5">
 <h5 id="for-example-you-can-find-the-same-dataset-by-using-its-identifiers-or-by-using-keywords-chosen-by-the-datasets-authors-to-describe-it-">For example, you can find the same dataset by using its identifiers or by using keywords chosen by the dataset’s authors to describe it.<a class="anchor" aria-label="anchor" href="#for-example-you-can-find-the-same-dataset-by-using-its-identifiers-or-by-using-keywords-chosen-by-the-datasets-authors-to-describe-it-"></a></h5>
-<figure><img src="../fig/img54.png" alt="" class="figure mx-auto d-block"><figcaption>When you upload your dataset to a database, it can be curated and easily found using different keywords</figcaption></figure><figure><img src="../fig/img55.png" alt="" class="figure mx-auto d-block"><figcaption>By indexing your dataset, you can retrieve it using its PID</figcaption></figure><p>[]</p>
-<div id="challenge1" class="callout challenge">
+<figure><img src="../fig/img54.png" alt="" class="figure mx-auto d-block"><figcaption>When you upload your dataset to a database, it can be curated and easily found using different keywords</figcaption></figure><figure><img src="../fig/img55.png" alt="" class="figure mx-auto d-block"><figcaption>By indexing your dataset, you can retrieve it using its PID</figcaption></figure><div id="challenge1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
@@ -292,7 +320,7 @@
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Since you want a technical guideline, FAIRcookbook and RDMkit are the best to start with. We will start with <a href="https://faircookbook.elixir-europe.org/" class="external-link">FAIRcookbook</a> As we explained before the structure of the recipe so let’s look for the suitable recipe in the FAIRcookbook So as you navigate the homepage of FAIRcookbook, you will find different tabs that covers each of FAIR principles, so for instance, if you want recipes on <strong>Accessibility</strong> of FAIR, you will find all recipes that can help you make your data accessible.</p>
 <ul><li><strong>Follow the following steps to find the recipe:</strong></li>
@@ -320,16 +348,16 @@
 <p>3- Some databases will let you easily connect your dataset to other datasets.</p>
 <p>4- Dataset licencing, with some databases offering controlled or limited access to protect your data.</p>
 <p><strong>By uploading data to a database, you comply with the following FAIR principles</strong></p>
-<ul><li><p><strong>F1</strong> (Meta)data are assigned a globally unique and persistent identifier</p></li>
+<ul><li><p><strong>F1</strong> (Meta)data is assigned a globally unique and persistent identifier</p></li>
 <li><p><strong>F3</strong> Metadata clearly and explicitly include the identifier of the data they describe</p></li>
-<li><p><strong>F4</strong> (Meta)data are registered or indexed in a searchable resource</p></li>
+<li><p><strong>F4</strong> (Meta)data is registered or indexed in a searchable resource</p></li>
 </ul><p>It will also allow your data to be more accessible as the standardized communications protocol and authentication are automatically set for your data</p>
-<ul><li><p><strong>A1</strong> (Meta)data are retrievable by their identifier using a standardised communications protocol</p></li>
+<ul><li><p><strong>A1</strong> (Meta)data is retrievable by their identifier using a standardised communications protocol</p></li>
 <li><p>A1.1 The protocol is open, free, and universally implementable</p></li>
 <li><p>A1.2 The protocol allows for an authentication and authorisation procedure, where necessary</p></li>
-<li><p><strong>A2</strong> Metadata are accessible, even when the data are no longer available</p></li>
+<li><p><strong>A2</strong> Metadata is accessible, even when the data is no longer available</p></li>
 <li><p><strong>I3</strong> (Meta)data include qualified references to other (meta)data</p></li>
-<li><p><strong>R1.1</strong> (Meta)data are released with a clear and accessible data usage license</p></li>
+<li><p><strong>R1.1</strong> (Meta)data is released with a clear and accessible data usage license</p></li>
 </ul></div>
 </div>
 </div>
@@ -390,6 +418,7 @@
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
+</div>
 </div>
 </section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
