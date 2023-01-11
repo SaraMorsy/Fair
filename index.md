@@ -1,6 +1,6 @@
 ---
 site: sandpaper::sandpaper_site
-title: "FAIR data in Life Sciences"
+title: "FAIR on demand"
 ---
 
 This short online course caters for learners working with Life Science data and provides the necessary know-how to make data FAIR.  
