@@ -45,7 +45,7 @@ This describes the legal rights on how others use your data. As you publish your
 2- [RNA-seq of circadian timeseries sampling (LL2-3) of 13-14 day old Arabidopsis thaliana Col-0 (24 h to 68 h, sampled every 4 h)](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)
 ::: solution
 The link we provided, provided a nice explanation on types of licence and as you read the following section from RDMKit, you will find the following:
-
+![(RDMkit on types of licence)](fig/img41.png){alt='alt text'}
 From this section, you can clearly understand the type of licence used for:
 1- [A large-scale COVID-19 Twitter chatter dataset for open scientific research - an international collaboration](https://zenodo.org/record/7368547#.Y4TjT3bP02w) is CC-BY-4
 2- [RNA-seq of circadian timeseries sampling (LL2-3) of 13-14 day old Arabidopsis thaliana Col-0 (24 h to 68 h, sampled every 4 h)](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933) is CC-BY-4
