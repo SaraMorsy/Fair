@@ -40,12 +40,12 @@
           </a>
           <span class="visually-hidden">This lesson is in the pre-alpha phase, which means that it is in early development, but has not yet been taught.</span>
         </abbr>
-        
+
       </div>
     </div>
     <div class="selector-container ">
-      
-      
+
+
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle bordered-button" type="button" id="dropdownMenu1" data-bs-toggle="dropdown" aria-expanded="false">
           <i aria-hidden="true" class="icon" data-feather="eye"></i> Learner View <i data-feather="chevron-down"></i>
@@ -146,7 +146,7 @@
 <!--div.sidenav-view-selector -->
             </div>
 <!--/div.col -->
-      
+
             <hr>
 </div>
 <!--/div.mobile-row -->
@@ -168,7 +168,7 @@
         <a href="index.html">FAIR on demand</a>
     </div>
 <!--/div.accordion-header-->
-        
+
   </div>
 <!--/div.accordion-item-->
 </div>
@@ -180,7 +180,7 @@
         <a href="02-ep.html">1. Metadata</a>
     </div>
 <!--/div.accordion-header-->
-        
+
   </div>
 <!--/div.accordion-item-->
 </div>
@@ -192,7 +192,7 @@
         <a href="03-ep.html">2. Identifiers</a>
     </div>
 <!--/div.accordion-header-->
-        
+
   </div>
 <!--/div.accordion-item-->
 </div>
@@ -204,7 +204,7 @@
         <a href="04-ep.html">3. Access</a>
     </div>
 <!--/div.accordion-header-->
-        
+
   </div>
 <!--/div.accordion-item-->
 </div>
@@ -216,7 +216,7 @@
         <a href="05-ep.html">4. Registration</a>
     </div>
 <!--/div.accordion-header-->
-        
+
   </div>
 <!--/div.accordion-item-->
 </div>
@@ -246,7 +246,7 @@
                       <li>
                         <a href="profiles.html">Learner Profiles</a>
                       </li>
-                      
+
                     </ul>
 </div>
                 </div>
@@ -257,7 +257,7 @@
 
             <hr class="d-none d-sm-block d-md-none">
 <div class="d-grid gap-1">
-            
+
             </div>
           </div>
 <!-- /div.accordion -->
@@ -277,7 +277,7 @@
         
 <section id="aio-02-ep"><p>Content from <a href="02-ep.html">Metadata</a></p>
 <hr>
-<p> Last updated on 2024-07-02 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/02-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p> Last updated on 2024-07-09 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/02-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -295,12 +295,14 @@
 </div>
 </div>
 </div>
-<section id="meta-data"><h2 class="section-heading">Meta-data<a class="anchor" aria-label="anchor" href="#meta-data"></a>
+<section><h2 class="section-heading" id="meta-data">Meta-data<a class="anchor" aria-label="anchor" href="#meta-data"></a>
+<a class="anchor" aria-label="anchor" href="#meta-data"></a>
 </h2>
 <hr class="half-width">
 <p>The description of your data is called metadata. In other words, if we had a data file containing data values for an assay, such as an Excel spreadsheet, column headings are used to assign meaning and context. The data values are the data in this case, and the metadata are the column headings. Any documentation or explanation of the accompanying excel file is also considered metadata.</p>
 <p>As seen in the image below, the data is coloured orange to represent the heart rate, genotype, and patient ID. The metadata that describes what this data is (the name of the cohort, the contact e-mail for more information on the dataset) is shown in blue.</p>
-<figure><img src="fig/img2.png" alt="alt text" class="figure mx-auto d-block"><figcaption>Types of metadata</figcaption></figure></section><section id="what-else-would-metadata-reveal"><h2 class="section-heading">What else would metadata reveal?<a class="anchor" aria-label="anchor" href="#what-else-would-metadata-reveal"></a>
+<figure><img src="fig/img2.png" alt="alt text" class="figure mx-auto d-block"><figcaption>Types of metadata</figcaption></figure></section><section><h2 class="section-heading" id="what-else-would-metadata-reveal">What else would metadata reveal?<a class="anchor" aria-label="anchor" href="#what-else-would-metadata-reveal"></a>
+<a class="anchor" aria-label="anchor" href="#what-else-would-metadata-reveal"></a>
 </h2>
 <hr class="half-width">
 <p>To understand what else metadata can describe, let’s have a look again on the previous image, <strong>what else would you like to add to understand the data more?</strong></p>
@@ -347,7 +349,7 @@
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>First of all, let’s understand the structure of the FAIRCookbook. For a quick overview, you can watch our RDMBites on FAIRcookbook <a href="https://drive.google.com/drive/folders/16XZtCWBR-F3cvDHkB7A8jkjj6wvQ7sOr" class="external-link">FAIRcookbook RDMBites</a></p>
 <p>The building unit of FAIR cookbook is called a recipe, The recipe is the term used to describe instructions for how to FAIRify your data. As you see in the image, the structure of each recipe includes these main items: 1- Graphical overview which is the mindmap for the recipe 2- Ingredients which gives you an idea for the skills needed and tools you can use to apply the recipes 3- The steps and the process 4- Recommendations of what to read next and references to your reading <img src="fig/img4.png" alt="alt text" class="figure"></p>
@@ -356,7 +358,8 @@
 </div>
 </div>
 </div>
-</section><section id="data-and-metadata-should-follow-community-standards"><h2 class="section-heading">Data and metadata should follow Community standards<a class="anchor" aria-label="anchor" href="#data-and-metadata-should-follow-community-standards"></a>
+</section><section><h2 class="section-heading" id="data-and-metadata-should-follow-community-standards">Data and metadata should follow Community standards<a class="anchor" aria-label="anchor" href="#data-and-metadata-should-follow-community-standards"></a>
+<a class="anchor" aria-label="anchor" href="#data-and-metadata-should-follow-community-standards"></a>
 </h2>
 <hr class="half-width">
 <p>Each data type has its own community that develops guidelines to ensure that metadata and data are appropriately described. Make sure to follow the community standards when describing your data. This becomes increasingly important as your data will become more reliable for other researchers. If you decide to use other guidelines, make sure you clearly document this. The use of community standards allows your data to be reused while also making it easily interoperable across multiple platforms. We provide examples of various community standards that you can use to ensure that your data is described correctly.</p>
@@ -377,7 +380,7 @@
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>RDMkit is The Research Data Management toolkit for Life Sciences. It provides Best practices and guidelines to help you make your data FAIR (Findable, Accessible, Interoperable and Reusable). It also provides catalogue of tools and resources for research data management. <img src="fig/img7.PNG" alt="alt text" class="figure"></p>
 <p>As you can see in the above image, RDMkit covers a variety of research data management topics. The community standards are covered under domain tab. It provides community standards for all types of data. <img src="fig/img8.PNG" alt="alt text" class="figure"></p>
@@ -389,7 +392,8 @@
 </div>
 </div>
 </div>
-</section><section id="data-provenance"><h2 class="section-heading">Data Provenance<a class="anchor" aria-label="anchor" href="#data-provenance"></a>
+</section><section><h2 class="section-heading" id="data-provenance">Data Provenance<a class="anchor" aria-label="anchor" href="#data-provenance"></a>
+<a class="anchor" aria-label="anchor" href="#data-provenance"></a>
 </h2>
 <hr class="half-width">
 <p><strong>Provenance</strong> is the detailed description of the history of the data and how it is generated. Here is an example from arrayexpress database where there is accurate description of the data which allow the reusability of microarray data. As you can see in this example from <strong>E-MTAB-6980</strong> dataset, there is rich description of the study design, organism, platform and timing of data collection.</p>
@@ -413,14 +417,15 @@
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>As you can see in this picture, you wil find data provenance in under protocol and experimental factors tab. <img src="fig/img11.jpg" alt="alt text" class="figure"></p>
 </div>
 </div>
 </div>
 </div>
-</section><section id="vocabularies-are-fair"><h2 class="section-heading">Vocabularies are FAIR<a class="anchor" aria-label="anchor" href="#vocabularies-are-fair"></a>
+</section><section><h2 class="section-heading" id="vocabularies-are-fair">Vocabularies are FAIR<a class="anchor" aria-label="anchor" href="#vocabularies-are-fair"></a>
+<a class="anchor" aria-label="anchor" href="#vocabularies-are-fair"></a>
 </h2>
 <hr class="half-width">
 <p>The metadata and data should be described by vocabularies that comply with FAIR which means that metadata and data should be:</p>
@@ -444,7 +449,7 @@
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <p>It is time to introduce you to <a href="https://fairsharing.org/" class="external-link">FAIRsharing</a>, a resource for standards, databases and policies. The FAIRsharing is an important resource for researchers to help them identify the suitable repositories, standards and databases for their data. It also contains the latest policies from from governments, funders and publishers for FAIRer data.</p>
 <p><img src="fig/img14.jpg" alt="alt text" class="figure"> You can use the search wizard, to look for the guidelines for reporting the data and metadata of randomized controlled trials of the livestock and food.</p>
@@ -454,7 +459,8 @@
 </div>
 </div>
 </div>
-</section><section id="linked-metadata"><h2 class="section-heading">Linked metadata<a class="anchor" aria-label="anchor" href="#linked-metadata"></a>
+</section><section><h2 class="section-heading" id="linked-metadata">Linked metadata<a class="anchor" aria-label="anchor" href="#linked-metadata"></a>
+<a class="anchor" aria-label="anchor" href="#linked-metadata"></a>
 </h2>
 <hr class="half-width">
 <p>When uploading your dataset to any database, you should include the following information:</p>
@@ -477,7 +483,7 @@
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5"> Show me the solution </h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
 <div class="accordion-body">
 <p>One of ways to do this, is to follow the FAIRcookbook recipes on interlinking data from different resources as presented in this graphical overview. you can find the recipe <a href="https://faircookbook.elixir-europe.org/content/recipes/interoperability/identifier-mapping.html" class="external-link">here</a></p>
 <figure><img src="fig/img12.jpg" alt="alt text" class="figure mx-auto d-block"><figcaption>Graphical overview from FAIRcookbook recipe on the interlinking data</figcaption></figure>
@@ -485,7 +491,8 @@
 </div>
 </div>
 </div>
-</section><section id="metadata-and-data-are-always-available"><h2 class="section-heading">Metadata and data are always available<a class="anchor" aria-label="anchor" href="#metadata-and-data-are-always-available"></a>
+</section><section><h2 class="section-heading" id="metadata-and-data-are-always-available">Metadata and data are always available<a class="anchor" aria-label="anchor" href="#metadata-and-data-are-always-available"></a>
+<a class="anchor" aria-label="anchor" href="#metadata-and-data-are-always-available"></a>
 </h2>
 <hr class="half-width">
 <p>The maintenance of the data sets in the public database comes at a cost. This can be avoided by maintenance of the metadata instead. Metadata is small and can be easily maintained not only on the database but personal computer of researchers. This also the case for sensitive data where the metadata are available and provides contact details of the researchers, how to get the data and data provenance</p>
@@ -534,13 +541,13 @@
 </div>
 </div>
 </div>
-<!-- 
+<!--
 Place links that you need to refer to multiple times across pages here. Delete
-any links that you are not going to use. 
+any links that you are not going to use.
  -->
 </section></section><section id="aio-03-ep"><p>Content from <a href="03-ep.html">Identifiers</a></p>
 <hr>
-<p> Last updated on 2024-07-02 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/03-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p> Last updated on 2024-07-09 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/03-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -558,7 +565,8 @@ any links that you are not going to use.
 </div>
 </div>
 </div>
-<section id="persistent-identifiers"><h2 class="section-heading">Persistent identifiers<a class="anchor" aria-label="anchor" href="#persistent-identifiers"></a>
+<section><h2 class="section-heading" id="persistent-identifiers">Persistent identifiers<a class="anchor" aria-label="anchor" href="#persistent-identifiers"></a>
+<a class="anchor" aria-label="anchor" href="#persistent-identifiers"></a>
 </h2>
 <hr class="half-width">
 <p>Identifiers are a long-lasting references to a digital resources such as datasets and provides the information required to reliably identify, verify and locate your research data. Commonly, a persistent identifier is a unique record ID in a database, or unique URL that takes a researcher to the data in question, in a database.</p>
@@ -581,7 +589,7 @@ any links that you are not going to use.
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>The PID in this case or as it called in array express “Accession” is <strong>E-MTAB-7933</strong>. If you use this accession number, you will find the dataset. <strong>In addition, have you noticed that also the data files are named using this PID</strong> . <img src="fig/img17.PNG" alt="alt text" class="figure"></p>
 </div>
@@ -589,7 +597,8 @@ any links that you are not going to use.
 </div>
 </div>
 <p><strong>It is important to note that when you upload your data to a public repository, the repository will create this ID for you automatically.</strong></p>
-</section><section id="the-structure-of-persistent-identifiers"><h2 class="section-heading">the Structure of persistent identifiers<a class="anchor" aria-label="anchor" href="#the-structure-of-persistent-identifiers"></a>
+</section><section><h2 class="section-heading" id="the-structure-of-persistent-identifiers">the Structure of persistent identifiers<a class="anchor" aria-label="anchor" href="#the-structure-of-persistent-identifiers"></a>
+<a class="anchor" aria-label="anchor" href="#the-structure-of-persistent-identifiers"></a>
 </h2>
 <hr class="half-width">
 <p>As you can see in this picture, the structure of any identifiers consist of 1- The initial resolver service: domain which is unique and specific to each community e.g. ORCID for researchers and DOI for publications 2- <strong>Prefix</strong>: Unique number that represent category e.g. for DOI specific numbers refer to the publisher and directory 3- <strong>Suffix</strong>: The unique dataset number and it is unique under its prefix</p>
@@ -610,13 +619,13 @@ any links that you are not going to use.
 </div>
 </div>
 </div>
-<!-- 
+<!--
 Place links that you need to refer to multiple times across pages here. Delete
-any links that you are not going to use. 
+any links that you are not going to use.
  -->
 </section></section><section id="aio-04-ep"><p>Content from <a href="04-ep.html">Access</a></p>
 <hr>
-<p> Last updated on 2024-07-02 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/04-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p> Last updated on 2024-07-09 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/04-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -634,12 +643,14 @@ any links that you are not going to use.
 </div>
 </div>
 </div>
-<section id="standard-communication-protocol"><h2 class="section-heading">Standard communication protocol<a class="anchor" aria-label="anchor" href="#standard-communication-protocol"></a>
+<section><h2 class="section-heading" id="standard-communication-protocol">Standard communication protocol<a class="anchor" aria-label="anchor" href="#standard-communication-protocol"></a>
+<a class="anchor" aria-label="anchor" href="#standard-communication-protocol"></a>
 </h2>
 <hr class="half-width">
 <p>Simply put, <strong>a protocol</strong> is a method that connects two computers, the protocol ensure security, and authenticity of your data. Once the safety and authenticity of the data is verified, the transfer of data to another computer happens.</p>
 <p>Having a protocol does not guarantee that your data are accessible. However, you can choose a protocol that is free, open and allow easy and exchange of information. One of the steps you can do is to choose the right database, so when you upload your data into database, the database executes a protocol that allows the user to load data in the user’s web browser. This protocol allows the easy access of the data but still secures the data.</p>
-</section><section id="authentication-process"><h2 class="section-heading">Authentication process<a class="anchor" aria-label="anchor" href="#authentication-process"></a>
+</section><section><h2 class="section-heading" id="authentication-process">Authentication process<a class="anchor" aria-label="anchor" href="#authentication-process"></a>
+<a class="anchor" aria-label="anchor" href="#authentication-process"></a>
 </h2>
 <hr class="half-width">
 <p>It is the process that a protocol uses for verification. To know what authentication is, suppose we have three people named John Smith. We do not know which one submitted the data. This is through assigning a unique ID for each one that is interpreted by machines and humans so you would know who is the actual person that submitted the data. Doing so is a form of authentication. This is used by many databases like Zenodo, where you can sign-up using ORCID-ID allowing the database to identify you.</p>
@@ -729,14 +740,14 @@ any links that you are not going to use.
 </div>
 </div>
 </div>
-<!-- 
+<!--
 Place links that you need to refer to multiple times across pages here. Delete
-any links that you are not going to use. 
+any links that you are not going to use.
  -->
 </div>
 </section></section><section id="aio-05-ep"><p>Content from <a href="05-ep.html">Registration</a></p>
 <hr>
-<p> Last updated on 2024-07-02 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/05-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p> Last updated on 2024-07-09 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/05-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -754,7 +765,8 @@ any links that you are not going to use.
 </div>
 </div>
 </div>
-<section id="indexed-data-repository"><h2 class="section-heading">Indexed data repository<a class="anchor" aria-label="anchor" href="#indexed-data-repository"></a>
+<section><h2 class="section-heading" id="indexed-data-repository">Indexed data repository<a class="anchor" aria-label="anchor" href="#indexed-data-repository"></a>
+<a class="anchor" aria-label="anchor" href="#indexed-data-repository"></a>
 </h2>
 <hr class="half-width">
 <div class="section level3">
@@ -940,9 +952,9 @@ any links that you are not going to use.
 </div>
 </div>
 </div>
-<!-- 
+<!--
 Place links that you need to refer to multiple times across pages here. Delete
-any links that you are not going to use. 
+any links that you are not going to use.
  -->
 </div>
 </div>
@@ -961,9 +973,9 @@ any links that you are not going to use.
 				<p><a href="https://github.com/SaraMorsy/FAIR/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:team@carpentries.org">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 			</div>
 			<div class="col-md-6">
-        
+
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
-        
+
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
         <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.5" class="external-link">sandpaper (0.16.5)</a>,
         <a href="https://github.com/carpentries/pegboard/tree/0.7.6" class="external-link">pegboard (0.7.6)</a>,
@@ -990,8 +1002,8 @@ any links that you are not going to use.
   "url": "https://SaraMorsy.github.io/FAIR/aio.html",
   "identifier": "https://SaraMorsy.github.io/FAIR/aio.html",
   "dateCreated": "2023-01-12",
-  "dateModified": "2024-07-02",
-  "datePublished": "2024-07-02"
+  "dateModified": "2024-07-09",
+  "datePublished": "2024-07-09"
 }
 
   </script><script>
