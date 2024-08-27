@@ -244,7 +244,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Metadata</h1>
-        <p> Last updated on 2024-08-20 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/02-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <p> Last updated on 2024-08-27 | <a href="https://github.com/SaraMorsy/FAIR/edit/main/episodes/02-ep.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 12 minutes </p>
 
         <div class="text-end">
@@ -258,8 +258,7 @@
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="outcomes" class="callout-inner">
-<h3 class="callout-title">Outcomes<a class="anchor" aria-label="anchor" href="#outcomes"></a>
-</h3>
+<h3 class="callout-title">Outcomes</h3>
 <div class="callout-content">
 <p>1- Define metadata and its various types.</p>
 <p>2- Recall the community standards and how to apply them to data and metadata.</p>
@@ -267,12 +266,10 @@
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="meta-data">Meta-data<a class="anchor" aria-label="anchor" href="#meta-data"></a>
-<a class="anchor" aria-label="anchor" href="#meta-data"></a></h2>
+<section><h2 class="section-heading" id="meta-data">Meta-data<a class="anchor" aria-label="anchor" href="#meta-data"></a></h2>
 <hr class="half-width"><p>The description of your data is called metadata. In other words, if we had a data file containing data values for an assay, such as an Excel spreadsheet, column headings are used to assign meaning and context. The data values are the data in this case, and the metadata are the column headings. Any documentation or explanation of the accompanying excel file is also considered metadata.</p>
 <p>As seen in the image below, the data is coloured orange to represent the heart rate, genotype, and patient ID. The metadata that describes what this data is (the name of the cohort, the contact e-mail for more information on the dataset) is shown in blue.</p>
-<figure><img src="../fig/img2.png" alt="alt text" class="figure mx-auto d-block"><figcaption>Types of metadata</figcaption></figure></section><section><h2 class="section-heading" id="what-else-would-metadata-reveal">What else would metadata reveal?<a class="anchor" aria-label="anchor" href="#what-else-would-metadata-reveal"></a>
-<a class="anchor" aria-label="anchor" href="#what-else-would-metadata-reveal"></a></h2>
+<figure><img src="../fig/img2.png" alt="alt text" class="figure mx-auto d-block"><figcaption>Types of metadata</figcaption></figure></section><section><h2 class="section-heading" id="what-else-would-metadata-reveal">What else would metadata reveal?<a class="anchor" aria-label="anchor" href="#what-else-would-metadata-reveal"></a></h2>
 <hr class="half-width"><p>To understand what else metadata can describe, let’s have a look again on the previous image, <strong>what else would you like to add to understand the data more?</strong></p>
 <p>Additional metadata for provenance and general descriptions can be added. More information about the cohort name, for example, is required because “Human Welsh Cohort” does not tell us much in comparison to other existing Welsh cohorts. Here, we would include a unique ID or working title for the cohort, as well as a project URL describing its origin and composition.</p>
 <p>The column headings appear to be complete, though there are some issues with the data in orange. The diabetes status column appears to capture the disease’s type and stage. - In row 3, it is unclear whether the disease is Diabetes Mellitus or Diabetes Insipidus. - In row 4, it is unclear whether the type of diabetes mellitus is 1 or 2. - There is an empty space in the final row. It is unclear whether this is due to a lack of information or the patient does not have diabetes. So to do this better, two separate columns are created for the type and stage of the disease. The disease’s name included whether it was type 1 or type 2. You can check this in this figure <img src="../fig/img1.png" alt="alt text" class="figure"></p>
@@ -288,8 +285,7 @@
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="identify-types-of-metadata-in-this-microarray-dataset" class="callout-inner">
-<h3 class="callout-title">Identify types of metadata in this microarray dataset<a class="anchor" aria-label="anchor" href="#identify-types-of-metadata-in-this-microarray-dataset"></a>
-</h3>
+<h3 class="callout-title">Identify types of metadata in this microarray dataset</h3>
 <div class="callout-content">
 <p>Let’s look at an example using microarray data from the arrayexpress database. This dataset contains data and metadata. The <strong>administrative metadata</strong> can be found in the orange square. The <strong>descriptive metadata</strong> is located in the black square, and as you can see, it summarize the dataset. The structure of dataset and files are marked by dark blue square which represents <strong>structural metadata</strong>. <img src="../fig/img3.jpg" alt="alt text" class="figure"></p>
 </div>
@@ -300,8 +296,7 @@
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
-</h3>
+<h3 class="callout-title">Exercise</h3>
 <div class="callout-content">
 <ul><li>From the FAIRcoobook, can you find the recipe on how to create metadata profiles for your dataset? you can start from <a href="https://faircookbook.elixir-europe.org/content/home.html" class="external-link">here</a>
 </li>
@@ -313,7 +308,7 @@
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>First of all, let’s understand the structure of the FAIRCookbook. For a quick overview, you can watch our RDMBites on FAIRcookbook <a href="https://drive.google.com/drive/folders/16XZtCWBR-F3cvDHkB7A8jkjj6wvQ7sOr" class="external-link">FAIRcookbook RDMBites</a></p>
 <p>The building unit of FAIR cookbook is called a recipe, The recipe is the term used to describe instructions for how to FAIRify your data. As you see in the image, the structure of each recipe includes these main items: 1- Graphical overview which is the mindmap for the recipe 2- Ingredients which gives you an idea for the skills needed and tools you can use to apply the recipes 3- The steps and the process 4- Recommendations of what to read next and references to your reading <img src="../fig/img4.png" alt="alt text" class="figure"></p>
@@ -322,16 +317,14 @@
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="data-and-metadata-should-follow-community-standards">Data and metadata should follow Community standards<a class="anchor" aria-label="anchor" href="#data-and-metadata-should-follow-community-standards"></a>
-<a class="anchor" aria-label="anchor" href="#data-and-metadata-should-follow-community-standards"></a></h2>
+</section><section><h2 class="section-heading" id="data-and-metadata-should-follow-community-standards">Data and metadata should follow Community standards<a class="anchor" aria-label="anchor" href="#data-and-metadata-should-follow-community-standards"></a></h2>
 <hr class="half-width"><p>Each data type has its own community that develops guidelines to ensure that metadata and data are appropriately described. Make sure to follow the community standards when describing your data. This becomes increasingly important as your data will become more reliable for other researchers. If you decide to use other guidelines, make sure you clearly document this. The use of community standards allows your data to be reused while also making it easily interoperable across multiple platforms. We provide examples of various community standards that you can use to ensure that your data is described correctly.</p>
 <div id="exercise-1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-1" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-1"></a>
-</h3>
+<h3 class="callout-title">Exercise</h3>
 <div class="callout-content">
 <p>RDMkit provides a nice domain specific-training on <a href="https://rdmkit.elixir-europe.org/your_domain" class="external-link">community standards for each domain</a>, using this training, can you find the bioimage community standards?</p>
 </div>
@@ -342,7 +335,7 @@
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>RDMkit is The Research Data Management toolkit for Life Sciences. It provides Best practices and guidelines to help you make your data FAIR (Findable, Accessible, Interoperable and Reusable). It also provides catalogue of tools and resources for research data management. <img src="../fig/img7.PNG" alt="alt text" class="figure"></p>
 <p>As you can see in the above image, RDMkit covers a variety of research data management topics. The community standards are covered under domain tab. It provides community standards for all types of data. <img src="../fig/img8.PNG" alt="alt text" class="figure"></p>
@@ -354,16 +347,14 @@
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="data-provenance">Data Provenance<a class="anchor" aria-label="anchor" href="#data-provenance"></a>
-<a class="anchor" aria-label="anchor" href="#data-provenance"></a></h2>
+</section><section><h2 class="section-heading" id="data-provenance">Data Provenance<a class="anchor" aria-label="anchor" href="#data-provenance"></a></h2>
 <hr class="half-width"><p><strong>Provenance</strong> is the detailed description of the history of the data and how it is generated. Here is an example from arrayexpress database where there is accurate description of the data which allow the reusability of microarray data. As you can see in this example from <strong>E-MTAB-6980</strong> dataset, there is rich description of the study design, organism, platform and timing of data collection.</p>
 <figure><img src="../fig/img10.PNG" alt="alt text" class="figure mx-auto d-block"><figcaption>An example from arrayexpress dataset shows the protocols and how the data were generated and processed</figcaption></figure><hr><div id="exercise-2" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-2" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-2"></a>
-</h3>
+<h3 class="callout-title">Exercise</h3>
 <div class="callout-content">
 <ul><li>Can you extract data provenance from this data set <a href="https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933" class="external-link">E-MTAB-7933</a>?</li>
 </ul></div>
@@ -374,15 +365,14 @@
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>As you can see in this picture, you wil find data provenance in under protocol and experimental factors tab. <img src="../fig/img11.jpg" alt="alt text" class="figure"></p>
 </div>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="vocabularies-are-fair">Vocabularies are FAIR<a class="anchor" aria-label="anchor" href="#vocabularies-are-fair"></a>
-<a class="anchor" aria-label="anchor" href="#vocabularies-are-fair"></a></h2>
+</section><section><h2 class="section-heading" id="vocabularies-are-fair">Vocabularies are FAIR<a class="anchor" aria-label="anchor" href="#vocabularies-are-fair"></a></h2>
 <hr class="half-width"><p>The metadata and data should be described by vocabularies that comply with FAIR which means that metadata and data should be:</p>
 <p><strong>F</strong> globally unique and persistent identifiers<br><strong>A</strong> accessible documentation that extensively describes your identifiers</p>
 <p><strong>I</strong> Vocabularies are interoperable</p>
@@ -392,8 +382,7 @@
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-3" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-3"></a>
-</h3>
+<h3 class="callout-title">Exercise</h3>
 <div class="callout-content">
 <p>You are researcher working in the field of food safety and you are doing clinical trial, do you know how to choose the right vocabularies and ontologies for it?</p>
 </div>
@@ -404,7 +393,7 @@
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <p>It is time to introduce you to <a href="https://fairsharing.org/" class="external-link">FAIRsharing</a>, a resource for standards, databases and policies. The FAIRsharing is an important resource for researchers to help them identify the suitable repositories, standards and databases for their data. It also contains the latest policies from from governments, funders and publishers for FAIRer data.</p>
 <p><img src="../fig/img14.jpg" alt="alt text" class="figure"> You can use the search wizard, to look for the guidelines for reporting the data and metadata of randomized controlled trials of the livestock and food.</p>
@@ -414,8 +403,7 @@
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="linked-metadata">Linked metadata<a class="anchor" aria-label="anchor" href="#linked-metadata"></a>
-<a class="anchor" aria-label="anchor" href="#linked-metadata"></a></h2>
+</section><section><h2 class="section-heading" id="linked-metadata">Linked metadata<a class="anchor" aria-label="anchor" href="#linked-metadata"></a></h2>
 <hr class="half-width"><p>When uploading your dataset to any database, you should include the following information:</p>
 <p>1- Additional datasets that supplement your data</p>
 <p>2- It should be stated if your dataset is built on another dataset.</p>
@@ -424,8 +412,7 @@
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-4" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-4"></a>
-</h3>
+<h3 class="callout-title">Exercise</h3>
 <div class="callout-content">
 <p>How could you interlink data to your dataset?</p>
 </div>
@@ -436,15 +423,14 @@
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5"> Show me the solution </h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
 <div class="accordion-body">
 <p>One of ways to do this, is to follow the FAIRcookbook recipes on interlinking data from different resources as presented in this graphical overview. you can find the recipe <a href="https://faircookbook.elixir-europe.org/content/recipes/interoperability/identifier-mapping.html" class="external-link">here</a></p>
 <figure><img src="../fig/img12.jpg" alt="alt text" class="figure mx-auto d-block"><figcaption>Graphical overview from FAIRcookbook recipe on the interlinking data</figcaption></figure></div>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="metadata-and-data-are-always-available">Metadata and data are always available<a class="anchor" aria-label="anchor" href="#metadata-and-data-are-always-available"></a>
-<a class="anchor" aria-label="anchor" href="#metadata-and-data-are-always-available"></a></h2>
+</section><section><h2 class="section-heading" id="metadata-and-data-are-always-available">Metadata and data are always available<a class="anchor" aria-label="anchor" href="#metadata-and-data-are-always-available"></a></h2>
 <hr class="half-width"><p>The maintenance of the data sets in the public database comes at a cost. This can be avoided by maintenance of the metadata instead. Metadata is small and can be easily maintained not only on the database but personal computer of researchers. This also the case for sensitive data where the metadata are available and provides contact details of the researchers, how to get the data and data provenance</p>
 <p>Usually, when the data is generated, both metadata and data files are separate files. As a researcher, you should ensure that both files refer to each other.</p>
 <div id="resources" class="callout callout">
@@ -452,8 +438,7 @@
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="resources" class="callout-inner">
-<h3 class="callout-title">Resources<a class="anchor" aria-label="anchor" href="#resources"></a>
-</h3>
+<h3 class="callout-title">Resources</h3>
 <div class="callout-content">
 <p>You can learn more about how to describe your data using FAIR vocabularies and formal language for knowledge representation from the following:</p>
 <ul><li><p>Recipe from the FAIRCookbook on<a href="https://faircookbook.elixir-europe.org/content/recipes/introduction/metadata-fair.html" class="external-link">FAIR and the notion of metadata</a></p></li>
@@ -477,8 +462,7 @@
 <i class="callout-icon" data-feather="check-square"></i>
 </div>
 <div id="fair-principles" class="callout-inner">
-<h3 class="callout-title">FAIR principles<a class="anchor" aria-label="anchor" href="#fair-principles"></a>
-</h3>
+<h3 class="callout-title">FAIR principles</h3>
 <div class="callout-content">
 <p>This episode covers the following principles: (I2) (meta)data use vocabularies that follow FAIR principles</p>
 <p>(I1) (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation</p>
@@ -515,7 +499,7 @@ any links that you are not going to use.
         <p>Materials licensed under <a href="../LICENSE.html">CC-BY 4.0</a> by the authors</p>
 
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.5" class="external-link">sandpaper (0.16.5)</a>,
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.6" class="external-link">sandpaper (0.16.6)</a>,
         <a href="https://github.com/carpentries/pegboard/tree/0.7.6" class="external-link">pegboard (0.7.6)</a>,
       and <a href="https://github.com/SaraMorsy/varnish/tree/a813f61a6abace9260a43dd3bb38d1b0d58d8a27" class="external-link">varnish (0.2.4)</a>.</p>
 			</div>
@@ -539,8 +523,8 @@ any links that you are not going to use.
   "url": "https://SaraMorsy.github.io/FAIR/instructor/02-ep.html",
   "identifier": "https://SaraMorsy.github.io/FAIR/instructor/02-ep.html",
   "dateCreated": "2023-01-12",
-  "dateModified": "2024-08-20",
-  "datePublished": "2024-08-20"
+  "dateModified": "2024-08-27",
+  "datePublished": "2024-08-27"
 }
 
   </script><script>
